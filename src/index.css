@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 62.5%;
+  background: radial-gradient(#0f243b, #181e2c 60%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+@font-face {
+  font-family: "Kingthings_Petrock";
+  src: url(../GoogleFonts/Kingthings_Petrock.ttf);
+}
+.Kingthings {
+  font-family: "Kingthings_Petrock";
+}
+
+@font-face {
+  font-family: "Libre_Baskerville";
+  src: url(../GoogleFonts/LibreBaskerville-Regular.ttf);
+}
+.Libre_Baskerville {
+  font-family: "Libre_Baskerville";
+}
+@font-face {
+  font-family: "Rye";
+  src: url(../GoogleFonts/Rye-Regular.ttf);
+}
+.Rye {
+  font-family: "Rye";
+}
+
+@font-face {
+  font-family: "orbitron";
+  src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf);
+}
+.Orbitron {
+  font-family: "orbitron";
+}
+@font-face {
+  font-family: "Aclonica";
+  src: url(../GoogleFonts/Aclonica-Regular.ttf);
+}
+.Aclonica {
+  font-family: "Aclonica";
+}
+
+@font-face {
+  font-family: "Changa";
+  src: url(../GoogleFonts/Changa-Regular.ttf);
+}
+.Changa {
+  font-family: "Change";
+}
+@font-face {
+  font-family: "Sansita";
+  src: url(../GoogleFonts/Sansita-Regular.ttf);
+}
+.Sansita {
+  font-family: "Sansita";
+}
