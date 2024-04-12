@@ -13,13 +13,11 @@
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-
-  left: 50%;
+  left: 14rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: center;
   transition: ease-in 0.15s;
   bottom: -3.8rem;
-  background: radial-gradient(black, #492407);
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -27,7 +25,7 @@
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
-  left: 14rem;
+  
 }
 .dataToolTip1::after {
   content: "";
