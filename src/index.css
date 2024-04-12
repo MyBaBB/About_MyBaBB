@@ -20,7 +20,13 @@
 .Archivo_Black {
   font-family: "Archivo_Black", sans-serif;
 }
-
+@font-face {
+  font-family: "black_ops_one";
+  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
+}
+.black_ops_one {
+  font-family: "black_ops_one", cursive;
+}
 @font-face {
   font-family: "Creepster";
   src: url(../GoogleFonts/Creepster-Regular.ttf);
@@ -90,13 +96,7 @@
   font-family: "Rye", cursive;
 }
 
-@font-face {
-  font-family: "black_ops_one";
-  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
-}
-.black_ops_one {
-  font-family: "black_ops_one", cursive;
-}
+
 
 @font-face {
   font-family: "Caprasimo";
