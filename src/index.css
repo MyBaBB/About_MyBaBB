@@ -106,8 +106,6 @@
   font-family: "Caprasimo", cursive;
 }
 
-
-
 @font-face {
   font-family: "Metal_Mania";
   src: url(../GoogleFonts/MetalMania-Regular.ttf);
@@ -137,7 +135,8 @@
   src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf);
 }
 .Orbitron {
-  font-family: "Orbitron", sans-serif;}
+  font-family: "Orbitron", sans-serif;
+}
 
 @font-face {
   font-family: "Sixtyfour";

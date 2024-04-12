@@ -1,10 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
- 
 
 const Tester = () => {
   return (
-    <div>  
+    <div>
       <article
         id="theWholeBigArticle"
         className="widescreen:section-min-height tallscreen:section-min-height flex 
@@ -23,7 +22,7 @@ const Tester = () => {
             zIndex: 51,
           }}
         >
-          <span className="whitespace-nowrap font-rye text-[.74rem]">
+          <span className="font-rye whitespace-nowrap text-[.74rem]">
             <u>Custom Website</u>
           </span>
         </h2>
@@ -69,10 +68,8 @@ const Tester = () => {
                     "0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000",
                 }}
               >
-                <span className="rotate whitespace-nowrap font-PermanentMarker">
-                  <span style={{ fontSize: "4rem", color: "#962023" }}>
-                    Cu
-                  </span>
+                <span className="rotate font-PermanentMarker whitespace-nowrap">
+                  <span style={{ fontSize: "4rem", color: "#962023" }}>Cu</span>
                   <span style={{ color: "#fff9d7" }}>
                     <span style={{ fontSize: "3.5rem" }}>s</span>t
                   </span>
@@ -141,7 +138,7 @@ const Tester = () => {
                 zIndex: 51,
               }}
             >
-              <span className="whitespace-nowrap font-rye text-[.74rem]">
+              <span className="font-rye whitespace-nowrap text-[.74rem]">
                 <u>Html, css, Javascript</u>
               </span>
             </h2>
