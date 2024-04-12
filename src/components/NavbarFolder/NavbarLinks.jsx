@@ -23,7 +23,7 @@ const NavbarLinks = () => {
           >
             <a
               href="https://mybabb.com"
-              className="text-varLIGHTBEAKTOP hover:text-varDARKBLUEFEATHER "
+              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip1  Libre_Baskerville "
@@ -46,7 +46,7 @@ const NavbarLinks = () => {
 
             <a
               href="https://mybabb.github.io/My_Introduction/"
-              className="text-varLIGHTBEAKTOP hover:text-varDARKBLUEFEATHER "
+              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip2 Libre_Baskerville"
@@ -71,7 +71,7 @@ const NavbarLinks = () => {
             </a>
             <a
               href="https://mybabb.github.io/BrandingChute/"
-              className="text-varLIGHTBEAKTOP hover:text-varDARKBLUEFEATHER "
+              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip2 Libre_Baskerville"

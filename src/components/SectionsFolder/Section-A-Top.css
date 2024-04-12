@@ -1,0 +1,34 @@
+
+.customBounce {
+                animation: bounce 10s infinite;
+                font-size: 3rem;
+                animation-timing-function: ease-in-out;
+             
+}
+.custom {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;
+}
+    .cssLogo {    
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.5)
+}  
+.h2MobileResponsive {
+        text-shadow: 0 0 4px black;
+}
+.h2PersonalizedWebsites {
+    
+        position: absolute;
+        margin: 0;
+        left: 50%;
+        top: 40px;
+        transform: translate(-50%, -50%);
+        margin-bottom: 4rem;
+        z-index: 10;
+        text-shadow: 0 0 5px #000;
+}
+.phoneInHands {
+          box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5); 
+
+}
+.website {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;
+}

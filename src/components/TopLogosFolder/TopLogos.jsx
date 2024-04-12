@@ -13,7 +13,7 @@ const TopLogos = () => {
             data-tool-tip="Portfolio Hub "
           >
             <div
-              className="octoGlasses  relative z-0 mt-4 h-[80px] w-[80px] rounded-full p-[5px]
+              className="octoGlasses  relative z-0 mt-[2rem] mb-4 h-[80px] w-[80px] rounded-full p-[5px]
                          hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
               style={{
                 position: "relative",
@@ -27,7 +27,7 @@ const TopLogos = () => {
                 alt="Duck Logo"
                 width={75}
                 height={75}
-                className="absolute left-[-1px] top-[-1px]"
+                className="absolute hidden sm:block left-[-1px] top-[-1px]"
               />
             </div>
           </div>
@@ -39,7 +39,7 @@ const TopLogos = () => {
             data-tool-tip="My HomePage"
           >
             <div
-              className="notMe relative z-[0] mt-4 h-[80px] w-[80px] rounded-full p-2
+              className="notMe relative z-[0] mt-[2rem] mb-4 h-[80px] w-[80px] rounded-full p-2
                          hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
               style={{
                 position: "relative",
@@ -48,7 +48,7 @@ const TopLogos = () => {
                   "inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5)",
               }}
             >
-              <img src={NotMe} alt="Not Me" width={70} height={70} />
+              <img src={NotMe} alt="Not Me" width={70} height={70} className="hidden sm:block" />
             </div>
           </div>
         </a>
