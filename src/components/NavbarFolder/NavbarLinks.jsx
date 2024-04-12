@@ -22,7 +22,7 @@ const NavbarLinks = () => {
             aria-label="main"
           >
             <a
-              href="https://mybabb.com"
+              href="#AboutUs"
               className="text-amber-400 hover:text-varDARKBLUEFEATHER "
             >
               <div
