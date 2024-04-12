@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { RiDoubleQuotesR } from "react-icons/ri";
+import LightBulb from './400x344workers.png';
 // import { GiGorilla } from 'react-icons/gi'
 const SectionB = () => {
   return (
@@ -7,7 +10,7 @@ const SectionB = () => {
 
 <div
         className="sectionATop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[300px] max-w-[80vw]  p-[2rem] border-2 border-blue-500 rounded-lg">
+  min-w-[300px] max-w-[80vw]  p-[2rem] ">
 
 
 <div>
@@ -22,32 +25,27 @@ const SectionB = () => {
                   >
                     <h3
                       id="weHelp"
-                      className="-scroll-mt-[-7rem] sm: p-1 text-center font-rye"
+                      className="sm:p-1 Aclonica text-center text-2xl text-amber-200 "
                       style={{
-                        fontSize: '2rem',
-                        textShadow: '2px 2px 3px #1c0303',
-                        color: '#fff9d7',
-                      }}
-                    >
-                      <u style={{ textDecorationColor: 'rgba(182, 121, 2,1)' }}>We Help Small Businesses Grow.</u>
+                        textShadow: '2px 2px 3px #1c0303'
+                             }}>
+                      <span className='imQuotes inline-block'><RiDoubleQuotesL  /></span>
+                 
+                            
+                      
+                      I facilitate business growth by establishing and enhancing your online presence.
+                      
+                      <span className='imQuotes inline-block'><RiDoubleQuotesR /></span>
+                    
                     </h3>
-                    <p
-                      className="font-Edu SA Beginner p-1 text-center"
-                      style={{
-                        color: '#fff9d7',
-                        fontSize: 'x-large',
-                        textShadow: '2px 2px 3px #1c0303',
-                      }}
-                    >
-                      &apos;&apos; By Providing an Online Presence &apos;&apos;
-                    </p>
+                    
 
                     <br />
                     {/* xxxxxxxxxxxxx about us  money Grow  section xxxxxxxxxxxxxxxx */}
-                    <a href="#BusinessGrow" data-tool-tip="We can do this">
+                     
                       <div className="text-center">
                         <img
-                          src="./build/img/MoneyGrow.webp"
+                          src={LightBulb}
                           alt="Money Grow"
                           width="600"
                           height="400"
@@ -55,7 +53,7 @@ const SectionB = () => {
                           className="d-block relative mx-auto rounded-full border-4 border-solid border-varDARKWING"
                         />
                       </div>
-                    </a>
+                  
 
                     <div>
                       <br />
@@ -63,7 +61,7 @@ const SectionB = () => {
                         className="p-8 text-center text-white text-2xl"
                         style={{ textShadow: '2px 2px 3px #1c0303' }}
                       >
-                        <span className="font-rye">Here's what you can expect when you work with us: </span>
+                        <span className="font-rye">Here&apos;s what you can expect when you work with us: </span>
                         <br />
                         <br />
                         <span>
@@ -91,9 +89,9 @@ const SectionB = () => {
                         <br />
                         <div className="relative text-center my-4 text-2xl">
                           <a
-                            href="#blueMyBaBB"
-                            data-tool-tip="Contact Page"
-                            className="font-orbitron text-varLIGHTBLUEFEATHER
+                            href="Https://mybabb.com"
+                           
+                            className="Orbitron text-varLIGHTBLUEFEATHER
                              hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
                           >
                             <h3 style={{ textDecorationColor: 'rgba(182, 121, 2,1)' }}>
