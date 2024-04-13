@@ -4,6 +4,7 @@ import "./SectionA.css";
 import phoneInHands from "./phoneInHands.webp";
 import CSSLogo from "./cssLogoHeight80px.png";
 // import { SiTestinglibrary } from "react-icons/si";
+import Gorilla from "../../Gorilla.jsx";
 import { GiGorilla } from "react-icons/gi";
 import SectionB from "../SectionBFolder/SectionB";
 const SectionA = () => {
@@ -98,27 +99,8 @@ const SectionA = () => {
 
  <SectionB />
       
-      <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
-     {/*  <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-[100vh] min-w-[300px] max-w-[80vw]
-  border-2 border-green-500 p-[2rem] "
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <SiTestinglibrary size={80} /></div>
-         
-        <p className="Creepster text-lime-500 text-4xl">Under Construction</p>
-      </div>
-      */}
+   
+     
           <div>
       <hr className="mx-auto w-1/2 bg-black dark:bg-white" />
       <br />
@@ -250,16 +232,7 @@ const SectionA = () => {
       </div>
     </div>
      
-    <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
+    < Gorilla />
 
             {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
 
@@ -414,19 +387,6 @@ const SectionA = () => {
 
 
  
-           {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-    <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
-               {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-
 
                <div>
     <div className="text-center">
@@ -455,20 +415,8 @@ const SectionA = () => {
     </div>
 
 
-
-           {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-    <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
-
-{/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
+<Gorilla />
+    
 <div className="text-right text-xl font-bold italic text-slate-500 dark:text-slate-400 sm:text-2xl" style={{ fontSize: '24px', textShadow: '1px 1px black' }}>
         <span className="whitespace-nowrap font-serif text-varLIGHTBLUEFEATHER">
           🕸️MyBabb🕸️&nbsp;&nbsp;&nbsp;
@@ -482,17 +430,7 @@ const SectionA = () => {
 
 
 
-           {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-    <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
+   
       <div className="flex justify-center content-center m-auto mt-14">
   <div
     className="content-center p-10 m-auto rounded-full border border-solid border-slate-900 bg-varMEDBLUEFEATHER p-3 font-orbitron text-2xl text-black active:bg-varLIGHTBLUEFEATHER dark:border-none sm:text-3xl"
@@ -514,17 +452,8 @@ const SectionA = () => {
   </div>
 </div>
         
-           {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-    <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
-         
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
+         < Gorilla />
+   
       <div className="rounded-full text-center border-2 border-red-500 w-50 h-50"
  style={{ margin: "auto", display: "flex", justifyContent: "center" }}>
   <img
@@ -549,17 +478,7 @@ const SectionA = () => {
 </div>
 
       
-           {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-           <div
-        className="Test relative flex-row justify-center text-center items-center
-         m-[20px] h-fit min-w-[300px] max-w-[80vw]
-  border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-      >
-         <div className="relative flex justify-center items-center w-full h-[30%]">
-          <GiGorilla size={80} className="text-gray-800" /></div>
          
-        <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-      </div>
 
 
 
