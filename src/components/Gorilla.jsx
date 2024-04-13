@@ -1,24 +1,22 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
 import { GiGorilla } from "react-icons/gi";
 const Gorilla = () => {
   return (
+    /* --------- Under Construction Gorilla -----------  */
 
-            /* --------- Under Construction Gorilla -----------  */
+    <div
+      className="Test relative m-[20px] h-fit min-w-[300px] max-w-[80vw]
+             flex-row items-center justify-center rounded-3xl
+      border-2 border-lime-500  bg-varLIGHTSPACE p-[2rem] text-center shadow-2xl"
+    >
+      <div className="relative flex h-[30%] w-full items-center justify-center">
+        <GiGorilla size={80} className="text-gray-800" />
+      </div>
 
-            <div
-            className="Test relative flex-row justify-center text-center items-center
-             m-[20px] h-fit min-w-[300px] max-w-[80vw]
-      border-2 border-lime-500  rounded-3xl p-[2rem] shadow-2xl bg-varLIGHTSPACE"
-          >
-             <div className="relative flex justify-center items-center w-full h-[30%]">
-              <GiGorilla size={80} className="text-gray-800" /></div>
-             
-            <p className="black_ops_one text-lime-500 text-4xl">Under Construction</p>
-          
-
+      <p className="black_ops_one text-4xl text-lime-500">Under Construction</p>
     </div>
-  )
-}
+  );
+};
 
-export default Gorilla
+export default Gorilla;

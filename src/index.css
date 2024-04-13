@@ -17,7 +17,7 @@
   font-family: "Aclonica-Regular";
   src: url(../GoogleFonts/Aclonica-Regular.ttf);
 }
-.Aclonica{
+.Aclonica {
   font-family: "Aclonica", sans-serif;
 }
 @font-face {
@@ -103,8 +103,6 @@
   font-family: "Rye", cursive;
 }
 
-
-
 @font-face {
   font-family: "Caprasimo";
   src: url(../GoogleFonts/Caprasimo-Regular.ttf);
@@ -112,8 +110,6 @@
 .Caprasimo {
   font-family: "Caprasimo", cursive;
 }
-
-
 
 @font-face {
   font-family: "Nosifer";
@@ -138,7 +134,6 @@
 .Orbitron {
   font-family: "Orbitron", sans-serif;
 }
-
 
 @font-face {
   font-family: "PermanentMarker";

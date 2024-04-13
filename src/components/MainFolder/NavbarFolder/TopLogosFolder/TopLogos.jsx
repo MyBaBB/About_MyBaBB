@@ -9,7 +9,7 @@ const TopLogos = () => {
       <div className="relative mt-[5rem] flex h-fit w-screen justify-between px-12  dark:bg-black  dark:text-white">
         <a href="https://resume-hub.mybabb.com">
           <div
-            className="dataToolTip82  hidden sm:block Libre_Baskerville"
+            className="dataToolTip82  Libre_Baskerville hidden sm:block"
             data-tool-tip="Portfolio Hub "
           >
             <div
