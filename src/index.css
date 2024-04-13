@@ -139,13 +139,7 @@
   font-family: "Orbitron", sans-serif;
 }
 
-@font-face {
-  font-family: "Sixtyfour";
-  src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
-}
-.Sixtyfour {
-  font-family: "Sixtyfour", cursive;
-}
+
 @font-face {
   font-family: "PermanentMarker";
   src: url(../GoogleFonts/PermanentMarker-Regular.ttf);
