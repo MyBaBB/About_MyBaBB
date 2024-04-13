@@ -113,13 +113,7 @@
   font-family: "Caprasimo", cursive;
 }
 
-@font-face {
-  font-family: "Metal_Mania";
-  src: url(../GoogleFonts/MetalMania-Regular.ttf);
-}
-.Metal_Mania {
-  font-family: "Metal_Mania", cursive;
-}
+
 
 @font-face {
   font-family: "Nosifer";
