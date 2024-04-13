@@ -9,11 +9,11 @@ const TopLogos = () => {
       <div className="relative mt-[5rem] flex h-fit w-screen justify-between px-12  dark:bg-black  dark:text-white">
         <a href="https://resume-hub.mybabb.com">
           <div
-            className="dataToolTip82  Libre_Baskerville"
+            className="dataToolTip82  hidden sm:block Libre_Baskerville"
             data-tool-tip="Portfolio Hub "
           >
             <div
-              className="octoGlasses  relative z-0 mb-4 mt-[2rem] h-[80px] w-[80px] rounded-full p-[5px]
+              className="octoGlasses   relative z-0 mb-4 mt-[2rem] h-[80px] w-[80px] rounded-full p-[5px]
                          hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
               style={{
                 position: "relative",
@@ -24,10 +24,10 @@ const TopLogos = () => {
             >
               <img
                 src={OctoGlasses}
-                alt="Duck Logo"
+                alt="OctoGlasses"
                 width={75}
                 height={75}
-                className="absolute left-[-1px] top-[-1px] hidden sm:block"
+                className="octoGlasses absolute left-[-1px] top-[-1px]"
               />
             </div>
           </div>
@@ -35,7 +35,7 @@ const TopLogos = () => {
 
         <a href="https://Mybabb.com">
           <div
-            className="dataToolTip81  Libre_Baskerville"
+            className="dataToolTip81  Libre_Baskerville hidden sm:block "
             data-tool-tip="My HomePage"
           >
             <div
@@ -53,7 +53,7 @@ const TopLogos = () => {
                 alt="Not Me"
                 width={70}
                 height={70}
-                className="hidden sm:block"
+                className="notMe"
               />
             </div>
           </div>
