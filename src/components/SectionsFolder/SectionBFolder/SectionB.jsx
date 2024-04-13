@@ -1,119 +1,91 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { RiDoubleQuotesL } from "react-icons/ri";
-import { RiDoubleQuotesR } from "react-icons/ri";
-import LightBulb from './400x344workers.png';
-// import { GiGorilla } from 'react-icons/gi'
+import phoneInHands from "./phoneInHands.webp";
+import CSSLogo from "./cssLogoHeight80px.png";
 const SectionB = () => {
   return (
     <div>
-
-<div
+      <div
         className="sectionATop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[300px] max-w-[80vw]  p-[2rem] ">
+  min-w-[300px] max-w-[80vw]  p-[2rem]"
+      >
+<article
+        id="theWholeBigArticle"
+        className="widescreen:section-min-height tallscreen:section-min-height flex 
+        scroll-mt-[63.5px] flex-col items-center justify-center gap-8 sm:flex-row"
+        style={{ padding: "0rem 1.5rem 1.5rem 1.5rem" }}
+      >
+      
 
-
-<div>
+        {/*  XXXXXXXXX Hero section🦸🏼xxxxxxxxxx */}
+        <h2 className="hiddenSeoH2 absolute left-[200rem]">
+          MyBabb Custom Websites
+        </h2>
+        <div className="flex flex-col text-center">
+          <section
+            id="hero"
+            className="relative p-1 flex  items-center justify-center
+             bg-varMEDSPACE dark:bg-black">
+            <h2 className="h2PersonalizedWebsites mt-[-12rem]">
+              <span className="Nosifer text-blue-300  whitespace-nowrap font-serif text-[.75rem] sm:text-[1.74rem]">
+                Personalized Websites <br />
+              </span>
+            </h2>
+            <p
+              className="customBounce text-center sm:pt-0 landscape:text-center"
              
-            <div className="p-0 sm:p-4" id="AboutUs">
-              <div style={{ boxShadow: '2px 2px 55px #000' }} className="rounded-3xl">
-                <section id="mainBoxes" className="mb-10 p-6" style={{ scrollMarginTop: '95px' }}>
-                  
-                  <blockquote
-                    className="relative content-center rounded-3xl
-                     bg-gradient-to-b from-varDARKBLUEFEATHER to-varMEDDUCKHEAD py-12 dark:bg-black"
-                  >
-                    <h3
-                      id="weHelp"
-                      className="sm:p-1 Aclonica text-center text-2xl text-amber-200 "
-                      style={{
-                        textShadow: '2px 2px 3px #1c0303'
-                             }}>
-                      <span className='imQuotes inline-block'><RiDoubleQuotesL  /></span>
-                 
-                            
-                      
-                      I facilitate business growth by establishing and enhancing your online presence.
-                      
-                      <span className='imQuotes inline-block'><RiDoubleQuotesR /></span>
-                    
-                    </h3>
-                    
-
-                    <br />
-                    {/* xxxxxxxxxxxxx about us  money Grow  section xxxxxxxxxxxxxxxx */}
-                     
-                      <div className="text-center">
-                        <img
-                          src={LightBulb}
-                          alt="Money Grow"
-                          width="600"
-                          height="400"
-                          loading="lazy"
-                          className="d-block relative mx-auto rounded-full border-4 border-solid border-varDARKWING"
-                        />
-                      </div>
-                  
-
-                    <div>
-                      <br />
-                      <p
-                        className="p-8 text-center text-white text-2xl"
-                        style={{ textShadow: '2px 2px 3px #1c0303' }}
-                      >
-                        <span className="font-rye">Here&apos;s what you can expect when you work with us: </span>
-                        <br />
-                        <br />
-                        <span>
-                          🐮 A Link-Address that pushes traffic in.
-                          <br />
-                          🐮 A Custom Website that reflects your brand and values.
-                          <br />
-                          🐮 An email account and domain name to match your Your Website.
-                          <br />
-                          🐮 A professional online presence that attracts customers and boosts sales.
-                          <br />
-                          <span style={{ color: '#89d981' }} className="font-bold">
-                            -And A Good Spot to Get Paid.
-                          </span>
-                          <br />
-                        </span>
-                        At MyBaBB, We are about helping small businesses succeed. That&apos;s why we offer personalized website
-                        design services that are tailored to your unique needs. Our simple website design is perfect for small
-                        businesses on a budget, but we also offer more advanced features and design elements as your business
-                        grows.
-                        <br />
-                        We will work with you every step of the way to ensure that your website is a success.
-                        <br />
-                        Ready to take your business to the next level? Contact us today to learn more about our
-                        <br />
-                        <div className="relative text-center my-4 text-2xl">
-                          <a
-                            href="Https://mybabb.com"
-                           
-                            className="Orbitron text-varLIGHTBLUEFEATHER
-                             hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
-                          >
-                            <h3 style={{ textDecorationColor: 'rgba(182, 121, 2,1)' }}>
-                              <u>Website Development Services.</u>
-                            </h3>
-                          </a>
-                        </div>
-                      </p>
-                    </div>
-                  </blockquote>
-                </section>
-              </div>
-
-              <div
-                className="pr-4 text-right text-xl font-bold italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-                style={{ fontSize: '24px', textShadow: '1px 1px black' }}
+            >
+              <span
+                id="custom"
+                className="custom text-varDARKBEAK" >
+                <span className="rotate whitespace-nowrap PermanentMarker">
+                  <span className="text-[4rem] text-red-800">Cu</span>
+                     <span  className="text-gray-300">
+                    <span className="text-[3.5rem]">s</span>t
+                  </span>
+                  <span className=" text-blue-700" >om</span>
+                </span>
+              </span>
+              <br />
+              <span
+                id="websites"
+                className="website EmilysCandy whitespace-nowrap text-varDARKBEAK text-[4rem]"
+              
               >
-                &#8212;Owner/<span className="text-varLIGHTBLUEFEATHER">🧑‍🌾MyBaBB</span>
+                🕸️ WEB 🕸️
+              </span>
+              {/*  ♊🧑‍💻📷 */}
+              <img src={CSSLogo} alt="CSS Logo" width={150} height={25} 
+                  className='cssLogo block m-auto lazy-load'
+                  />
+            </p>
+          </section>
+          
+          <br id="phoneInHands" />
+          <section className="phoneInHands relative container mx-auto rounded-3xl ">
+            <a href="#weHelp">
+                <div className="rounded-3xl bg-varDARKNECK mx-auto flex justify-center max-w-[350px]">
+                  <img src={phoneInHands} alt="Phone in Hands" width={400} height={250}
+                   className="w-max rounded-3xl p-4 relative z-1"
+                    />
               </div>
-            </div>
-            </div>
-          </div>
+            </a>
+
+            
+          </section>
+          <h2 className="h2MobileResponsive Libre_Baskerville text-[18px]
+           mt-8 text-amber-200 rounded-xl whitespace-nowrap">
+              
+                <u >Mobile Responsive</u>
+                         </h2>
+         </div>
+        </article>
+      </div>
+      
+
+
+
+      
     </div>
   )
 }
