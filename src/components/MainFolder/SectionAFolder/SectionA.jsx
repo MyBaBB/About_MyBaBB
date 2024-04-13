@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./SectionA.css";
+
 
 // import { SiTestinglibrary } from "react-icons/si";
 import Gorilla from "../../Gorilla.jsx";
  
-import SectionC from "../SectionCFolder/SectionC.jsx";
-import SectionB from "../SectionBFolder/SectionB.jsx";
+import SectionC from "../../MainFolder/SectionCFolder/SectionC.jsx";
+import SectionB from "../../MainFolder/SectionBFolder/SectionB.jsx";
 const SectionA = () => {
   return (
     <div
