@@ -3,6 +3,7 @@ import React from 'react'
 import phoneInHands from "./phoneInHands.webp";
 import CSSLogo from "./cssLogoHeight80px.png";
 import "./SectionB.css";
+
 const SectionB = () => {
   return (
     <div>

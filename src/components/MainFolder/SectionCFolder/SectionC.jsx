@@ -3,6 +3,7 @@ import React from 'react'
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import LightBulb from './400x344workers.png';
+import Gorilla from '../../Gorilla';
 
 const SectionC = () => {
   return (
@@ -115,7 +116,7 @@ const SectionC = () => {
             </div>
              <hr className=' w-50 h-4 bg-white border-2 border-red-500' />
           </div>
-         
+         < Gorilla />
     </div>
   )
 }
