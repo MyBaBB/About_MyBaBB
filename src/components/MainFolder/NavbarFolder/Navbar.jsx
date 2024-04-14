@@ -30,7 +30,8 @@ const Navbar = () => {
 
   return (
     <div
-      className="navWrapper fixed top-0 z-50 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
+      className="navWrapper fixed top-0 z-50
+       bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
       style={{
         boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.5)",
         backgroundColor: "rgba(0, 0, 0, 0.1)",
@@ -104,8 +105,10 @@ const Navbar = () => {
         </a>
       </div>
       <div className={menu_class}>
+
+
         <div
-          className="hidden-square mt-[.8rem]  w-full origin-top animate-open-menu 
+          className="hidden-square mt-[.8rem]  w-full  origin-top animate-open-menu 
                     flex-col items-center justify-center bg-black text-center"
           style={{
             boxShadow: "inset 0px 0px 10px rgba(0, 0, 0, 1)",
@@ -129,8 +132,8 @@ const Navbar = () => {
                   <u>Customized Websites</u>
                 </span>
               </h2>
-
-              <button className=" px-6 text-5xl"></button>
+<div className=" relative z-[] border-red-600 border-2 ml-[-6rem] mt-[-13rem] w-screen top-0 left-0 bg-black">
+              
               <nav
                 className="justify-top flex min-h-screen flex-col items-center"
                 aria-label="mobile"
@@ -139,27 +142,38 @@ const Navbar = () => {
                   <br />
                   <a
                     href="#"
-                    className="w-full py-2 text-center text-lime-600 hover:text-varLIGHTBLUEFEATHER"
-                    onClick={hideMobileMenu}
-                  >
+                    className="w-full py-2 text-center"
+                    onClick={hideMobileMenu}>
+                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                      <em>MyBaBB.com</em>
+                    </span>
+                  </a>
+                    <br />
+                    <br />
+                  <a
+                    href="#phoneInHands"
+                    className="w-full py-2 text-center "
+                    onClick={hideMobileMenu}>
+                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
                     Home
+                      </span>
                   </a>
                   <br />
                   <br />
                   <a
-                    href="https://mybabb.github.io/About_MyBaBB/#AboutUs"
-                    className="w-full py-6 text-center"
+                    href="#aboutUs" 
+                    className="w-full py-6 text-center "
                     onClick={hideMobileMenu}
                   >
-                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
                       About Us
                     </span>
                   </a>
                   <br />
                   <br />
                   <a
-                    href="#YourBrand"
-                    className="white-space: nowrap; w-full py-6 text-center"
+                    href="#yourBrand"
+                    className="whitespace-nowrap w-full py-6 text-center"
                     onClick={hideMobileMenu}
                   >
                     <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
@@ -170,7 +184,7 @@ const Navbar = () => {
                   <br />
                   <br />
                   <a
-                    href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
+                    href="#"
                     className="w-full py-6 text-center"
                     onClick={hideMobileMenu}
                   >
@@ -180,7 +194,10 @@ const Navbar = () => {
                   </a>
                   <br />
                   <br />
-                  <a href="#crabs" className="w-full py-6 text-center">
+                  <a 
+                  href="#"
+                  className="w-full py-6 text-center"
+                  onClick={hideMobileMenu}>
                     <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
                       <em>MyBaBB.com</em>
                     </span>
@@ -189,6 +206,7 @@ const Navbar = () => {
                   <br />
                 </p>
               </nav>
+              </div>
             </section>
           </div>
         </div>

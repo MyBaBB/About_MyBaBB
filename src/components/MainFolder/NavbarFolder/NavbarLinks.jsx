@@ -22,8 +22,8 @@ const NavbarLinks = () => {
             aria-label="main"
           >
             <a
-              href="#AboutUs"
-              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
+              href="#aboutUs"
+              className="text-amber-400 hover:text-varDARKBLUEFEATHER   "
             >
               <div
                 className="dataToolTip1  Libre_Baskerville "

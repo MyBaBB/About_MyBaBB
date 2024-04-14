@@ -59,8 +59,13 @@ const SectionA = () => {
                 />
               </p>
             </section>
-
-            <br id="phoneInHands" />
+            <h2 id="home" 
+              className="h2MobileResponsive Sixtyfour  mb-[-1rem]  mt-8 
+           whitespace-nowrap rounded-xl text-[13px] text-amber-300"
+            >
+              Mobile Responsive
+            </h2>
+            <br id="phoneInHands" className="scroll-mt-[7rem]" />
             <section className="phoneInHands container relative mx-auto rounded-3xl ">
               <a href="#weHelp">
                 <div className="mx-auto flex max-w-[350px] justify-center rounded-3xl bg-varDARKNECK">
@@ -74,17 +79,12 @@ const SectionA = () => {
                 </div>
               </a>
             </section>
-            <h2
-              className="h2MobileResponsive Sixtyfour mb-[-1rem] mt-8 
-           whitespace-nowrap rounded-xl text-[13px] text-amber-300"
-            >
-              Mobile Responsive
-            </h2>
+           
           </div>
         </article>
       </div>
       <hr
-        className=" m-auto mb-[-2.5rem] mt-[-2.5rem] h-[5px] w-[80%]
+        className=" m-auto mb-[2.5rem] mt-[-2.5rem] h-[5px] w-[80%]
 rounded-xl border-[1px] border-varMEDBLUEFEATHER bg-black dark:bg-gray-800"
       />
     </div>

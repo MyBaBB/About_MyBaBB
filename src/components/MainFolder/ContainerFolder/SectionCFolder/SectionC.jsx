@@ -1,42 +1,34 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Gorilla from '../../../Gorilla'
+import PiggyLogo from './piggylogo.png'
+import PigFrame from './piglets.webp'
 const SectionC = () => {
   return (
     <div>
-      <div className="p-0 sm:p-4" id="AboutUs">
+      <div
+        className="sectionBTop z-1 m-[20px] mt-[.5rem] h-[fit]
+  min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] scroll-mt-[4rem] "
+      >
          
-        <br id="YourBrand" className="scroll-m-[-4rem]" />
-        <div className="p-0 sm:p-4">
-          <div
-            style={{ boxShadow: "2px 2px 55px #000" }}
-            className="rounded-3xl"
-          >
-            <section className="my-12 p-6">
-              <h2
-                style={{
-                  position: "absolute",
-
-                  margin: "auto",
-                  left: "50%",
-                  top: "20px",
-                  transform: "translate(-50%, -50%)",
-                  color: "transparent",
-                  marginBottom: "4rem",
-                  zIndex: "51",
-                }}
+        
+         <div className="p-0 sm:p-4 scroll-mt-[-40rem] "   >
+         <div
+              style={{ boxShadow: "2px 2px 55px #000" }}
+              className="rounded-3xl">
+            <section
+                id="mainBoxes"
+                className="mb-10 p-6"
+                style={{ scrollMarginTop: "95px" }}
               >
-                <span className="font-rye whitespace-nowrap text-[.74rem]">
-                  <u>Custom Website for a Special Event</u>
-                </span>
-              </h2>
+              
               <blockquote
                 className="relative rounded-3xl
              bg-gradient-to-b from-varMEDDUCKHEAD via-varDARKDUCKHEAD to-varMEDDUCKHEAD py-12 dark:bg-black"
               >
                 <br />
 
-                <h2 className="font-rye relative bottom-8 flex justify-center text-center text-xl text-amber-200">
+                <h2 className="Aclonica relative bottom-8 flex justify-center text-center text-xl text-amber-200">
                   <u>Professional Branding Service</u>
                 </h2>
 
@@ -53,7 +45,7 @@ const SectionC = () => {
                     >
                       <div className="relative content-center text-center">
                         <img
-                          src="./build/img/piggylogo.png"
+                          src={PiggyLogo}
                           alt="Piggy Logo"
                           title="Piggy Logo"
                           width="139"
@@ -65,27 +57,22 @@ const SectionC = () => {
                   </div>
                   <br />
 
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      padding: "1rem",
-                    }}
-                  >
+                  
                     <div
                       id="piglets"
                       style={{ boxShadow: "2px 2px 55px #000" }}
-                      className="relative content-center text-center"
+                      className="relative flex m-auto justify-center w-fit px-2 py-1 content-center text-center"
                     >
                       <img
-                        src="./build/img/piglets.webp"
+                        src={PigFrame}
                         alt="Piglets in a frame"
                         width="400"
                         height="250"
                         loading="lazy"
+                        
                       />
                     </div>
-                  </div>
+                 
                 </a>
 
                 <p
@@ -132,7 +119,7 @@ const SectionC = () => {
                     for your website.
                   </p>
                 </div>
-                <br />
+                
                 <div className="p-8 text-center">
                   <span
                     className="p-0 font-serif text-2xl"
@@ -156,7 +143,7 @@ const SectionC = () => {
                           textShadow: "2px 2px 3px #1c0303",
                         }}
                       >
-                        "Getting Branded."
+                        &apos;&apos;Getting Branded.&apos;&apos;
                       </span>
                     </div>
                   </a>
@@ -192,6 +179,10 @@ const SectionC = () => {
             </section>
           </div>
         </div>
+        <hr
+        className=" m-auto mb-[2.5rem] mt-[2.5rem] h-[5px] w-[80%]
+rounded-xl border-[1px] border-varMEDBLUEFEATHER bg-black dark:bg-gray-800"
+      />
       </div>
 
       <Gorilla />

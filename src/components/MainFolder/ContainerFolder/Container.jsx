@@ -10,7 +10,8 @@ const Container = () => {
   return (
     <div
       className="sectionA  left-0 top-0 
-                     z-[1] m-auto flex min-h-screen w-screen flex-col items-center justify-start bg-varMEDSPACE  
+                     z-[1] m-auto p-4 flex min-h-screen w-screen flex-col items-center justify-start
+                      bg-varMEDSPACE  
                       text-center dark:bg-black  dark:text-white "
     >
       <SectionA />

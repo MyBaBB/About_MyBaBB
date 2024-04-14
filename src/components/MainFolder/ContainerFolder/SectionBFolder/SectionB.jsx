@@ -10,10 +10,10 @@ const SectionB = () => {
     <div>
       <div
         className="sectionBTop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] "
+  min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] scroll-mt-[4rem] "
       >
         <div>
-          <div className="p-0 sm:p-4" id="AboutUs">
+          <div className="p-0 sm:p-4 scroll-mt-[-40rem] "   >
             <div
               style={{ boxShadow: "2px 2px 55px #000" }}
               className="rounded-3xl"
@@ -49,10 +49,10 @@ const SectionB = () => {
                     </span>
                   </h3>
 
-                  <br />
+                  <br  />
                   {/* xxxxxxxxxxxxx about us  money Grow  section xxxxxxxxxxxxxxxx */}
 
-                  <div className="text-center">
+                  <div id="aboutUs" className="text-center scroll-mt-[16rem]">
                     <img
                       src={LightBulb}
                       alt="Money Grow"
@@ -189,7 +189,7 @@ const SectionB = () => {
         </div>
       </div>
       <hr
-        className=" m-auto mb-[-2.5rem] mt-[-2.5rem] h-[5px] w-[80%]
+        className=" m-auto mb-[2.5rem] mt-[2.5rem] h-[5px] w-[80%]
 rounded-xl border-[1px] border-varMEDBLUEFEATHER bg-black dark:bg-gray-800"
       />
     </div>
