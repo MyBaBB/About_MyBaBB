@@ -11,7 +11,7 @@ const MobileMenu = () => {
         boxShadow: "inset 0px 0px 10px rgba(0, 0, 0, 1)",
       }}
     >
-      {/* xxxxxxxxxxxxxxxx⬆⬇️  Customized Websites Logo  xxxxxxxxxxx */}
+      
 
       <div className="Sansita mt-[5.9rem] flex h-screen items-center ">
         <section id="mobile-menu" className=" absolute  w-full text-4xl">
@@ -37,10 +37,10 @@ const MobileMenu = () => {
             className="justify-top flex min-h-screen flex-col items-center"
             aria-label="mobile"
           >
-            <p id="mobile-menu-2">
+            <p id="mobile-menu">
               <br />
               <a
-                href="https://mybabb.github.io/About_MyBaBB/"
+                href="#"
                 className="w-full py-2 text-center text-lime-600 hover:text-varLIGHTBLUEFEATHER"
               >
                 Home
@@ -62,14 +62,7 @@ const MobileMenu = () => {
                   Your Brand
                 </span>
               </a>
-              {/* <br><br>
-            <a href="brandform.html" class="w-full py-6 text-center"
-              ><span
-                class="whitespace-nowrap font-rye text-amber-700 
-                hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
-                >Branding Chute</span
-              ></a
-            > */}
+             
               <br />
               <br />
               <a
@@ -94,8 +87,7 @@ const MobileMenu = () => {
         </section>
       </div>
 
-      {/* xxxxxxxxxxxxxxxx⬆️  Customized Websites Logo  xxxxxxxxxxx */}
-      {/* xxxxxxxxxxxxxxxx⬇️  Buttons on Hidden Mobile Menu  xxxxxxxxxxx */}
+     
     </div>
   );
 };
