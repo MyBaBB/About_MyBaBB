@@ -2,9 +2,9 @@
 import React from "react";
 import phoneInHands from "./phoneInHands.webp";
 import CSSLogo from "./cssLogoHeight80px.png";
-import "./SectionB.css";
+import "./SectionA.css";
 
-const SectionB = () => {
+const SectionA = () => {
   return (
     <div>
       <div
@@ -25,7 +25,7 @@ const SectionB = () => {
             <section
               id="hero"
               className="relative flex items-center  justify-center bg-varMEDSPACE
-             p-1 dark:bg-black"
+            p-1 dark:bg-black"
             >
               <h2 className="h2PersonalizedWebsites mt-[-12rem]">
                 <span className="Nosifer whitespace-nowrap  font-serif text-[.75rem] text-blue-300 sm:text-[1.74rem]">
@@ -75,16 +75,20 @@ const SectionB = () => {
               </a>
             </section>
             <h2
-              className="h2MobileResponsive Libre_Baskerville mt-8
-           whitespace-nowrap rounded-xl text-[18px] text-amber-200"
+              className="h2MobileResponsive Sixtyfour mb-[-1rem] mt-8 
+           whitespace-nowrap rounded-xl text-[13px] text-amber-300"
             >
-              <u>Mobile Responsive</u>
+              Mobile Responsive
             </h2>
           </div>
         </article>
       </div>
+      <hr
+        className=" m-auto mb-[-2.5rem] mt-[-2.5rem] h-[5px] w-[80%]
+rounded-xl border-[1px] border-varMEDBLUEFEATHER bg-black dark:bg-gray-800"
+      />
     </div>
   );
 };
 
-export default SectionB;
+export default SectionA;

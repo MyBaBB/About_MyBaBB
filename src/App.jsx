@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./components/MainFolder/NavbarFolder/Navbar";
 import Footer from "./components/MainFolder/FooterFolder/Footer";
 
-import SectionA from "./components/MainFolder/SectionAFolder/SectionA";
+import Container from "./components/MainFolder/ContainerFolder/Container";
 import TopLogos from "../src/components/MainFolder/NavbarFolder/TopLogosFolder/TopLogos";
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Navbar />
       <TopLogos />
-      <SectionA />
+      <Container />
 
       <Footer />
     </div>

@@ -3,14 +3,14 @@ import React from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import LightBulb from "./400x344workers.png";
-import Gorilla from "../../Gorilla";
+import Gorilla from "../../../Gorilla";
 
-const SectionC = () => {
+const SectionB = () => {
   return (
     <div>
       <div
         className="sectionATop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[300px] max-w-[80vw]  p-[2rem] "
+  min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] "
       >
         <div>
           <div className="p-0 sm:p-4" id="AboutUs">
@@ -29,18 +29,23 @@ const SectionC = () => {
                 >
                   <h3
                     id="weHelp"
-                    className="Aclonica text-center text-2xl text-amber-200 sm:p-1 "
+                    className="Libre_Baskerville text-center text-2xl text-amber-200 sm:p-1 "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
                   >
-                    <span className="imQuotes inline-block">
-                      <RiDoubleQuotesL />
-                    </span>
-                    I facilitate business growth by establishing and enhancing
-                    your online presence.
-                    <span className="imQuotes inline-block">
-                      <RiDoubleQuotesR />
+                    <span className="whitespace-nowrap">
+                      <span className="imQuotes inline-block">
+                        <RiDoubleQuotesL />
+                      </span>
+                      &nbsp; I facilitate
+                    </span>{" "}
+                    business growth by establishing and enhancing your online{" "}
+                    <span className="whitespace-nowrap ">
+                      presence. &nbsp;
+                      <span className="imQuotes inline-block">
+                        <RiDoubleQuotesR />
+                      </span>
                     </span>
                   </h3>
 
@@ -64,42 +69,44 @@ const SectionC = () => {
                       className="p-8 text-center text-2xl text-white"
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
-                      <span className="font-rye">
-                        Here&apos;s what you can expect when you work with us:{" "}
+                      <span className="Aclonica">
+                        Here&apos;s what you can expect when you work with us : 
                       </span>
                       <br />
                       <br />
                       <span>
-                        🐮 A Link-Address that pushes traffic in.
+                         Link-Address Optimization:
+                         We provide a link address that drives targeted traffic to your website.
                         <br />
-                        🐮 A Custom Website that reflects your brand and values.
+                        Custom Website Design:
+                        Our team creates a custom website that aligns with your brand identity and core values.
                         <br />
-                        🐮 An email account and domain name to match your Your
-                        Website.
+                         Domain and Email Integration:
+                         You&apos;ll receive a professional email account and a domain name that matches your website.
                         <br />
-                        🐮 A professional online presence that attracts
-                        customers and boosts sales.
+                        Enhanced Online Presence:
+                        Our services result in an online presence that attracts customers and drives sales.
                         <br />
                         <span
                           style={{ color: "#89d981" }}
                           className="font-bold"
                         >
-                          -And A Good Spot to Get Paid.
+                         Payment Integration:
+                         Additionally, we ensure a seamless payment process for your business.
+
                         </span>
                         <br />
                       </span>
-                      At MyBaBB, We are about helping small businesses succeed.
-                      That&apos;s why we offer personalized website design
-                      services that are tailored to your unique needs. Our
-                      simple website design is perfect for small businesses on a
-                      budget, but we also offer more advanced features and
-                      design elements as your business grows.
+                      At MyBaBB, we specialize in helping small businesses thrive.
+                       Our personalized website design services cater to your specific requirements.
+                       Whether you&apos;re on a budget or looking for advanced features,
+                      we&apos;ve got you covered. 
+                      We&apos;ll guide you through every step to ensure your website&apos;s success.
                       <br />
                       We will work with you every step of the way to ensure that
                       your website is a success.
                       <br />
-                      Ready to take your business to the next level? Contact us
-                      today to learn more about our
+                      Ready to elevate your business? Contact us today to learn more about our offerings.
                       <br />
                       <div className="relative my-4 text-center text-2xl">
                         <a
@@ -138,4 +145,4 @@ const SectionC = () => {
   );
 };
 
-export default SectionC;
+export default SectionB;

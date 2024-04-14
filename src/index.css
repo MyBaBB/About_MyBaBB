@@ -142,3 +142,10 @@
 .PermanentMarker {
   font-family: "PermanentMarker", cursive;
 }
+@font-face {
+  font-family: "Sixtyfour";
+  src: url(../GoogleFonts/SixtyFour-Regular.ttf);
+}
+.Sixtyfour {
+  font-family: "Sixtyfour", cursive;
+}

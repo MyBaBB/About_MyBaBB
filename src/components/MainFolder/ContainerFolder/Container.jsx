@@ -4,17 +4,18 @@ import React from "react";
 // import { SiTestinglibrary } from "react-icons/si";
 import Gorilla from "../../Gorilla.jsx";
 
-import SectionC from "../../MainFolder/SectionCFolder/SectionC.jsx";
-import SectionB from "../../MainFolder/SectionBFolder/SectionB.jsx";
-const SectionA = () => {
+import SectionB from "./SectionBFolder/SectionB.jsx";
+import SectionA from "./SectionAFolder/SectionA.jsx";
+const Container = () => {
   return (
     <div
       className="sectionA  left-0 top-0 
                      z-[1] m-auto flex min-h-screen w-screen flex-col items-center justify-start bg-varMEDSPACE  
                       text-center dark:bg-black  dark:text-white "
     >
+      <SectionA />
+
       <SectionB />
-      <SectionC />
 
       <div>
         <hr className="mx-auto w-1/2 bg-black dark:bg-white" />
@@ -445,4 +446,4 @@ const SectionA = () => {
   );
 };
 
-export default SectionA;
+export default Container;
