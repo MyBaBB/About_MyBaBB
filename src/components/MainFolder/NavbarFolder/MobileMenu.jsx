@@ -40,14 +40,14 @@ const MobileMenu = () => {
             <p id="mobile-menu-2">
               <br />
               <a
-                href="#hero"
+                href="https://mybabb.github.io/About_MyBaBB/"
                 className="w-full py-2 text-center text-lime-600 hover:text-varLIGHTBLUEFEATHER"
               >
                 Home
               </a>
               <br />
               <br />
-              <a href="#AboutUs" className="w-full py-6 text-center">
+              <a href="https://mybabb.github.io/About_MyBaBB/#AboutUs" className="w-full py-6 text-center">
                 <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
                   About Us
                 </span>

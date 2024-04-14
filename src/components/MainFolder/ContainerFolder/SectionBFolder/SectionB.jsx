@@ -9,7 +9,7 @@ const SectionB = () => {
   return (
     <div>
       <div
-        className="sectionATop z-1 m-[20px] mt-[.5rem] h-[fit]
+        className="sectionBTop z-1 m-[20px] mt-[.5rem] h-[fit]
   min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] "
       >
         <div>
@@ -80,7 +80,7 @@ const SectionB = () => {
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Link-Address Optimization &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
-                        </span>
+                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
                           targeted traffic to your website.
