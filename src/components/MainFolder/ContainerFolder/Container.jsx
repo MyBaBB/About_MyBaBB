@@ -14,11 +14,9 @@ const Container = () => {
                       text-center dark:bg-black  dark:text-white "
     >
       <SectionA />
-
       <SectionB />
 
       <div>
-        <hr className="mx-auto w-1/2 bg-black dark:bg-white" />
         <br />
         <br id="YourBrand" className="scroll-m-[-4rem]" />
         <div className="p-0 sm:p-4">
