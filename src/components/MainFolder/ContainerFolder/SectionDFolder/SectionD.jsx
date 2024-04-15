@@ -1,128 +1,74 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-
-
-
-
-
- 
+import React, { useState, useEffect } from 'react';
 
 import GarageOld from './Garageold600x400.webp';
 import GarageNew from './Garagenew600x400.webp';
 
 
-// const imageAlt3 = document.getElementById('imageAlt3');
-// const imageAlt4 = document.getElementById('imageAlt4');
-
-// // Set the initial state of the images
-// imageAlt3.style.display = 'block';
-// imageAlt4.style.display = 'none';
-
-// // Create a function to toggle the images
-// function toggleImagesAlt2() {
-//   if (imageAlt3.style.display === 'block') {
-//     imageAlt3.style.display = 'none';
-//     imageAlt4.style.display = 'block';
-//   } else {
-//     imageAlt3.style.display = 'block';
-//     imageAlt4.style.display = 'none';
-//   }
-// }
-
-// // Call the toggleImages function every 5 seconds
-// setInterval(toggleImagesAlt2, 3000);
-
-
-
-
-
-
 
 
 const SectionD = () => {
-    return (
-        <div>
-            <div id="improveSEO" className="p-4 sm:p-4">
-        <div style={{ boxShadow: "2px 2px 55px #000" }} className="rounded-3xl">
-          <article
-            className="widescreen:section-min-height tallscreen:section-min-height my-12 p-6"
-            style={{ scrollMarginTop: "95px" }}
-          >
-            <h2
-              style={{
-                position: "absolute",
+  const [showImageAlt3, setShowImageAlt3] = useState(true);
+  const [showImageAlt4, setShowImageAlt4] = useState(false);
 
-                margin: "auto",
-                left: "50%",
-                top: "20px",
-                transform: "translate(-50%, -50%)",
-                color: "transparent",
-                marginBottom: "4rem",
-                zIndex: "51",
-              }}
-            >
-              <span className="font-rye whitespace-nowrap text-[.74rem]">
-                <u>Business Expansion</u>
-              </span>
-            </h2>
-            <blockquote
-              id="blockquote1"
-              className="relative -mx-4 rounded-3xl bg-varMEDDUCKHEAD py-12"
-            >
-              <div className="content-center">
-                <p
-                  className="font-rye p-4 text-center text-2xl"
-                  style={{
-                    fontSize: "40px",
-                    textShadow: "2px 2px 3px #1c0303",
-                    color: "#37e7bb",
-                  }}
-                ></p>
-              </div>
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setShowImageAlt3((prevShowImageAlt3) => !prevShowImageAlt3);
+      setShowImageAlt4((prevShowImageAlt4) => !prevShowImageAlt4);
+    }, 3000);
 
-              <a href="#nightShippers">
-                <div
-                  id="rattlesnakes"
-                  className="mx-auto flex w-full scroll-m-20 justify-center rounded-3xl bg-varDARKDUCKHEAD p-5"
-                  style={{
-                    maxWidth: "600px",
-                    borderBottomLeftRadius: "0",
-                    borderBottomRightRadius: "0",
-                  }}
-                >
-                  <img
-                    id="imageAlt3"
-                    className="mb-1 w-max rounded-3xl"
-                    src={GarageOld}
-                    alt="Old Garage"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                    style={{
-                      position: "relative",
-                      zIndex: "0",
-                      boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
-                      border: "2px solid black",
-                    }}
-                  />  
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
-                    <img
-                    id="imageAlt4"
-                    className="mb-1 w-max rounded-3xl"
-                    src={GarageNew}
-                    alt="Cowboy Shop"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                    style={{
-                      position: "relative",
-                      zIndex: "0",
-                      boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
-                      border: "2px solid black",
-                    }}
-                  />  
-                </div>
-              </a>
+  return (
+    <div>
+      {/* Rest of the component code */}
+      <img
+        id="imageAlt3"
+        className={`mb-1 w-max rounded-3xl ${showImageAlt3 ? '' : 'hidden'}`}
+        src={GarageOld}
+        alt="Old Garage"
+        width="600"
+        height="400"
+        loading="lazy"
+        style={{
+          position: "relative",
+          zIndex: "0",
+          boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
+          border: "2px solid black",
+        }}
+      />
+      <img
+        id="imageAlt4"
+        className={`mb-1 w-max rounded-3xl ${showImageAlt4 ? '' : 'hidden'}`}
+        src={GarageNew}
+        alt="Cowboy Shop"
+        width="600"
+        height="400"
+        loading="lazy"
+        style={{
+          position: "relative",
+          zIndex: "0",
+          boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
+          border: "2px solid black",
+        }}
+      />
+      {/* Rest of the component code */}
+    </div>
+  );
+};
+
+export default SectionD;
+
+
+
+
+
+
+
+
               {/* <a href="#securityEye">
                 <div
                   id="nightShippers"
@@ -177,13 +123,13 @@ const SectionD = () => {
               <div className="text-center">
                 <span className="text-center text-4xl">🐟 🍞 🍷 🕊️</span>
               </div> */}
-            </blockquote>
-          </article>
-        </div>
-      </div>
+//             </blockquote>
+//           </article>
+//         </div>
+//       </div>
 
-        </div>
-    );
-};
+//         </div>
+//     );
+// };
 
-export default SectionD;
+// export default SectionD;
