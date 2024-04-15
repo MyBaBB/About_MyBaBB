@@ -116,15 +116,6 @@ const Navbar = () => {
             >
               <p id="mobile-menu">
                 <br />
-                <a
-                  href="#"
-                  className="w-full py-2 text-center"
-                  onClick={hideMobileMenu}
-                >
-                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    <em>MyBaBB.com</em>
-                  </span>
-                </a>
                 <br />
                 <br />
                 <a
@@ -173,7 +164,7 @@ const Navbar = () => {
                 <br />
                 <br />
                 <a
-                  href="#"
+                  href="https://mybabb.com"
                   className="w-full py-6 text-center"
                   onClick={hideMobileMenu}
                 >
