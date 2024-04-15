@@ -59,7 +59,8 @@ const SectionA = () => {
                 />
               </p>
             </section>
-            <h2 id="home" 
+            <h2
+              id="home"
               className="h2MobileResponsive Sixtyfour  mb-[-1rem]  mt-8 
            whitespace-nowrap rounded-xl text-[13px] text-amber-300"
             >
@@ -79,7 +80,6 @@ const SectionA = () => {
                 </div>
               </a>
             </section>
-           
           </div>
         </article>
       </div>

@@ -105,8 +105,6 @@ const Navbar = () => {
         </a>
       </div>
       <div className={menu_class}>
-
-
         <div
           className="hidden-square mt-[.8rem]  w-full  origin-top animate-open-menu 
                     flex-col items-center justify-center bg-black text-center"
@@ -132,80 +130,82 @@ const Navbar = () => {
                   <u>Customized Websites</u>
                 </span>
               </h2>
-<div className=" relative z-[] border-red-600 border-2 ml-[-6rem] mt-[-13rem] w-screen top-0 left-0 bg-black">
-              
-              <nav
-                className="justify-top flex min-h-screen flex-col items-center"
-                aria-label="mobile"
-              >
-                <p id="mobile-menu">
-                  <br />
-                  <a
-                    href="#"
-                    className="w-full py-2 text-center"
-                    onClick={hideMobileMenu}>
-                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                      <em>MyBaBB.com</em>
-                    </span>
-                  </a>
+              <div className=" relative left-0 top-0 z-[] ml-[-6rem] mt-[-13rem] w-screen border-2 border-red-600 bg-black">
+                <nav
+                  className="justify-top flex min-h-screen flex-col items-center"
+                  aria-label="mobile"
+                >
+                  <p id="mobile-menu">
                     <br />
-                    <br />
-                  <a
-                    href="#phoneInHands"
-                    className="w-full py-2 text-center "
-                    onClick={hideMobileMenu}>
+                    <a
+                      href="#"
+                      className="w-full py-2 text-center"
+                      onClick={hideMobileMenu}
+                    >
                       <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    Home
+                        <em>MyBaBB.com</em>
                       </span>
-                  </a>
-                  <br />
-                  <br />
-                  <a
-                    href="#aboutUs" 
-                    className="w-full py-6 text-center "
-                    onClick={hideMobileMenu}
-                  >
-                    <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                      About Us
-                    </span>
-                  </a>
-                  <br />
-                  <br />
-                  <a
-                    href="#yourBrand"
-                    className="whitespace-nowrap w-full py-6 text-center"
-                    onClick={hideMobileMenu}
-                  >
-                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                      Your Brand
-                    </span>
-                  </a>
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                      href="#phoneInHands"
+                      className="w-full py-2 text-center "
+                      onClick={hideMobileMenu}
+                    >
+                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                        Home
+                      </span>
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                      href="#aboutUs"
+                      className="w-full py-6 text-center "
+                      onClick={hideMobileMenu}
+                    >
+                      <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                        About Us
+                      </span>
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                      href="#piglets"
+                      className="w-full whitespace-nowrap py-6 text-center"
+                      onClick={hideMobileMenu}
+                    >
+                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                        Your Brand
+                      </span>
+                    </a>
 
-                  <br />
-                  <br />
-                  <a
-                    href="#"
-                    className="w-full py-6 text-center"
-                    onClick={hideMobileMenu}
-                  >
-                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                      SEO Booster
-                    </span>
-                  </a>
-                  <br />
-                  <br />
-                  <a 
-                  href="#"
-                  className="w-full py-6 text-center"
-                  onClick={hideMobileMenu}>
-                    <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                      <em>MyBaBB.com</em>
-                    </span>
-                  </a>
-                  <br />
-                  <br />
-                </p>
-              </nav>
+                    <br />
+                    <br />
+                    <a
+                      href="#improveSEO"
+                      className="w-full py-6 text-center"
+                      onClick={hideMobileMenu}
+                    >
+                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                        SEO Booster
+                      </span>
+                    </a>
+                    <br />
+                    <br />
+                    <a
+                      href="#"
+                      className="w-full py-6 text-center"
+                      onClick={hideMobileMenu}
+                    >
+                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                        <em>MyBaBB.com</em>
+                      </span>
+                    </a>
+                    <br />
+                    <br />
+                  </p>
+                </nav>
               </div>
             </section>
           </div>

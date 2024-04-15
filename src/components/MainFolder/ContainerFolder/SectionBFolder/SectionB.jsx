@@ -10,10 +10,10 @@ const SectionB = () => {
     <div>
       <div
         className="sectionBTop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[290px] max-w-[80vw]   p-[.2px]  sm:p-[2rem] scroll-mt-[4rem] "
+  min-w-[290px] max-w-[80vw]   scroll-mt-[4rem]  p-[.2px] sm:p-[2rem] "
       >
         <div>
-          <div className="p-0 sm:p-4 scroll-mt-[-40rem] "   >
+          <div className="scroll-mt-[-40rem] p-0 sm:p-4 ">
             <div
               style={{ boxShadow: "2px 2px 55px #000" }}
               className="rounded-3xl"
@@ -49,10 +49,10 @@ const SectionB = () => {
                     </span>
                   </h3>
 
-                  <br  />
+                  <br />
                   {/* xxxxxxxxxxxxx about us  money Grow  section xxxxxxxxxxxxxxxx */}
 
-                  <div id="aboutUs" className="text-center scroll-mt-[16rem]">
+                  <div id="aboutUs" className="scroll-mt-[16rem] text-center">
                     <img
                       src={LightBulb}
                       alt="Money Grow"
@@ -80,7 +80,7 @@ const SectionB = () => {
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Link-Address Optimization &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
-                         </span>
+                        </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
                           targeted traffic to your website.

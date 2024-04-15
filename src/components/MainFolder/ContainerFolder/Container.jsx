@@ -6,22 +6,23 @@ import Gorilla from "../../Gorilla.jsx";
 import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
+ 
 const Container = () => {
   return (
     <div
       className="sectionA  left-0 top-0 
-                     z-[1] m-auto p-4 flex min-h-screen w-screen flex-col items-center justify-start
-                      bg-varMEDSPACE  
+                     z-[1] m-auto flex min-h-screen w-screen flex-col items-center justify-start bg-varMEDSPACE
+                      p-4  
                       text-center dark:bg-black  dark:text-white "
     >
       <SectionA />
       <SectionB />
       <SectionC />
-       
       
+
       {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
 
-      <hr className="mx-auto my-12 w-1/2 bg-black dark:bg-white" />
+       
 
       <div id="improveSEO" className="p-4 sm:p-4">
         <div style={{ boxShadow: "2px 2px 55px #000" }} className="rounded-3xl">
