@@ -29,7 +29,7 @@ const SectionB = () => {
                 >
                   <h3
                     id="weHelp"
-                    className="Libre_Baskerville text-center text-2xl text-amber-200 sm:p-1 "
+                    className="Aclonica text-center text-2xl text-amber-200 sm:p-1 "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
@@ -38,11 +38,12 @@ const SectionB = () => {
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesL />
                       </span>
-                      &nbsp; I can facilitate
+                      &nbsp; We can facilitate
                     </span>{" "}
-                    business growth by establishing and enhancing your online{" "}
+                    business growth by establishing and enhancing <span className="whitespace-nowrap"
+                    >your online{" "}
                     <span className="whitespace-nowrap ">
-                      presence. &nbsp;
+                      presence.</span> &nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
@@ -69,19 +70,19 @@ const SectionB = () => {
                       className="p-8 text-center text-2xl text-white"
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
-                      <span className="Aclonica">
+                      <span className="Aclonica text-amber-200">
                         Here&apos;s what you can expect when <span className="whitespace-nowrap"
                         >you work with us :</span>
                       </span>
                       <br />
                       <br />
                       <div>
-                        <span className="relative text-lg xs:text-2xl  
-                         whitespace-nowrap text-amber-100">
+                        <span className="relative Archivo_Black text-lg xs:text-2xl  
+                         whitespace-nowrap text-green-500">
                           &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Link-Address Optimization &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
@@ -89,22 +90,22 @@ const SectionB = () => {
                         </p>
                         <br />
 
-                        <span className="relative text-lg xs:text-2xl   whitespace-nowrap text-amber-100">
+                        <span className="relative Archivo_Black text-lg xs:text-2xl   whitespace-nowrap text-green-500">
                           &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Custom Website Design &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; Our team creates a custom website that
                           aligns with your brand identity <span className="whitespace-nowrap">and core values.</span>
                         </p>
                         <br />
-                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
+                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
                           &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Domain and Email Integration &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
@@ -112,22 +113,23 @@ const SectionB = () => {
                         </p>
                         <br />
 
-                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
+                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
                           &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Enhanced Online Presence &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         </span>
+                        <br />
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; Our services result in an online presence
                           that attracts customers and drives sales.
                         </p>
-
-                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
+<br />
+                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
                           &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Payment Integration &nbsp;
-                          <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
+                          <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; Additionally, we ensure a seamless
