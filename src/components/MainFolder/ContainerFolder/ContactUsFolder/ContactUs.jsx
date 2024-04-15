@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import MybabbLogo from './MyBabbLogo200x72px.png'
+
 const ContactUs = () => {
   return (
     <div>
@@ -43,7 +43,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <img src={MybabbLogo} alt="MyBabb Logo" className='border-2 border-varDARKBLUEFEATHER rounded-3xl mt-4' />
+      
       </div>
 
       

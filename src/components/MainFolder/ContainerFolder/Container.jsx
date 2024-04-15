@@ -2,13 +2,14 @@
 import React from "react";
 
 // import { SiTestinglibrary } from "react-icons/si";
-import Gorilla from "../../Gorilla.jsx";
+// import Gorilla from "../../Gorilla.jsx";
 import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
 import SectionD from "./SectionDFolder/SectionD.jsx";
 import ContactUs from "./ContactUsFolder/ContactUs.jsx";
-
+import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
+import Gorilla from "../../Gorilla.jsx";
 
 const Container = () => {
   return (
@@ -22,8 +23,10 @@ const Container = () => {
       <SectionB />
       <SectionC />
       <SectionD />
-      <ContactUs />
       <Gorilla />
+      <ContactUs />
+      <AquariumDataTip />
+    
 
       
         
