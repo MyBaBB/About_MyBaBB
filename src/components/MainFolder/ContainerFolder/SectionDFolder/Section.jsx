@@ -1,10 +1,48 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React from 'react'
 
-const Tester = () => {
-  return (
-    <div>
-    <div id="improveSEO" className="p-4 sm:p-4">
+
+
+
+
+ 
+
+// import GarageOld from './Garageold600x400.webp';
+// import GarageNew from './Garagenew600x400.webp';
+
+
+// const imageAlt3 = document.getElementById('imageAlt3');
+// const imageAlt4 = document.getElementById('imageAlt4');
+
+// // Set the initial state of the images
+// imageAlt3.style.display = 'block';
+// imageAlt4.style.display = 'none';
+
+// // Create a function to toggle the images
+// function toggleImagesAlt2() {
+//   if (imageAlt3.style.display === 'block') {
+//     imageAlt3.style.display = 'none';
+//     imageAlt4.style.display = 'block';
+//   } else {
+//     imageAlt3.style.display = 'block';
+//     imageAlt4.style.display = 'none';
+//   }
+// }
+
+// // Call the toggleImages function every 5 seconds
+// setInterval(toggleImagesAlt2, 3000);
+
+
+
+
+
+
+
+
+const SectionDD = () => {
+    return (
+        <div>
+            <div id="improveSEO" className="p-4 sm:p-4">
         <div style={{ boxShadow: "2px 2px 55px #000" }} className="rounded-3xl">
           <article
             className="widescreen:section-min-height tallscreen:section-min-height my-12 p-6"
@@ -52,10 +90,10 @@ const Tester = () => {
                     borderBottomRightRadius: "0",
                   }}
                 >
-                  <img
+                  {/* <img
                     id="imageAlt3"
                     className="mb-1 w-max rounded-3xl"
-                    src="./build/img/Garagold600x400.webp"
+                    src={GarageOld}
                     alt="Old Garage"
                     width="600"
                     height="400"
@@ -66,12 +104,12 @@ const Tester = () => {
                       boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
                       border: "2px solid black",
                     }}
-                  />
+                  /> */}
 
-                  <img
+                  {/* <img
                     id="imageAlt4"
                     className="mb-1 w-max rounded-3xl"
-                    src="./build/img/Garagenew600x400.webp"
+                    src={GarageNew}
                     alt="Cowboy Shop"
                     width="600"
                     height="400"
@@ -82,10 +120,10 @@ const Tester = () => {
                       boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
                       border: "2px solid black",
                     }}
-                  />
+                  /> */}
                 </div>
               </a>
-              <a href="#securityEye">
+              {/* <a href="#securityEye">
                 <div
                   id="nightShippers"
                   className="mx-auto  w-full scroll-mt-24 justify-center rounded-b-3xl bg-varDARKDUCKHEAD p-5 pt-0"
@@ -106,9 +144,9 @@ const Tester = () => {
                     }}
                   />
                 </div>
-              </a>
+              </a> */}
 
-              <h2
+              {/* <h2
                 className="p-1 text-center font-serif"
                 style={{
                   textShadow: "2px 2px 3px #1c0303",
@@ -121,7 +159,7 @@ const Tester = () => {
                 choice.
               </h2>
               <a href="https://mybabb.github.io/SEO-BEST_PRACTICES/">
-                <p className="font-rye m-0 m-auto flex items-center justify-center text-center text-[22px] text-blue-300  hover:text-[whitesmoke]">
+                <p className="Rye m-0 m-auto flex items-center justify-center text-center text-[22px] text-blue-300  hover:text-[whitesmoke]">
                   SEO Best Practices
                 </p>
               </a>
@@ -138,14 +176,14 @@ const Tester = () => {
               <br />
               <div className="text-center">
                 <span className="text-center text-4xl">🐟 🍞 🍷 🕊️</span>
-              </div>
+              </div> */}
             </blockquote>
           </article>
         </div>
       </div>
 
-    </div>
-  );
+        </div>
+    );
 };
 
-export default Tester;
+export default SectionDD;

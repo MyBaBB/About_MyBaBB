@@ -6,6 +6,7 @@ import Gorilla from "../../Gorilla.jsx";
 import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
+import SectionD from "./SectionDFolder/Section.jsx";
  
 const Container = () => {
   return (
@@ -18,13 +19,13 @@ const Container = () => {
       <SectionA />
       <SectionB />
       <SectionC />
-      
+      <SectionD />
 
       {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
 
        
 
-      <div id="improveSEO" className="p-4 sm:p-4">
+      {/* <div id="improveSEO" className="p-4 sm:p-4">
         <div style={{ boxShadow: "2px 2px 55px #000" }} className="rounded-3xl">
           <article
             className="widescreen:section-min-height tallscreen:section-min-height my-12 p-6"
@@ -162,7 +163,7 @@ const Container = () => {
             </blockquote>
           </article>
         </div>
-      </div>
+      </div> */}
 
       <div>
         <div className="text-center">
