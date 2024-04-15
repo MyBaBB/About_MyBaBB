@@ -7,6 +7,7 @@ import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
 import SectionD from "./SectionDFolder/SectionD.jsx";
+import ContactUs from "./ContactUsFolder/ContactUs.jsx";
 
 
 const Container = () => {
@@ -21,7 +22,7 @@ const Container = () => {
       <SectionB />
       <SectionC />
       <SectionD />
-      
+      <ContactUs />
       <Gorilla />
 
       
