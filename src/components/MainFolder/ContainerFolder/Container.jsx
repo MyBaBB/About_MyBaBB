@@ -31,23 +31,7 @@ const Container = () => {
             className="widescreen:section-min-height tallscreen:section-min-height my-12 p-6"
             style={{ scrollMarginTop: "95px" }}
           >
-            <h2
-              style={{
-                position: "absolute",
-
-                margin: "auto",
-                left: "50%",
-                top: "20px",
-                transform: "translate(-50%, -50%)",
-                color: "transparent",
-                marginBottom: "4rem",
-                zIndex: "51",
-              }}
-            >
-              <span className="font-rye whitespace-nowrap text-[.74rem]">
-                <u>Business Expansion</u>
-              </span>
-            </h2>
+           
             <blockquote
               id="blockquote1"
               className="relative -mx-4 rounded-3xl bg-varMEDDUCKHEAD py-12"

@@ -18,9 +18,7 @@ const SectionA = () => {
           style={{ padding: "0rem 1.5rem 1.5rem 1.5rem" }}
         >
           {/*  XXXXXXXXX Hero section🦸🏼xxxxxxxxxx */}
-          <h2 className="hiddenSeoH2 absolute left-[200rem]">
-            MyBabb Custom Websites
-          </h2>
+          
           <div className="flex flex-col text-center">
             <section
               id="hero"

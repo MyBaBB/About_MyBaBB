@@ -65,7 +65,7 @@ const Navbar = () => {
       <h1 className="hiddenH1 absolute sm:hidden">
         <span
           className="Rye  w-fit  whitespace-nowrap text-[12px] text-varLIGHTBEAKTOP
-                           xs:text-3xl"
+                           xs:text-xl"
         >
           MyBabb Web Development
         </span>
@@ -105,32 +105,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className={menu_class}>
-        <div
-          className="hidden-square mt-[.8rem]  w-full  origin-top animate-open-menu 
-                    flex-col items-center justify-center bg-black text-center"
-          style={{
-            boxShadow: "inset 0px 0px 10px rgba(0, 0, 0, 1)",
-          }}
-        >
-          <div className="Sansita mt-[5.9rem] flex h-screen items-center ">
+        
+       
+           
             <section id="mobile-menu" className=" absolute  w-full text-4xl">
-              <h2
-                className="sm:hidden"
-                style={{
-                  position: "fixed",
-                  margin: "0",
-                  left: "50%",
-                  top: "20px",
-                  transform: "translate(-50%, -50%)",
-                  color: "#89d981",
-                  marginBottom: "4rem",
-                }}
-              >
-                <span className="Rye whitespace-nowrap text-[1.74rem]">
-                  <u>Customized Websites</u>
-                </span>
-              </h2>
-              <div className=" relative left-0 top-0 z-[] ml-[-6rem] mt-[-13rem] w-screen border-2 border-red-600 bg-black">
+              
+              <div className=" relative Aclonica text-center pt-12 left-[-5.5rem] top-0 z-[1] 
+              w-screen border-2 border-red-600 bg-black">
                 <nav
                   className="justify-top flex min-h-screen flex-col items-center"
                   aria-label="mobile"
@@ -208,8 +189,8 @@ const Navbar = () => {
                 </nav>
               </div>
             </section>
-          </div>
-        </div>
+        
+       
       </div>
       <NavbarLinks />
     </div>

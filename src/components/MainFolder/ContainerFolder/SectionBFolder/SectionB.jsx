@@ -70,12 +70,14 @@ const SectionB = () => {
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
                       <span className="Aclonica">
-                        Here&apos;s what you can expect when you work with us :
+                        Here&apos;s what you can expect when <span className="whitespace-nowrap"
+                        >you work with us :</span>
                       </span>
                       <br />
                       <br />
                       <div>
-                        <span className="relative  whitespace-nowrap text-amber-100">
+                        <span className="relative text-lg xs:text-2xl  
+                         whitespace-nowrap text-amber-100">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Link-Address Optimization &nbsp;
@@ -87,7 +89,7 @@ const SectionB = () => {
                         </p>
                         <br />
 
-                        <span className="relative  whitespace-nowrap text-amber-100">
+                        <span className="relative text-lg xs:text-2xl   whitespace-nowrap text-amber-100">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Custom Website Design &nbsp;
@@ -95,10 +97,10 @@ const SectionB = () => {
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; Our team creates a custom website that
-                          aligns with your brand identity and core values.
+                          aligns with your brand identity <span className="whitespace-nowrap">and core values.</span>
                         </p>
-
-                        <span className="relative whitespace-nowrap text-amber-100">
+                        <br />
+                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Domain and Email Integration &nbsp;
@@ -106,11 +108,11 @@ const SectionB = () => {
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
-                          targeted traffic to your website.
+                          targeted traffic to <span className="whitespace-nowrap">your website.</span>
                         </p>
                         <br />
 
-                        <span className="relative  whitespace-nowrap text-amber-100">
+                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Enhanced Online Presence &nbsp;
@@ -121,7 +123,7 @@ const SectionB = () => {
                           that attracts customers and drives sales.
                         </p>
 
-                        <span className="relative  whitespace-nowrap text-amber-100">
+                        <span className="relative text-lg xs:text-2xl whitespace-nowrap text-amber-100">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-amber-100" />
                           &nbsp;Payment Integration &nbsp;
@@ -179,7 +181,8 @@ const SectionB = () => {
             </div>
 
             <div
-              className="pr-4 text-right text-xl font-bold italic text-slate-500 sm:text-2xl dark:text-slate-400"
+              className="text-right mr-8 text-[.75rem] font-bold italic text-slate-500 
+               dark:text-slate-400"
               style={{ fontSize: "24px", textShadow: "1px 1px black" }}
             >
               &#8212;Owner/
