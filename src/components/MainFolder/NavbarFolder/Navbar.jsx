@@ -70,10 +70,10 @@ const Navbar = () => {
           MyBabb Web Development
         </span>
       </h1>
-      <div className="absolute right-[5rem] top-4 z-50">
+      <div className="absolute right-[5rem] top-4 z-50 hidden sm:block">
         <a
           href="#toScubaMask"
-          className="absolute   text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
+          className="absolute  text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
                 "
           onClick={hideMobileMenu}
         >
