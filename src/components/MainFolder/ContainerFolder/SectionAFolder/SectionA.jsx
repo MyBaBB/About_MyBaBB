@@ -18,7 +18,7 @@ const SectionA = () => {
           style={{ padding: "0rem 1.5rem 1.5rem 1.5rem" }}
         >
           {/*  XXXXXXXXX Hero section🦸🏼xxxxxxxxxx */}
-          
+
           <div className="flex flex-col text-center">
             <section
               id="hero"

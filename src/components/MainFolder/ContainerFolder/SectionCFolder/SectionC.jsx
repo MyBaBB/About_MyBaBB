@@ -79,7 +79,7 @@ const SectionC = () => {
                   after:text-varLIGHTBLUEFEATHER after:opacity-25 
                   after:content-['\201D'] sm:text-3xl dark:text-slate-400"
                   style={{ textShadow: "1px 1px black" }}
-                 ></p>
+                ></p>
                 <br />
                 <br />
                 <div className="p-8">

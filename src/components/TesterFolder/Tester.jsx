@@ -4,7 +4,7 @@ import React from "react";
 const Tester = () => {
   return (
     <div>
-    <div id="improveSEO" className="p-4 sm:p-4">
+      <div id="improveSEO" className="p-4 sm:p-4">
         <div style={{ boxShadow: "2px 2px 55px #000" }} className="rounded-3xl">
           <article
             className="widescreen:section-min-height tallscreen:section-min-height my-12 p-6"
@@ -143,7 +143,6 @@ const Tester = () => {
           </article>
         </div>
       </div>
-
     </div>
   );
 };

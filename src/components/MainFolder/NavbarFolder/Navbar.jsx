@@ -105,92 +105,88 @@ const Navbar = () => {
         </a>
       </div>
       <div className={menu_class}>
-        
-       
-           
-            <section id="mobile-menu" className=" absolute  w-full text-4xl">
-              
-              <div className=" relative Aclonica text-center pt-12 left-[-5.5rem] top-0 z-[1] 
-              w-screen border-2 border-red-600 bg-black">
-                <nav
-                  className="justify-top flex min-h-screen flex-col items-center"
-                  aria-label="mobile"
+        <section id="mobile-menu" className=" absolute  w-full text-4xl">
+          <div
+            className=" Aclonica relative left-[-5.5rem] top-0 z-[1] w-screen border-2 
+              border-red-600 bg-black pt-12 text-center"
+          >
+            <nav
+              className="justify-top flex min-h-screen flex-col items-center"
+              aria-label="mobile"
+            >
+              <p id="mobile-menu">
+                <br />
+                <a
+                  href="#"
+                  className="w-full py-2 text-center"
+                  onClick={hideMobileMenu}
                 >
-                  <p id="mobile-menu">
-                    <br />
-                    <a
-                      href="#"
-                      className="w-full py-2 text-center"
-                      onClick={hideMobileMenu}
-                    >
-                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        <em>MyBaBB.com</em>
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                    <a
-                      href="#phoneInHands"
-                      className="w-full py-2 text-center "
-                      onClick={hideMobileMenu}
-                    >
-                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        Home
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                    <a
-                      href="#aboutUs"
-                      className="w-full py-6 text-center "
-                      onClick={hideMobileMenu}
-                    >
-                      <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        About Us
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                    <a
-                      href="#piglets"
-                      className="w-full whitespace-nowrap py-6 text-center"
-                      onClick={hideMobileMenu}
-                    >
-                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        Your Brand
-                      </span>
-                    </a>
+                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    <em>MyBaBB.com</em>
+                  </span>
+                </a>
+                <br />
+                <br />
+                <a
+                  href="#phoneInHands"
+                  className="w-full py-2 text-center "
+                  onClick={hideMobileMenu}
+                >
+                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    Home
+                  </span>
+                </a>
+                <br />
+                <br />
+                <a
+                  href="#improveSEO"
+                  className="w-full py-6 text-center "
+                  onClick={hideMobileMenu}
+                >
+                  <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    About Us
+                  </span>
+                </a>
+                <br />
+                <br />
+                <a
+                  href="#piglets"
+                  className="w-full whitespace-nowrap py-6 text-center"
+                  onClick={hideMobileMenu}
+                >
+                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    Your Brand
+                  </span>
+                </a>
 
-                    <br />
-                    <br />
-                    <a
-                      href="#improveSEO"
-                      className="w-full py-6 text-center"
-                      onClick={hideMobileMenu}
-                    >
-                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        SEO Booster
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                    <a
-                      href="#"
-                      className="w-full py-6 text-center"
-                      onClick={hideMobileMenu}
-                    >
-                      <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                        <em>MyBaBB.com</em>
-                      </span>
-                    </a>
-                    <br />
-                    <br />
-                  </p>
-                </nav>
-              </div>
-            </section>
-        
-       
+                <br />
+                <br />
+                <a
+                  href="#improveSEO"
+                  className="w-full py-6 text-center"
+                  onClick={hideMobileMenu}
+                >
+                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    SEO Booster
+                  </span>
+                </a>
+                <br />
+                <br />
+                <a
+                  href="#"
+                  className="w-full py-6 text-center"
+                  onClick={hideMobileMenu}
+                >
+                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                    <em>MyBaBB.com</em>
+                  </span>
+                </a>
+                <br />
+                <br />
+              </p>
+            </nav>
+          </div>
+        </section>
       </div>
       <NavbarLinks />
     </div>

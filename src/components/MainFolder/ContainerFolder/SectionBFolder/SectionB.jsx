@@ -40,10 +40,11 @@ const SectionB = () => {
                       </span>
                       &nbsp; We can facilitate
                     </span>{" "}
-                    business growth by establishing and enhancing <span className="whitespace-nowrap"
-                    >your online{" "}
-                    <span className="whitespace-nowrap ">
-                      presence.</span> &nbsp;
+                    business growth by establishing and enhancing{" "}
+                    <span className="whitespace-nowrap">
+                      your online{" "}
+                      <span className="whitespace-nowrap ">presence.</span>{" "}
+                      &nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
@@ -71,14 +72,18 @@ const SectionB = () => {
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
                       <span className="Aclonica text-amber-200">
-                        Here&apos;s what you can expect when <span className="whitespace-nowrap"
-                        >you work with us :</span>
+                        Here&apos;s what you can expect when{" "}
+                        <span className="whitespace-nowrap">
+                          you work with us :
+                        </span>
                       </span>
                       <br />
                       <br />
                       <div>
-                        <span className="relative Archivo_Black text-lg xs:text-2xl  
-                         whitespace-nowrap text-green-500">
+                        <span
+                          className="Archivo_Black relative whitespace-nowrap text-lg  
+                         text-green-500 xs:text-2xl"
+                        >
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Link-Address Optimization &nbsp;
@@ -90,7 +95,7 @@ const SectionB = () => {
                         </p>
                         <br />
 
-                        <span className="relative Archivo_Black text-lg xs:text-2xl   whitespace-nowrap text-green-500">
+                        <span className="Archivo_Black relative whitespace-nowrap text-lg   text-green-500 xs:text-2xl">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Custom Website Design &nbsp;
@@ -98,10 +103,13 @@ const SectionB = () => {
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; Our team creates a custom website that
-                          aligns with your brand identity <span className="whitespace-nowrap">and core values.</span>
+                          aligns with your brand identity{" "}
+                          <span className="whitespace-nowrap">
+                            and core values.
+                          </span>
                         </p>
                         <br />
-                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
+                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Domain and Email Integration &nbsp;
@@ -109,11 +117,14 @@ const SectionB = () => {
                         </span>
                         <p className="Libre_Baskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
-                          targeted traffic to <span className="whitespace-nowrap">your website.</span>
+                          targeted traffic to{" "}
+                          <span className="whitespace-nowrap">
+                            your website.
+                          </span>
                         </p>
                         <br />
 
-                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
+                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Enhanced Online Presence &nbsp;
@@ -124,8 +135,8 @@ const SectionB = () => {
                           &nbsp;&nbsp; Our services result in an online presence
                           that attracts customers and drives sales.
                         </p>
-<br />
-                        <span className="relative Archivo_Black text-lg xs:text-2xl whitespace-nowrap text-green-500">
+                        <br />
+                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                           &nbsp;Payment Integration &nbsp;
@@ -183,7 +194,7 @@ const SectionB = () => {
             </div>
 
             <div
-              className="text-right mr-8 text-[.75rem] font-bold italic text-slate-500 
+              className="mr-8 text-right text-[.75rem] font-bold italic text-slate-500 
                dark:text-slate-400"
               style={{ fontSize: "24px", textShadow: "1px 1px black" }}
             >
