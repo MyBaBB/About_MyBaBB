@@ -6,7 +6,7 @@ import Gorilla from "../../Gorilla.jsx";
 import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
-import SectionD from "./SectionDFolder/Section.jsx";
+import SectionD from "./SectionDFolder/SectionD.jsx";
  
 const Container = () => {
   return (

@@ -7,8 +7,8 @@ import React from 'react'
 
  
 
-// import GarageOld from './Garageold600x400.webp';
-// import GarageNew from './Garagenew600x400.webp';
+import GarageOld from './Garageold600x400.webp';
+import GarageNew from './Garagenew600x400.webp';
 
 
 // const imageAlt3 = document.getElementById('imageAlt3');
@@ -39,7 +39,7 @@ import React from 'react'
 
 
 
-const SectionDD = () => {
+const SectionD = () => {
     return (
         <div>
             <div id="improveSEO" className="p-4 sm:p-4">
@@ -90,7 +90,7 @@ const SectionDD = () => {
                     borderBottomRightRadius: "0",
                   }}
                 >
-                  {/* <img
+                  <img
                     id="imageAlt3"
                     className="mb-1 w-max rounded-3xl"
                     src={GarageOld}
@@ -104,9 +104,9 @@ const SectionDD = () => {
                       boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
                       border: "2px solid black",
                     }}
-                  /> */}
+                  />  
 
-                  {/* <img
+                    <img
                     id="imageAlt4"
                     className="mb-1 w-max rounded-3xl"
                     src={GarageNew}
@@ -120,7 +120,7 @@ const SectionDD = () => {
                       boxShadow: "0 0 50px rgba(0, 0, 0, 0.5)",
                       border: "2px solid black",
                     }}
-                  /> */}
+                  />  
                 </div>
               </a>
               {/* <a href="#securityEye">
@@ -186,4 +186,4 @@ const SectionDD = () => {
     );
 };
 
-export default SectionDD;
+export default SectionD;
