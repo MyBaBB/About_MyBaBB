@@ -7,9 +7,10 @@ import SectionA from "./SectionAFolder/SectionA.jsx";
 import SectionB from "./SectionBFolder/SectionB.jsx";
 import SectionC from "./SectionCFolder/SectionC.jsx";
 import SectionD from "./SectionDFolder/SectionD.jsx";
-import ContactUsDataTip from "./ContactUsFolder/ContactUsDataTip.jsx";
+
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import Gorilla from "../../Gorilla.jsx";
+ 
+import SecurityEye from "./SecurityEyeFolder/SecurityEye.jsx";
 
 const Container = () => {
   return (
@@ -23,8 +24,9 @@ const Container = () => {
       <SectionB />
       <SectionC />
       <SectionD />
-      <Gorilla />
-      <ContactUsDataTip />
+    
+      <SecurityEye />
+       
       <AquariumDataTip />
     </div>
   );

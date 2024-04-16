@@ -1,0 +1,99 @@
+.hoverdiv:hover .redOnLight {
+  width: 8px;
+  height: 8px;
+  animation: expand 0.5s forwards;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(55px, -62.1px);
+  border-radius: 50%;
+  background-color: #e90f0f;
+  z-index: 15;
+  box-shadow: 0 0 10px rgba(87, 22, 22, 1);
+}
+.hoverdiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eyeballdiv3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+  width: 192px;
+  height: 192px;
+  border: 28px solid;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.eyeballdiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 13;
+  width: 192px;
+  height: 192px;
+  border: 20px solid;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.eyeballdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  width: 192px;
+  height: 192px;
+  border: 10px solid;
+  border-radius: 100%;
+  position: absolute;
+}
+
+@media (hover: none) {
+  .hoverdiv:hover .expandingIris {
+    width: 30px;
+    height: 30px;
+    animation: expand 0.5s forwards;
+    border: 2px solid;
+    border-color: #419aff;
+  }
+}
+
+.expandingIris {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  z-index: 3;
+  transform: translate(-1px, 2px);
+  transition: all 0.5s ease-in-out;
+}
+
+.irisHighlight {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  background: rgba(236, 244, 235, 0.25);
+  border-radius: 50%;
+  z-index: 4;
+  transform: translate(9px, -6px);
+}
+
+.hoverdiv:hover .expandingIris {
+  width: 30px;
+  height: 30px;
+  animation: expand 0.5s forwards;
+  border: 2px solid;
+  border-color: #419aff;
+  z-index: 2;
+}
