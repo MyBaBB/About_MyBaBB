@@ -9,7 +9,7 @@ import SectionC from "./SectionCFolder/SectionC.jsx";
 import SectionD from "./SectionDFolder/SectionD.jsx";
 
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
- 
+
 import SecurityEye from "./SecurityEyeFolder/SecurityEye.jsx";
 
 const Container = () => {
@@ -24,9 +24,9 @@ const Container = () => {
       <SectionB />
       <SectionC />
       <SectionD />
-    
+
       <SecurityEye />
-       
+
       <AquariumDataTip />
     </div>
   );

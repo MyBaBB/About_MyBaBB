@@ -28,8 +28,8 @@ const SecurityEye = () => {
                 id="securityEye"
                 className="eyeballdiv scroll-mt-[8rem] border-[#153150] "
               ></div>
-              <div className="eyeballdiv2 border-[#153145]"></div>
-              <div className="eyeballdiv3 border-[#143040]"></div>
+              <div className="eyeballdiv2 border-[#153150]"></div>
+              <div className="eyeballdiv3 border-[#18384a]"></div>
               <img
                 src={AwesomeEye}
                 alt="Web Developer Eye"
