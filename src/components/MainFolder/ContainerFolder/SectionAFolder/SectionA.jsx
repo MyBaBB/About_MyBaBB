@@ -26,13 +26,14 @@ const SectionA = () => {
             p-1 dark:bg-black"
             >
               <h2 className="h2PersonalizedWebsites mt-[-12rem]">
-                <span className="Nosifer whitespace-nowrap  font-serif text-[.75rem] text-blue-300 sm:text-[1.74rem]">
+                <span className="font-Nosifer 
+                  whitespace-nowrap  font-serif text-[.75rem] text-blue-300 sm:text-[1.74rem]">
                   Personalized Websites <br />
                 </span>
               </h2>
               <p className="customBounce text-center sm:pt-0 landscape:text-center">
                 <span id="custom" className="custom text-varDARKBEAK">
-                  <span className="rotate PermanentMarker whitespace-nowrap">
+                  <span className="rotate font-PermanentMarker whitespace-nowrap">
                     <span className="text-[4rem] text-red-800">Cu</span>
                     <span className="text-gray-300">
                       <span className="text-[3.5rem]">s</span>t
@@ -59,7 +60,7 @@ const SectionA = () => {
             </section>
             <h2
               id="home"
-              className="h2MobileResponsive Sixtyfour  mb-[-1rem]  mt-8 
+              className="h2MobileResponsive font-Sixtyfour  mb-[-1rem]  mt-8 
            whitespace-nowrap rounded-xl text-[13px] text-amber-300"
             >
               Mobile Responsive

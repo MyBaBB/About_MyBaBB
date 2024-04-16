@@ -56,7 +56,7 @@ const Footer = () => {
                             className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                  p-2 hover:bg-black xxs:bg-gray-700"
                           >
-                            <span className="NavbarTitle3 Aclonica text-[ rem] ">
+                            <span className="NavbarTitle3 font-Aclonica text-[ rem] ">
                               Basic Page
                             </span>
                           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
                             className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                             p-2 hover:bg-black xxs:bg-gray-700"
                           >
-                            <span className="NavbarTitle3 Aclonica text-[ rem] ">
+                            <span className="NavbarTitle3 font-Aclonica text-[ rem] ">
                               SEO Page
                             </span>
                           </div>
@@ -118,7 +118,7 @@ const Footer = () => {
                             className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
                                         p-2 hover:bg-black xxs:bg-gray-700"
                           >
-                            <span className="NavbarTitle3 Aclonica text-[rem] ">
+                            <span className="NavbarTitle3 font-Aclonica text-[rem] ">
                               Special Event
                             </span>
                           </div>

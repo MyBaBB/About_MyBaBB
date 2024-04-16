@@ -14,9 +14,9 @@ const Gorilla = () => {
         <GiGorilla size={80} className="text-gray-800" />
       </div>
 
-      <p className="black_ops_one text-4xl text-lime-500">Under Construction</p>
+      <p className="font-BlackOpsOne text-3xl whitespace-nowrap text-lime-500">Under Construction</p>
     </div>
-  );
+  )
 };
 
 export default Gorilla;

@@ -64,7 +64,7 @@ const Navbar = () => {
       </nav>
       <h1 className="hiddenH1 absolute sm:hidden">
         <span
-          className="Rye  w-fit  whitespace-nowrap text-[12px] text-varLIGHTBEAKTOP
+          className="font-Rye  w-fit  whitespace-nowrap text-[12px] text-varLIGHTBEAKTOP
                            xs:text-xl"
         >
           MyBabb Web Development
@@ -107,7 +107,7 @@ const Navbar = () => {
       <div className={menu_class}>
         <section id="mobile-menu" className=" absolute  w-full text-4xl">
           <div
-            className=" Aclonica relative left-[-5.5rem] top-0 z-[1] w-screen border-2 
+            className=" font-Aclonica relative left-[-5.5rem] top-0 z-[1] w-screen border-2 
               border-red-600 bg-black pt-12 text-center"
           >
             <nav

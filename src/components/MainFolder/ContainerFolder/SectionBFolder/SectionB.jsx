@@ -29,7 +29,7 @@ const SectionB = () => {
                 >
                   <h3
                     id="weHelp"
-                    className="Aclonica text-center text-2xl text-amber-200 sm:p-1 "
+                    className="font-Aclonica text-center text-2xl text-amber-200 sm:p-1 "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
@@ -67,11 +67,11 @@ const SectionB = () => {
 
                   <div>
                     <br />
-                    <p
+                    <div
                       className="p-8 text-center text-2xl text-white"
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
-                      <span className="Aclonica text-amber-200">
+                      <span className="font-Aclonica text-amber-200">
                         Here&apos;s what you can expect when{" "}
                         <span className="whitespace-nowrap">
                           you work with us :
@@ -80,28 +80,31 @@ const SectionB = () => {
                       <br />
                       <br />
                       <div>
-                        <span
-                          className="Archivo_Black relative whitespace-nowrap text-lg  
-                         text-green-500 xs:text-2xl"
-                        >
+                       
+                          
+                      
                           &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                          &nbsp;Link-Address Optimization &nbsp;
+                          &nbsp;<span className="font-ArchivoBlack relative whitespace-nowrap 
+                          text-base sm:text-xl md:text-2xl   
+                         text-green-500 ">Link-Address Optimization</span>&nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        </span>
-                        <p className="Libre_Baskerville mb-[4px] ">
+                       
+                        <p className="font-LibreBaskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
                           targeted traffic to your website.
                         </p>
                         <br />
 
-                        <span className="Archivo_Black relative whitespace-nowrap text-lg   text-green-500 xs:text-2xl">
-                          &nbsp;
+                       
+                        &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                          &nbsp;Custom Website Design &nbsp;
+                          &nbsp;<span className="font-ArchivoBlack relative whitespace-nowrap 
+                          text-base sm:text-xl md:text-2xl   
+                         text-green-500 ">Custom Website Design</span> &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        </span>
-                        <p className="Libre_Baskerville mb-[4px] ">
+                         
+                        <p className="font-LibreBaskerville mb-[4px] ">
                           &nbsp;&nbsp; Our team creates a custom website that
                           aligns with your brand identity{" "}
                           <span className="whitespace-nowrap">
@@ -109,13 +112,14 @@ const SectionB = () => {
                           </span>
                         </p>
                         <br />
-                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
-                          &nbsp;
+                        &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                          &nbsp;Domain and Email Integration &nbsp;
+                          &nbsp;<span className="font-ArchivoBlack relative whitespace-nowrap 
+                          text-base sm:text-xl md:text-2xl   
+                         text-green-500 ">Domain and Email Integration</span> &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        </span>
-                        <p className="Libre_Baskerville mb-[4px] ">
+
+                        <p className="font-LibreBaskerville mb-[4px] ">
                           &nbsp;&nbsp; We provide a link address that drives
                           targeted traffic to{" "}
                           <span className="whitespace-nowrap">
@@ -124,25 +128,26 @@ const SectionB = () => {
                         </p>
                         <br />
 
-                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
-                          &nbsp;
+                        &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                          &nbsp;Enhanced Online Presence &nbsp;
+                          &nbsp;<span className="font-ArchivoBlack relative whitespace-nowrap 
+                          text-base sm:text-xl md:text-2xl   
+                         text-green-500 ">Enhanced Online Presence</span> &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        </span>
+
                         <br />
-                        <p className="Libre_Baskerville mb-[4px] ">
+                        <p className="font-LibreBaskerville mb-[4px] ">
                           &nbsp;&nbsp; Our services result in an online presence
                           that attracts customers and drives sales.
                         </p>
                         <br />
-                        <span className="Archivo_Black relative whitespace-nowrap text-lg text-green-500 xs:text-2xl">
-                          &nbsp;
+                        &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                          &nbsp;Payment Integration &nbsp;
+                          &nbsp;<span className="font-ArchivoBlack relative whitespace-nowrap 
+                          text-base sm:text-xl md:text-2xl   
+                         text-green-500 ">Payment Integration</span> &nbsp;
                           <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        </span>
-                        <p className="Libre_Baskerville mb-[4px] ">
+                        <p className="font-LibreBaskerville mb-[4px] ">
                           &nbsp;&nbsp; Additionally, we ensure a seamless
                           payment process for your business.
                         </p>
@@ -175,7 +180,7 @@ const SectionB = () => {
                       <div className="relative my-4 text-center text-2xl">
                         <a
                           href="Https://mybabb.com"
-                          className="Orbitron text-varLIGHTBLUEFEATHER
+                          className="font-Orbitron text-varLIGHTBLUEFEATHER
                              hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
                         >
                           <h3
@@ -187,7 +192,7 @@ const SectionB = () => {
                           </h3>
                         </a>
                       </div>
-                    </p>
+                    </div>
                   </div>
                 </blockquote>
               </section>

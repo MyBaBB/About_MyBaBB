@@ -7,9 +7,9 @@ const NavbarLinks = () => {
         className="  relative z-[10] mt-[-2.85rem]  hidden w-screen justify-center 
               border-2 border-transparent sm:mt-[-.45rem] sm:block sm:justify-center"
       >
-        <section className="mybabb Rye z-[0]    m-auto w-fit border-2 border-transparent">
+        <section className="mybabb font-Rye z-[0]    m-auto w-fit border-2 border-transparent">
           <h1 className="hidden">
-            <span className="font-rye whitespace-nowrap text-[.74rem]">
+            <span className="font-Rye whitespace-nowrap text-[.74rem]">
               MyBabb Web Development
             </span>
           </h1>
@@ -35,7 +35,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-transparent
                                  p-2 "
                     >
-                      <span className="NavbarTitle1 Rye whitespace-nowrap ">
+                      <span className="NavbarTitle1 font-Rye whitespace-nowrap ">
                         About Us
                       </span>
                     </div>
@@ -61,7 +61,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px] border-transparent p-2
                                  "
                     >
-                      <span className="NavbarTitle2 Rye whitespace-nowrap">
+                      <span className="NavbarTitle2 font-Rye whitespace-nowrap">
                         Improve SEO
                       </span>
                     </div>
@@ -86,7 +86,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px] border-transparent p-2
                                 "
                     >
-                      <span className="NavbarTitle2 Rye">Your Brand</span>
+                      <span className="NavbarTitle2 font-Rye">Your Brand</span>
                     </div>
                   </div>
                 </div>

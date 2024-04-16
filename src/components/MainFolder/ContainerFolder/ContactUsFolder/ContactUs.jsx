@@ -20,7 +20,7 @@ const ContactUs = () => {
 
       <div className="m-auto mt-14 flex content-center justify-center">
         <div
-          className="Orbitron m-auto content-center rounded-full border
+          className="font-Orbitron m-auto content-center rounded-full border
            border-solid border-slate-900 bg-varMEDBLUEFEATHER p-10 p-3 text-2xl text-black
             active:bg-varLIGHTBLUEFEATHER sm:text-3xl dark:border-none"
           style={{

@@ -23,7 +23,7 @@ const Tester = () => {
                 zIndex: "51",
               }}
             >
-              <span className="font-rye whitespace-nowrap text-[.74rem]">
+              <span className="font-Rye whitespace-nowrap text-[.74rem]">
                 <u>Business Expansion</u>
               </span>
             </h2>
@@ -33,7 +33,7 @@ const Tester = () => {
             >
               <div className="content-center">
                 <p
-                  className="font-rye p-4 text-center text-2xl"
+                  className="font-Rye p-4 text-center text-2xl"
                   style={{
                     fontSize: "40px",
                     textShadow: "2px 2px 3px #1c0303",
@@ -121,7 +121,7 @@ const Tester = () => {
                 choice.
               </h2>
               <a href="https://mybabb.github.io/SEO-BEST_PRACTICES/">
-                <p className="font-rye m-0 m-auto flex items-center justify-center text-center text-[22px] text-blue-300  hover:text-[whitesmoke]">
+                <p className="font-Rye m-0 m-auto flex items-center justify-center text-center text-[22px] text-blue-300  hover:text-[whitesmoke]">
                   SEO Best Practices
                 </p>
               </a>
