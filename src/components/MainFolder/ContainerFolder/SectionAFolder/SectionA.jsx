@@ -46,7 +46,7 @@ const SectionA = () => {
                 <br />
                 <span
                   id="websites"
-                  className="website EmilysCandy whitespace-nowrap text-[4rem] text-varDARKBEAK"
+                  className="website font-EmilysCandy whitespace-nowrap text-[4rem] text-varDARKBEAK"
                 >
                   🕸️ WEB 🕸️
                 </span>
