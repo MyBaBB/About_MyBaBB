@@ -17,7 +17,7 @@ const Gorilla = () => {
       <p className="whitespace-nowrap font-BlackOpsOne text-3xl text-lime-500">
         Under Construction
       </p>
-    </div>
+    </div> 
   );
 };
 
