@@ -10,6 +10,9 @@ const Gorilla = () => {
              flex-row items-center justify-center rounded-3xl
       border-2 border-lime-500  bg-varLIGHTSPACE p-[2rem] text-center shadow-2xl"
     >
+      <p className="whitespace-nowrap font-BlackOpsOne text-3xl text-lime-500">
+       This Region
+      </p>
       <div className="relative flex h-[30%] w-full items-center justify-center">
         <GiGorilla size={80} className="text-gray-800" />
       </div>
