@@ -4,7 +4,7 @@ import "./Footer.css";
 
 import { MdOutlineScubaDiving } from "react-icons/md";
 import Copyright from "./Copyright";
-import MyBabbLogo from './MyBabbLogo';
+import MyBabbLogo from "./MyBabbLogo";
 
 const Footer = () => {
   return (
@@ -26,7 +26,6 @@ const Footer = () => {
                        text-center text-red-300 "
         >
           <nav className="footerXXWrapper ">
-
             <MyBabbLogo />
 
             {/* XXX open this for the ul list for the footer */}

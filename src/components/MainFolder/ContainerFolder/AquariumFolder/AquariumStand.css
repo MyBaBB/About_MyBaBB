@@ -66,7 +66,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-  top: .6rem;
+  top: 0.6rem;
 
   border-radius: 10px;
   padding-top: 3px;
@@ -90,7 +90,7 @@
   bottom: 2rem;
   border: 15px solid transparent;
   /* border-bottom: lightblue 10px solid; */
-border-bottom: transparent 10px solid;
+  border-bottom: transparent 10px solid;
   --scale: 0;
   z-index: 2;
 }

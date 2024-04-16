@@ -1,21 +1,13 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import AlienLightsOff from './submit.png'
-import AlienLightsOn from './submitalt.png'
+import React from "react";
+import AlienLightsOff from "./submit.png";
+import AlienLightsOn from "./submitalt.png";
 
-
-
-
-
-
-
-
-
-                   // xxxxxxxxxx needs java Script xxxxxxxx
+// xxxxxxxxxx needs java Script xxxxxxxx
 const AlienShip = () => {
   return (
     <div>
-       <div
+      <div
         className="w-50 h-50 rounded-full border-2 border-red-500 text-center"
         style={{ margin: "auto", display: "flex", justifyContent: "center" }}
       >
@@ -35,7 +27,7 @@ const AlienShip = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AlienShip
+export default AlienShip;

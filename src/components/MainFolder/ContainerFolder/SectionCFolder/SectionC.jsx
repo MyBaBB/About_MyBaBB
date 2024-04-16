@@ -22,7 +22,7 @@ const SectionC = () => {
               >
                 <br />
 
-                <h2 className="font-Aclonica relative bottom-8 flex justify-center text-center text-xl text-amber-200">
+                <h2 className="relative bottom-8 flex justify-center text-center font-Aclonica text-xl text-amber-200">
                   <u>Professional Branding Service</u>
                 </h2>
 

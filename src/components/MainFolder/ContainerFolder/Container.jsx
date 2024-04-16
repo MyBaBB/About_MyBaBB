@@ -26,17 +26,6 @@ const Container = () => {
       <Gorilla />
       <ContactUs />
       <AquariumDataTip />
-    
-
-      
-        
-        
-        
-              
-
-      
-
-      
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Gorilla = () => {
     /* --------- Under Construction Gorilla -----------  */
 
     <div
-      className="Test z-1 mt-14  relative m-[20px] h-fit min-w-[300px] max-w-[80vw]
+      className="Test z-1 relative  m-[20px] mt-14 h-fit min-w-[300px] max-w-[80vw]
              flex-row items-center justify-center rounded-3xl
       border-2 border-lime-500  bg-varLIGHTSPACE p-[2rem] text-center shadow-2xl"
     >
@@ -14,9 +14,11 @@ const Gorilla = () => {
         <GiGorilla size={80} className="text-gray-800" />
       </div>
 
-      <p className="font-BlackOpsOne text-3xl whitespace-nowrap text-lime-500">Under Construction</p>
+      <p className="whitespace-nowrap font-BlackOpsOne text-3xl text-lime-500">
+        Under Construction
+      </p>
     </div>
-  )
+  );
 };
 
 export default Gorilla;
