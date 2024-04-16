@@ -10,7 +10,7 @@ const SectionC = () => {
         className="sectionCTop z-1 m-[20px] mt-[.5rem]  
   min-w-[290px] max-w-[80vw]   scroll-mt-[4rem]  p-[.2px] sm:p-[2rem] "
       >
-        <div className="scroll-mt-[-40rem] p-0 sm:p-4 ">
+        <div id="YourBrand" className="scroll-mt-[5rem] p-0 sm:p-4 ">
           <div
             style={{ boxShadow: "2px 2px 55px #000" }}
             className="rounded-3xl"
@@ -54,7 +54,8 @@ const SectionC = () => {
                   <div
                     id="piglets"
                     style={{ boxShadow: "2px 2px 55px #000" }}
-                    className="relative m-auto flex w-fit content-center justify-center px-2 py-1 text-center"
+                    className="relative  m-auto flex 
+                    w-fit content-center justify-center px-2 py-1 text-center"
                   >
                     <img
                       src={PigFrame}
