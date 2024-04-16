@@ -24,10 +24,10 @@ const AquariumStand = () => {
             }}
           >
             <span
-              className="rightPointer absolute left-[22px] top-[115.5px]
+              className="rightPointer absolute left-[20px] top-[135.5px]
                                 rotate-[45deg] text-varLIGHTBLUEFEATHER"
             >
-              <FaLink size={17} />
+              <FaLink size={12} />
             </span>
             {/* <div className="OctopusWrapper absolute top-[0.325rem] right-[21px] ">
               <img
@@ -44,10 +44,10 @@ const AquariumStand = () => {
               </span>
             </h3>
             <span
-              className="rightPointer  absolute right-[22.5px] top-[115.5px]
+              className="rightPointer  absolute right-[20.5px] top-[135.5px]
                                 rotate-[45deg] text-varLIGHTBLUEFEATHER"
             >
-              <FaLink size={17} />
+              <FaLink size={12} />
             </span>
           </div>
         </div>
