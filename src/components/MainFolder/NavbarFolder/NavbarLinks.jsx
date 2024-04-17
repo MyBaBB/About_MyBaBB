@@ -1,5 +1,6 @@
+import ScubaMask from "../ContainerFolder/ScubaNavFolder/ScubaMask";
 import "./NavbarLinks.css";
-import { TbScubaMask } from "react-icons/tb";
+// import { TbScubaMask } from "react-icons/tb";
 const NavbarLinks = () => {
   return (
     <div>
@@ -93,37 +94,7 @@ const NavbarLinks = () => {
               </div>
             </a>
 
-            <a
-              href="#toScubaMask"
-              className="absolute -left-14 top-0 text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
-               md:-left-28 lg:-left-40 xl:-left-60 "
-            >
-              <div
-                className="dataToolTip3 Libre_Baskerville"
-                data-tool-tip="To The Bottom"
-              >
-                <div
-                  className="inline-block rounded-xl  
-                             border-[1px]  border-varLIGHTBLUEFEATHER"
-                >
-                  <div className="rounded-xl   border-[2px]  border-black">
-                    <div
-                      className="rounded-xl  border-[1px]  border-varLIGHTBLUEFEATHER
-                                 p-2 hover:bg-black xxs:bg-gray-700"
-                    >
-                      <span className="NavbarTitle4">
-                        <div className="  hidden sm:block  ">
-                          <TbScubaMask
-                            size={20}
-                            className="z-50 text-blue-200  "
-                          />
-                        </div>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
+            <ScubaMask />
           </nav>
 
           {/* xxxxxxxxxxxxx new area with data tool tips above xxxxxxxxxxxxx */}

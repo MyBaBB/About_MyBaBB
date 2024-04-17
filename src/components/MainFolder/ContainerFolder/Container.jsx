@@ -9,8 +9,11 @@ import SectionC from "./SectionCFolder/SectionC.jsx";
 import SectionD from "./SectionDFolder/SectionD.jsx";
 
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-
+ 
 import SecurityEye from "./SecurityEyeFolder/SecurityEye.jsx";
+import Sponsor from "./SponsorFolder/Sponsor.jsx";
+ 
+ 
 
 const Container = () => {
   return (
@@ -20,14 +23,16 @@ const Container = () => {
                       p-4  
                       text-center dark:bg-black  dark:text-white "
     >
+           
       <SectionA />
       <SectionB />
+      
       <SectionC />
       <SectionD />
-
       <SecurityEye />
-
       <AquariumDataTip />
+      <Sponsor />
+         
     </div>
   );
 };

@@ -107,40 +107,7 @@ const SecurityEye = () => {
             developing unique designs to offer for sale in the future.
           </p>
         </div>
-        <div
-          className="totalimagediv  m-auto content-center p-10"
-          style={{ display: "inline-block" }}
-        >
-          <span className="text-center text-4xl">👨‍💻</span>
-          <div className="mt-4">
-            <img
-              src={CSSLogo}
-              alt="CSS Logo"
-              width="80"
-              height="25"
-              style={{ display: "block", margin: "auto" }}
-            />
-          </div>
-          <br />
-          <div
-            className="margin-auto"
-            style={{
-              justifyContent: "center",
-              display: "block",
-              height: "20px",
-              width: "auto",
-            }}
-          >
-            <iframe
-              src="https://github.com/sponsors/MyBaBB/button"
-              title="Sponsor MyBaBB"
-              height="32"
-              width="114"
-              style={{ border: "0", borderRadius: "6px" }}
-            ></iframe>
-          </div>
-        </div>
-      </div>
+       </div>
     </div>
   );
 };

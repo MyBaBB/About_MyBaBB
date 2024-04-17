@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa";
 import Octopus from "./OctoPus22x80.png";
 const AquariumStand = () => {
   return (
-    <div className="OctopusHideLandscape  mt-[2.9rem]    flex-row items-center justify-center">
+    <div className="OctopusHideLandscape  mt-[3.2rem]    flex-row items-center justify-center">
       <div className="OctopusWrapper OctopusHideLandscape  relative m-auto flex  justify-center  ">
         <img src={Octopus} alt="Octopus" />
       </div>

@@ -2,7 +2,7 @@
 import React from "react";
 import "./Footer.css";
 
-import { MdOutlineScubaDiving } from "react-icons/md";
+import ScubaManNav from "../ContainerFolder/ScubaNavFolder/ScubaManNav"; 
 import Copyright from "./Copyright";
 import MyBabbLogo from "./MyBabbLogo";
 
@@ -20,6 +20,7 @@ const Footer = () => {
         className="FooterWrapper relative m-auto mb-0 
                    flex h-fit w-screen   pt-2"
       >
+         <ScubaManNav />    
         <div
           className="footerRightWrapper relative  m-auto   mx-2 mb-0 
                      h-[60px]   w-screen flex-col items-center justify-center 
@@ -130,29 +131,7 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-        <div
-          className="dataToolTip13 Libre_Baskerville"
-          data-tool-tip="Back To Top"
-        >
-          <a href="#">
-            <div
-              id="toScubaMask"
-              className="absolute left-4 top-5 z-50 h-[fit] w-[fit] 
-                                  rounded-xl border-[1px] border-varLIGHTBLUEFEATHER "
-            >
-              <div className="scubaManThird  rounded-xl  border-[2px] border-black">
-                <div className="scubaManSecond rounded-xl border-[1px] border-varLIGHTBLUEFEATHER p-2 ">
-                  <div className="scubaManFirst rotate-[240deg] border-transparent ">
-                    <MdOutlineScubaDiving
-                      size={25}
-                      className="scubaMan  text-blue-200  "
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+    
       </div>
       <Copyright />
     </div>
