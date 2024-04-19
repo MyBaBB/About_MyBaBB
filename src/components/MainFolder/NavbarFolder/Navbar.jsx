@@ -1,10 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./Navbar.css";
-import "./MobileMenu.css";
+import { LiaInfoSolid } from "react-icons/lia";
 import NavbarLinks from "./NavbarLinks";
-
-
+import { GiWoodCabin } from "react-icons/gi";
+import { BsPiggyBank } from "react-icons/bs";
+import { RiSeoLine } from "react-icons/ri";
+import { BsPersonVcard } from "react-icons/bs";
+import { SiTestinglibrary } from "react-icons/si";
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -34,7 +37,7 @@ const Navbar = () => {
        bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
       style={{
         boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.5)",
-        backgroundColor: "rgba(0, 0, 0, 0.1)",
+        
       }}
     >
       <nav>
@@ -42,43 +45,45 @@ const Navbar = () => {
           <div
             className={burger_class}
             style={{
-              backgroundColor: "red",
+              backgroundColor: "aliceblue",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
-              backgroundColor: "white",
+              backgroundColor: "aliceblue",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
-              backgroundColor: "Blue",
+              backgroundColor: "aliceblue",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
+              
             }}
           ></div>
         </div>
       </nav>
       <h1 className="hiddenH1 absolute sm:hidden">
         <span
-          className="w-fit  whitespace-nowrap  font-Rye text-[12px] text-varLIGHTBEAKTOP
+          className="whitespace-nowrap  font-Rye text-[12px] text-varLIGHTBEAKTOP
                            xs:text-xl"
         >
-          MyBabb Web Development
+          About Web Development
         </span>
       </h1>
+      {/* left-[-5.5rem] */}
      
       <div className={menu_class}>
-        <section id="mobile-menu" className=" absolute  w-full text-4xl">
+        <section id="mobile-menu" className="relative flex m-auto  text-4xl">
           <div
-            className=" relative left-[-5.5rem] top-0 z-[1] w-screen border-2 border-red-600 
-              bg-black pt-12 text-center font-Aclonica"
+            className=" relative top-0 z-[1] w-fit  
+              bg-black bg-opacity-40 px-[3rem]   text-center font-Aclonica"
           >
             <nav
-              className="justify-top flex min-h-screen flex-col items-center"
+              className="relative justify-top my-auto   flex min-h-screen flex-col  "
               aria-label="mobile"
             >
               <p id="mobile-menu">
@@ -87,60 +92,95 @@ const Navbar = () => {
                 <br />
                 <a
                   href="#phoneInHands"
-                  className="w-full py-2 text-center "
+                 
                   onClick={hideMobileMenu}
-                >
-                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    Home
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 "><GiWoodCabin /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto ml-[4rem] pr-6 ] ">
+                  Home 
                   </span>
+                  </div>
                 </a>
                 <br />
-                <br />
+               
                 <a
                   href="#improveSEO"
-                  className="w-full py-6 text-center "
+                   
                   onClick={hideMobileMenu}
-                >
-                  <span className=" hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    About Us
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 "><LiaInfoSolid /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
+                  About Us 
                   </span>
+                  </div>
                 </a>
                 <br />
-                <br />
+              
                 <a
                   href="#piglets"
-                  className="w-full whitespace-nowrap py-6 text-center"
+                  
                   onClick={hideMobileMenu}
-                >
-                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    Your Brand
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 "><BsPiggyBank /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
+                  Your Brand
                   </span>
+                  </div>
                 </a>
 
-                <br />
+               
                 <br />
                 <a
                   href="#improveSEO"
-                  className="w-full py-6 text-center"
+                   
                   onClick={hideMobileMenu}
-                >
-                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    SEO Booster
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 pr-2 "><RiSeoLine /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
+                  Seo Booster 
                   </span>
+                  </div>
                 </a>
                 <br />
-                <br />
-                <a
+               
+               <a
                   href="https://mybabb.com"
-                  className="w-full py-6 text-center"
+                   
                   onClick={hideMobileMenu}
-                >
-                  <span className="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                    <em>MyBaBB.com</em>
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 pr-2"><BsPersonVcard /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
+                  MyBabb.com 
                   </span>
+                  </div>
                 </a>
                 <br />
+               
+               <a
+                  href="https://resume-hub.mybabb.com/"
+                   
+                  onClick={hideMobileMenu}
+                > <div className="relative flex text-center     origin-top animate-open-menu 
+                                 text-black border-2   border-gray-700 rounded-3xl
+                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
+                  <div className="relative inline-block pl-4 "><SiTestinglibrary /></div>
+                  <span className="hover:text-varMEDBEAKTOP m-auto ml-12 pr-6 ] ">
+                  Kraken 
+                  </span>
+                  </div>
+                </a>
                 <br />
+                 
               </p>
             </nav>
           </div>

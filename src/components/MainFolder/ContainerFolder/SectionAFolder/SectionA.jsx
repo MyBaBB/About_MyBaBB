@@ -9,8 +9,8 @@ const SectionA = () => {
     <div>
       
       <div
-        className="sectionATop z-1 m-[20px] mt-[.5rem] h-[fit]
-  min-w-[300px] max-w-[80vw]  p-[2rem]"
+        className="sectionATop z-[100] m-[20px] mt-[.5rem] h-[fit]
+  min-w-[300px] max-w-[80vw]   p-[2rem]"
       >
         <article
           id="theWholeBigArticle"
