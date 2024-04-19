@@ -29,7 +29,8 @@ const SectionB = () => {
                 >
                   <h3
                     id="weHelp"
-                    className="text-center font-Aclonica text-2xl text-amber-200 sm:p-1 "
+                    className="text-center font-Aclonica-Regular
+                     text-2xl text-amber-200 sm:p-1 "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
@@ -71,7 +72,8 @@ const SectionB = () => {
                       className="p-8 text-center text-2xl text-white"
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
-                      <span className="font-Aclonica text-amber-200">
+                      <span className="font-Aclonica-Regular
+                       text-amber-200">
                         Here&apos;s what you can expect when{" "}
                         <span className="whitespace-nowrap">
                           you work with us :

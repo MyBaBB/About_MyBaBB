@@ -5,7 +5,7 @@ export default {
 		extend: {
 
 		
-		
+		 
 			
 			 colors: {
 			   varDARKBEAKTOP: "#785001",
@@ -43,7 +43,7 @@ export default {
 			   varDCBLUEGREY: "#33485d",
 			 },
 			 fontFamily: {
-                'Aclonica': ['Aclonica', 'sans-serif'],
+                'Aclonica-Regular': ['Aclonica-Regular', 'sans-serif'],
 				'ArchivoBlack': ['Archivo Black', 'sans-serif'],
 				'BlackOpsOne': ['Black Ops One', 'cursive'],
 				'Caprasimo': ['Caprasimo', 'cursive'],
