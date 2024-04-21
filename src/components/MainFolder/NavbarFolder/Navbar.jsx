@@ -29,6 +29,7 @@ const Navbar = () => {
   const hideMobileMenu = () => {
     setMenuClass("menu hidden");
     setIsMenuClicked(false);
+    setBurgerClass("burger-bar unclicked");
   };
 
   return (

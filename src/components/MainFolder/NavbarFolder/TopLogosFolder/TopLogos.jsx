@@ -35,7 +35,7 @@ const TopLogos = () => {
 
         <a href="https://Mybabb.com">
           <div
-            className="dataToolTip81  Libre_Baskerville hidden sm:block "
+            className="dataToolTip81  Libre_Baskerville hidden sm:absolute "
             data-tool-tip="My HomePage"
           >
             <div
