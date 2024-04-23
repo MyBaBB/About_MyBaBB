@@ -37,7 +37,6 @@ const Navbar = () => {
        bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
       style={{
         boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.5)",
-        
       }}
     >
       <nav>
@@ -61,7 +60,6 @@ const Navbar = () => {
             style={{
               backgroundColor: "aliceblue",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
-              
             }}
           ></div>
         </div>
@@ -75,112 +73,125 @@ const Navbar = () => {
         </span>
       </h1>
       {/* left-[-5.5rem] */}
-     
+
       <div className={menu_class}>
-        <section id="mobile-menu" className="relative flex m-auto  text-4xl">
+        <section id="mobile-menu" className="relative m-auto flex  text-4xl">
           <div
             className=" relative top-0 z-[1] w-fit  
               bg-black bg-opacity-40 px-[3rem]   text-center font-Aclonica-Regular"
           >
             <nav
-              className="relative justify-top my-auto   flex min-h-screen flex-col  "
+              className="justify-top relative my-auto   flex min-h-screen flex-col  "
               aria-label="mobile"
             >
               <p id="mobile-menu">
                 <br />
                 <br />
                 <br />
-                <a
-                  href="#phoneInHands"
-                 
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 "><GiWoodCabin /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto ml-[4rem] pr-6 ] ">
-                  Home 
-                  </span>
+                <a href="#phoneInHands" onClick={hideMobileMenu}>
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                 to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 ">
+                      <GiWoodCabin />
+                    </div>
+                    <span className="] m-auto ml-[4rem] pr-6 hover:text-varMEDBEAKTOP ">
+                      Home
+                    </span>
                   </div>
                 </a>
                 <br />
-               
-                <a
-                  href="#improveSEO"
-                   
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 "><LiaInfoSolid /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
-                  About Us 
-                  </span>
+
+                <a href="#improveSEO" onClick={hideMobileMenu}>
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                 to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 ">
+                      <LiaInfoSolid />
+                    </div>
+                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
+                      About Us
+                    </span>
                   </div>
                 </a>
                 <br />
-              
-                <a
-                  href="#piglets"
-                  
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 "><BsPiggyBank /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
-                  Your Brand
-                  </span>
+
+                <a href="#piglets" onClick={hideMobileMenu}>
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                 to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 ">
+                      <BsPiggyBank />
+                    </div>
+                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
+                      Your Brand
+                    </span>
                   </div>
                 </a>
 
-               
                 <br />
+                <a href="#improveSEO" onClick={hideMobileMenu}>
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                 to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <RiSeoLine />
+                    </div>
+                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
+                      Seo Booster
+                    </span>
+                  </div>
+                </a>
+                <br />
+
+                <a href="https://mybabb.com" onClick={hideMobileMenu}>
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                  to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 pr-2">
+                      <BsPersonVcard />
+                    </div>
+                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
+                      MyBabb.com
+                    </span>
+                  </div>
+                </a>
+                <br />
+
                 <a
-                  href="#improveSEO"
-                   
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 pr-2 "><RiSeoLine /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
-                  Seo Booster 
-                  </span>
-                  </div>
-                </a>
-                <br />
-               
-               <a
-                  href="https://mybabb.com"
-                   
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 pr-2"><BsPersonVcard /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto  pr-6 ] ">
-                  MyBabb.com 
-                  </span>
-                  </div>
-                </a>
-                <br />
-               
-               <a
                   href="https://resume-hub.mybabb.com/"
-                   
                   onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1 " >
-                  <div className="relative inline-block pl-4 "><SiTestinglibrary /></div>
-                  <span className="hover:text-varMEDBEAKTOP m-auto ml-12 pr-6 ] ">
-                  Kraken 
-                  </span>
+                >
+                  {" "}
+                  <div
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
+                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
+                                  to-slate-500 py-1 text-center text-black "
+                  >
+                    <div className="relative inline-block pl-4 ">
+                      <SiTestinglibrary />
+                    </div>
+                    <span className="] m-auto ml-12 pr-6 hover:text-varMEDBEAKTOP ">
+                      Kraken
+                    </span>
                   </div>
                 </a>
                 <br />
-                 
               </p>
             </nav>
           </div>

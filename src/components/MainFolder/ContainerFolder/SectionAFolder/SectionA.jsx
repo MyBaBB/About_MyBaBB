@@ -3,11 +3,10 @@ import React from "react";
 import phoneInHands from "./phoneInHands.webp";
 import CSSLogo from "./cssLogoHeight80px.png";
 import "./SectionA.css";
- 
+
 const SectionA = () => {
   return (
     <div>
-      
       <div
         className="sectionATop z-[100] m-[20px] mt-[.5rem] h-[fit]
   min-w-[300px] max-w-[80vw]   p-[2rem]"
@@ -33,7 +32,6 @@ const SectionA = () => {
                 >
                   Personalized Websites <br />
                 </span>
-                
               </h2>
               <p className="customBounce text-center sm:pt-0 landscape:text-center">
                 <span id="custom" className="custom text-varDARKBEAK">
@@ -61,7 +59,6 @@ const SectionA = () => {
                   className="cssLogo lazy-load m-auto block"
                 />
               </p>
-              
             </section>
             <h2
               id="home"

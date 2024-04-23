@@ -72,8 +72,10 @@ const SectionB = () => {
                       className="p-8 text-center text-2xl text-white"
                       style={{ textShadow: "2px 2px 3px #1c0303" }}
                     >
-                      <span className="font-Aclonica-Regular
-                       text-amber-200">
+                      <span
+                        className="font-Aclonica-Regular
+                       text-amber-200"
+                      >
                         Here&apos;s what you can expect when{" "}
                         <span className="whitespace-nowrap">
                           you work with us :

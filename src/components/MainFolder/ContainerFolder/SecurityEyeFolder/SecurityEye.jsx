@@ -107,7 +107,7 @@ const SecurityEye = () => {
             developing unique designs to offer for sale in the future.
           </p>
         </div>
-       </div>
+      </div>
     </div>
   );
 };

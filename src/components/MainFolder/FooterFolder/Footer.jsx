@@ -2,7 +2,7 @@
 import React from "react";
 import "./Footer.css";
 
-import ScubaManNav from "../ContainerFolder/ScubaNavFolder/ScubaManNav"; 
+import ScubaManNav from "../ContainerFolder/ScubaNavFolder/ScubaManNav";
 import Copyright from "./Copyright";
 import MyBabbLogo from "./MyBabbLogo";
 
@@ -20,7 +20,7 @@ const Footer = () => {
         className="FooterWrapper relative m-auto mb-0 
                    flex h-fit w-screen   pt-2"
       >
-         <ScubaManNav />    
+        <ScubaManNav />
         <div
           className="footerRightWrapper relative  m-auto   mx-2 mb-0 
                      h-[60px]   w-screen flex-col items-center justify-center 
@@ -131,7 +131,6 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-    
       </div>
       <Copyright />
     </div>

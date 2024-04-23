@@ -1,11 +1,12 @@
 @keyframes rotate-scale {
-    0%, 100% {
-      transform: rotate(0deg) scale(1);
-    }
-    50% {
-      transform: rotate(360deg) scale(1.5);
-    }
+  0%,
+  100% {
+    transform: rotate(0deg) scale(1);
   }
-  .hover\:rotate-scale:hover {
-    animation: rotate-scale 1s ease-in-out forwards;
+  50% {
+    transform: rotate(360deg) scale(1.5);
   }
+}
+.hover\:rotate-scale:hover {
+  animation: rotate-scale 1s ease-in-out forwards;
+}

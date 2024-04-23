@@ -1,19 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import './Tester.css'
+import "./Tester.css";
 const Tester = () => {
   return (
-        <div>
-<span className="inline-block hover:rotate-scale p-2 bg-blue-500 text-white cursor-pointer">
-    Hover over me!
-  </span>
-
-
-
-
-
-
-        </div>
+    <div>
+      <span className="hover:rotate-scale inline-block cursor-pointer bg-blue-500 p-2 text-white">
+        Hover over me!
+      </span>
+    </div>
   );
 };
 

@@ -33,7 +33,6 @@ const TopLogos = () => {
           </div>
         </a>
 
-        
         <a href="https://resume-hub.mybabb.com">
           <div
             className="dataToolTip81  Libre_Baskerville hidden sm:block"
@@ -59,8 +58,6 @@ const TopLogos = () => {
             </div>
           </div>
         </a>
-
-       
       </div>
     </div>
   );
