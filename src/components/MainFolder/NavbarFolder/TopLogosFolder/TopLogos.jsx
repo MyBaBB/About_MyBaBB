@@ -33,31 +33,34 @@ const TopLogos = () => {
           </div>
         </a>
 
-        <a href="https://Mybabb.com">
+        
+        <a href="https://resume-hub.mybabb.com">
           <div
-            className="dataToolTip81  Libre_Baskerville hidden sm:absolute "
-            data-tool-tip="My HomePage"
+            className="dataToolTip81  Libre_Baskerville hidden sm:block"
+            data-tool-tip="Portfolio Hub "
           >
             <div
-              className="notMe relative z-[0] mb-4 mt-[2rem] h-[80px] w-[80px] rounded-full p-2
-                         hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
+              className="notMe   relative z-0 mb-4 mt-[2rem] h-[80px] w-[80px] rounded-full p-[5px]
+                        "
               style={{
                 position: "relative",
-                right: "1rem",
+                display: "block",
                 boxShadow:
                   "inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5)",
               }}
             >
               <img
                 src={NotMe}
-                alt="Not Me"
-                width={70}
-                height={70}
-                className="notMe"
+                alt="Not Me "
+                width={75}
+                height={75}
+                className="notMe absolute left-[-1px] top-[-1px]"
               />
             </div>
           </div>
         </a>
+
+       
       </div>
     </div>
   );
