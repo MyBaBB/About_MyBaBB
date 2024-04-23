@@ -1,8 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import phoneInHands from "./phoneInHands.webp";
-import CSSLogo from "./cssLogoHeight80px.png";
+ 
+import { GiSpiderWeb } from "react-icons/gi";
 import "./SectionA.css";
+
+import Sponsor2 from "../SponsorFolder/Sponsor2";
 
 const SectionA = () => {
   return (
@@ -22,13 +25,13 @@ const SectionA = () => {
           <div className="flex flex-col text-center">
             <section
               id="hero"
-              className="relative flex items-center  justify-center bg-varMEDSPACE
+              className="relative flex items-center  justify-center 
             p-1 dark:bg-black"
             >
               <h2 className="h2PersonalizedWebsites mt-[-12rem]">
                 <span
                   className="whitespace-nowrap 
-                  font-Nosifer text-[.75rem] text-blue-300 sm:text-[1.74rem]"
+                  font-Nosifer text-[.75rem] text-blue-200 sm:text-[1.74rem] md:text-[2.74rem]"
                 >
                   Personalized Websites <br />
                 </span>
@@ -37,7 +40,7 @@ const SectionA = () => {
                 <span id="custom" className="custom text-varDARKBEAK">
                   <span className="rotate whitespace-nowrap font-PermanentMarker">
                     <span className="text-[4rem] text-red-800">Cu</span>
-                    <span className="text-gray-300">
+                    <span className="text-gray-500">
                       <span className="text-[3.5rem]">s</span>t
                     </span>
                     <span className=" text-blue-700">om</span>
@@ -48,16 +51,15 @@ const SectionA = () => {
                   id="websites"
                   className="website whitespace-nowrap font-EmilysCandy text-[4rem] text-varDARKBEAK"
                 >
-                  🕸️ WEB 🕸️
+                 <span className="absolute left-[-3rem] text-black ">
+                  <GiSpiderWeb size={50}/>
+                 </span>
+                 &nbsp;&nbsp; WEB &nbsp;&nbsp;
+                 <span className="absolute right-[-3rem] text-black">
+                  <GiSpiderWeb size={50} /></span>
                 </span>
-                {/*  ♊🧑‍💻📷 */}
-                <img
-                  src={CSSLogo}
-                  alt="CSS Logo"
-                  width={150}
-                  height={25}
-                  className="cssLogo lazy-load m-auto block"
-                />
+                <Sponsor2 />
+               
               </p>
             </section>
             <h2

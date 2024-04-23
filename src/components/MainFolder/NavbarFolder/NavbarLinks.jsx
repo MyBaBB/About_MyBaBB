@@ -24,10 +24,10 @@ const NavbarLinks = () => {
           >
             <a
               href="#aboutUs"
-              className="text-amber-400 hover:text-varDARKBLUEFEATHER   "
+              className="text-blue-100 hover:text-varDARKBLUEFEATHER   "
             >
               <div
-                className="dataToolTip1  Libre_Baskerville "
+                className="dataToolTip1  font-LibreBaskerville "
                 data-tool-tip="Get A Landing Page with Appeal and Functionality"
               >
                 <div className="inline-block rounded-xl border-[1px]  border-transparent">
@@ -36,7 +36,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px]  border-transparent
                                  p-2 "
                     >
-                      <span className="NavbarTitle1 whitespace-nowrap font-Rye ">
+                      <span className="NavbarTitle1 whitespace-nowrap font-Aclonica-Regular ">
                         About Us
                       </span>
                     </div>
@@ -47,10 +47,10 @@ const NavbarLinks = () => {
 
             <a
               href="https://mybabb.github.io/My_Introduction/"
-              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
+              className="text-blue-100 hover:text-varDARKBLUEFEATHER "
             >
               <div
-                className="dataToolTip2 Libre_Baskerville"
+                className="dataToolTip2 font-LibreBaskerville"
                 data-tool-tip="With SEO, your site will be found by search engines."
               >
                 <div
@@ -62,7 +62,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px] border-transparent p-2
                                  "
                     >
-                      <span className="NavbarTitle2 whitespace-nowrap font-Rye">
+                      <span className="NavbarTitle2 whitespace-nowrap font-Aclonica-Regular">
                         Improve SEO
                       </span>
                     </div>
@@ -72,10 +72,10 @@ const NavbarLinks = () => {
             </a>
             <a
               href="#YourBrand"
-              className="text-amber-400 hover:text-varDARKBLUEFEATHER "
+              className="text-blue-100 hover:text-varDARKBLUEFEATHER "
             >
               <div
-                className="dataToolTip2 Libre_Baskerville"
+                className="dataToolTip2 font-LibreBaskerville"
                 data-tool-tip="Refine Your Brand."
               >
                 <div
@@ -87,7 +87,7 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px] border-transparent p-2
                                 "
                     >
-                      <span className="NavbarTitle2 font-Rye">Your Brand</span>
+                      <span className="NavbarTitle2 font-Aclonica-Regular">Your Brand</span>
                     </div>
                   </div>
                 </div>

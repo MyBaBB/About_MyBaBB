@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div
       className="navWrapper fixed top-0 z-50
-       bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
+       bg-gradient-to-b from-varLIGHTSPACE to-varDARKSPACE text-white"
       style={{
         boxShadow: "inset 0 0 10px rgba(0, 0, 0, 0.5)",
       }}
