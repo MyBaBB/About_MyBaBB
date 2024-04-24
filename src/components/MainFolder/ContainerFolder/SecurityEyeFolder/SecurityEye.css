@@ -57,8 +57,10 @@
   border-radius: 100%;
   position: absolute;
 }
+
 .eyeBackgroundHover:hover  {
-  box-shadow: 0px 0px 14px rgba(58, 131, 169, 0.5)
+  box-shadow: 0px 0px 14px rgba(58, 131, 169, 0.5);
+  transition: box-shadow .8s ease-in-out;
  }
 
 @media (hover: none) {
