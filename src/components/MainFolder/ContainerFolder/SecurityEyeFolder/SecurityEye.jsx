@@ -11,7 +11,7 @@ const SecurityEye = () => {
       <div>
         <div className=" my-10 scroll-mt-[7rem]" id="eyeball ">
           <div
-            className="eyeBackgroundHover  m-auto w-fit rounded-full  "
+            className="eyeBackgroundHover   m-auto w-fit rounded-full  "
              
           >
             <div
@@ -68,7 +68,7 @@ const SecurityEye = () => {
               >
                 📡
               </span>
-              <span className="z-50 text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP">
+              <span className="z-50 font-Sixtyfour text-varLIGHTBLUEFEATHER hover:text-blue-200">
                 Contact
               </span>
               <span>📡</span>
