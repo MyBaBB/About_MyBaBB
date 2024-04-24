@@ -106,7 +106,7 @@ const Navbar = () => {
                 </a>
                 <br />
 
-                <a href="#improveSEO" onClick={hideMobileMenu}>
+                <a href="#aboutUs" onClick={hideMobileMenu}>
                   {" "}
                   <div
                     className="relative flex origin-top     animate-open-menu rounded-3xl 
@@ -116,7 +116,7 @@ const Navbar = () => {
                     <div className="relative inline-block pl-4 ">
                       <LiaInfoSolid />
                     </div>
-                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
+                    <span className=" m-auto  pr-6 hover:text-varMEDBEAKTOP ">
                       About Us
                     </span>
                   </div>
@@ -168,7 +168,7 @@ const Navbar = () => {
                       <BsPersonVcard />
                     </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
-                      MyBabb.com
+                      Main Site
                     </span>
                   </div>
                 </a>
@@ -187,8 +187,8 @@ const Navbar = () => {
                     <div className="relative inline-block pl-4 ">
                       <SiTestinglibrary />
                     </div>
-                    <span className="] m-auto ml-12 pr-6 hover:text-varMEDBEAKTOP ">
-                      Kraken
+                    <span className="] m-auto ml-4 pr-6 hover:text-varMEDBEAKTOP ">
+                     Resume Hub
                     </span>
                   </div>
                 </a>
