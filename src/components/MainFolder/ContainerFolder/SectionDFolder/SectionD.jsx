@@ -25,7 +25,7 @@ const Sectiond = () => {
       style={{ boxShadow: "2px 2px 55px #000" }}
       className="mt-[2.8rem] min-w-[290px] max-w-[80vw] rounded-3xl p-2"
     >
-      <div id="improveSEO" className="scroll-mt-[6rem] p-4 sm:p-4">
+      <div id="rattleSnakes" className="scroll-mt-[6rem] p-4 sm:p-4">
         <div className="rounded-3xl">
           <blockquote
             id="blockquote1"

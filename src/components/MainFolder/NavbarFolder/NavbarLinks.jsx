@@ -46,7 +46,7 @@ const NavbarLinks = () => {
             </a>
 
             <a
-              href="#aboutUs"
+              href="#rattleSnakes"
               className="text-blue-100 hover:text-varDARKBLUEFEATHER "
             >
               <div
