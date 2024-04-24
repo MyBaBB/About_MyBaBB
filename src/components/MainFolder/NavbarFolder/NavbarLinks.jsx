@@ -46,7 +46,7 @@ const NavbarLinks = () => {
             </a>
 
             <a
-              href="https://mybabb.github.io/My_Introduction/"
+              href="#aboutUs"
               className="text-blue-100 hover:text-varDARKBLUEFEATHER "
             >
               <div
