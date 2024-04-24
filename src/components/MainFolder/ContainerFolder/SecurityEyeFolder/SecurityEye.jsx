@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // import EyeBG from './eyeBG.webp';
-import CSSLogo from "./cssLogoHeight80px.png";
+ 
 import AwesomeEye from "./awesomeEye.png";
 import "./SecurityEye.css";
 const SecurityEye = () => {
@@ -11,8 +11,8 @@ const SecurityEye = () => {
       <div>
         <div className=" my-10 scroll-mt-[7rem]" id="eyeball ">
           <div
-            className="  m-auto w-fit rounded-full  "
-            style={{ boxShadow: "0px 0px 14px rgba(185, 185, 185, 0.5)" }}
+            className="eyeBackgroundHover  m-auto w-fit rounded-full  "
+             
           >
             <div
               className="hoverdiv border-4 border-gray-900 shadow-2xl"
