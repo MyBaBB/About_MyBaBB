@@ -140,7 +140,7 @@ const Navbar = () => {
                 </a>
 
                 <br />
-                <a href="#improveSEO" onClick={hideMobileMenu}>
+                <a href="#piglets" onClick={hideMobileMenu}>
                   {" "}
                   <div
                     className="relative flex origin-top     animate-open-menu rounded-3xl 
