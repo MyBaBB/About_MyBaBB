@@ -75,7 +75,7 @@ const SecurityEye = () => {
             </div>
           </div>
         </a>
-        <div>
+        <div className="relative mx-12">
           <br />
           <p
             className="font-blackopsone p-1 text-center text-varBoneWhite"
