@@ -3,11 +3,14 @@ import React from "react";
 import OctoGlasses from "./OctoGlasses.png";
 import NotMe from "./NewMe.png";
 import "./TopLogos.css";
+// import ContactButton from "../../ContainerFolder/ContactUsFolder/ContactUs";
+
 const TopLogos = () => {
   return (
     <div>
+       
       <div className="relative mt-[5rem] flex h-fit w-screen justify-between px-12  dark:bg-black  dark:text-white">
-        
+    
         <a href="https://mybabb.com">
           <div
             className="dataToolTip82  Libre_Baskerville hidden sm:block"
@@ -22,7 +25,9 @@ const TopLogos = () => {
                 boxShadow:
                   "inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5)",
               }}
+              
             >
+              
               <img
                 src={NotMe}
                 alt="Not Me "
@@ -33,7 +38,7 @@ const TopLogos = () => {
             </div>
           </div>
         </a>
-
+       
 
         <a href="https://resume-hub.mybabb.com">
           <div
