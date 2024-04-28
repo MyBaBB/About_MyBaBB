@@ -3,9 +3,14 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
 import NavbarLinks from "./NavbarLinks";
-import { GiWoodCabin } from "react-icons/gi";
-import { BsPiggyBank } from "react-icons/bs";
-import { RiSeoLine } from "react-icons/ri";
+ import { BsGithub } from "react-icons/bs";
+import { GiStrongMan } from "react-icons/gi";
+import { SiQuicklook } from "react-icons/si";
+import { LiaHourglassHalfSolid } from "react-icons/lia";
+import { GrBaby } from "react-icons/gr";
+
+ 
+ 
 import { BsPersonVcard } from "react-icons/bs";
 import { SiTestinglibrary } from "react-icons/si";
 const Navbar = () => {
@@ -74,131 +79,155 @@ const Navbar = () => {
         </span>
       </h1>
       {/* left-[-5.5rem] */}
+ {/* mobile menu bg color below*/}
 
-      <div className={menu_class}>
-        <section id="mobile-menu" className="relative m-auto flex  text-4xl">
-          <div
-            className=" relative top-0 z-[1] w-fit  
-              bg-black bg-opacity-40 px-[3rem]   text-center font-Aclonica-Regular"
-          >
-            <nav
-              className="justify-top relative my-auto   flex min-h-screen flex-col  "
-              aria-label="mobile"
+
+
+ <div className={menu_class}>
+          <section id="mobile-menu" className="relative m-auto flex  text-4xl">
+            <div
+              className=" relative top-0 z-[1] w-fit  
+              bg-[#1d1d1f] px-[3rem]   text-center font-Aclonica-Regular"
             >
-              <p id="mobile-menu">
-                <br />
-                <br />
-                <br />
-                <a href="#phoneInHands" onClick={hideMobileMenu}>
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                 to-slate-500 py-1 text-center text-black "
-                  >
-                    <div className="relative inline-block pl-4 ">
-                      <GiWoodCabin />
-                    </div>
-                    <span className="] m-auto ml-[4rem] pr-6 hover:text-varMEDBEAKTOP ">
-                      Home
-                    </span>
-                  </div>
-                </a>
-                <br />
-
-                <a href="#aboutUs" onClick={hideMobileMenu}>
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                 to-slate-500 py-1 text-center text-black "
-                  >
-                    <div className="relative inline-block pl-4 ">
-                      <LiaInfoSolid />
-                    </div>
-                    <span className=" m-auto  pr-6 hover:text-varMEDBEAKTOP ">
-                      About Us
-                    </span>
-                  </div>
-                </a>
-                <br />
-
-                <a href="#piglets" onClick={hideMobileMenu}>
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                 to-slate-500 py-1 text-center text-black "
-                  >
-                    <div className="relative inline-block pl-4 ">
-                      <BsPiggyBank />
-                    </div>
-                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
-                      Your Brand
-                    </span>
-                  </div>
-                </a>
-
-                <br />
-                <a href="#rattleSnakes" onClick={hideMobileMenu}>
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                 to-slate-500 py-1 text-center text-black "
-                  >
-                    <div className="relative inline-block pl-4 pr-2 ">
-                      <RiSeoLine />
-                    </div>
-                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
-                      Seo Booster
-                    </span>
-                  </div>
-                </a>
-                <br />
-
-                <a href="https://mybabb.com" onClick={hideMobileMenu}>
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                  to-slate-500 py-1 text-center text-black "
-                  >
-                    <div className="relative inline-block pl-4 pr-2">
-                      <BsPersonVcard />
-                    </div>
-                    <span className="] m-auto  pr-6 hover:text-varMEDBEAKTOP ">
-                      Main Site
-                    </span>
-                  </div>
-                </a>
-                <br />
-
+              <nav
+                className="mobileNav xs:mt-8 justify-top relative my-auto   flex min-h-screen flex-col  "
+                aria-label="mobile"
+              >
+                <p id="mobile-menu">
+                   {/* xxxxxxx the mobile buttons xxxxxxxxx */}
                 <a
-                  href="https://resume-hub.mybabb.com/"
-                  onClick={hideMobileMenu}
-                >
-                  {" "}
-                  <div
-                    className="relative flex origin-top     animate-open-menu rounded-3xl 
-                                 border-2 border-gray-700   bg-gradient-to-b from-slate-100
-                                  to-slate-500 py-1 text-center text-black "
+                    href="https://mybabb.github.io/About_MyBaBB/"
+                    onClick={hideMobileMenu}
                   >
-                    <div className="relative inline-block pl-4 ">
-                      <SiTestinglibrary />
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                    >
+                      <div className="relative inline-block pl-4 ">
+                        <LiaInfoSolid />
+                      </div>
+                      <span className="menuButtonWords  ml-[7.5rem]  pr-6 ">
+                       <u> About </u>
+                      </span>
                     </div>
-                    <span className="] m-auto ml-4 pr-6 hover:text-varMEDBEAKTOP ">
-                     Resume Hub
-                    </span>
-                  </div>
-                </a>
-                <br />
-              </p>
-            </nav>
-          </div>
-        </section>
-      </div>
-      <NavbarLinks />
+                  </a>
+                  <a href="https://mybabb.com" onClick={hideMobileMenu}>
+                    {" "}
+
+                               
+
+                    <div
+                      className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                    >
+                      <div className="relative inline-block pl-4  ">
+                        <BsPersonVcard />
+                      </div>
+                      <span className="menuButtonWords  ml-[2rem] pr-8 ">
+                        My Landing Page
+                      </span>
+                    </div>
+                  </a>
+                  
+
+                  <a
+                    href="https://mybabb.github.io/My_Introduction/"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "                    >
+                      <div className="relative inline-block pl-4 ">
+                        <GiStrongMan />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        My Resume&apos;
+                      </span>
+                    </div>
+                  </a>
+                  
+
+                 
+
+                  
+                  
+                  <a
+                    href="https://mybabb.github.io/BetterMcTransport/"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 pr-2 ">
+                        <SiQuicklook />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        Basic Demo
+                      </span>
+                    </div>
+                  </a>
+                  
+                  <a href="https://mybabb.github.io/Franken-Timer/">
+                    <div
+                    className="buttonStyles   origin-top animate-open-menu text-blue-200 " >
+                      <div className="relative inline-block pl-4 pr-2">
+                        <LiaHourglassHalfSolid />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        Special Event
+                      </span>
+                    </div>
+                  </a>
+                  
+                  <a
+                    href="https://github.com/MyBaBB"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 pr-2 ">
+                      <BsGithub />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        GitHub
+                      </span>
+                    </div>
+                  </a>
+                  
+                  <a href="https://mybabb.github.io/100_Bucks_Intro/" onClick={hideMobileMenu}>
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 ">
+                      <GrBaby />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        Beginner&nbsp;s Kit
+                      </span>
+                    </div>
+                  </a>
+                  
+                  <a href="#" onClick={hideMobileMenu}>
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 ">
+                        <SiTestinglibrary />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        Kraken
+                      </span>
+                    </div>
+                  </a>
+                  
+                
+                </p>
+              </nav>
+            </div>
+          </section>
+        </div>
+
+            <NavbarLinks />
     </div>
   );
 };
