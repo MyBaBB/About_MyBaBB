@@ -118,13 +118,13 @@ const Navbar = () => {
                   >
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 opacity-35 "
                     >
                       <div className="relative inline-block pl-4 ">
                         <LiaInfoSolid />
                       </div>
                       <span className="menuButtonWords  text-4xl   pr-6 ">
-                        <u>About</u>  
+                        About  
                       </span>
                     </div>
                   </a>
