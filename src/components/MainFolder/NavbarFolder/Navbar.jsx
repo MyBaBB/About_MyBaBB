@@ -84,16 +84,16 @@ const Navbar = () => {
 
 
  <div className={menu_class}>
-          <section id="mobile-menu" className="relative m-auto flex  text-4xl">
+          <section id="mobile-menu" className="relative m-auto flex  text-3xl">
             <div
-              className=" relative top-0 z-[1] w-fit  
+              className=" relative flex z-[1]  w-fit  
               bg-[#1d1d1f] px-[3rem]   text-center font-Aclonica-Regular"
             >
               <nav
-                className="mobileNav xs:mt-8 justify-top relative my-auto   flex min-h-screen flex-col  "
+                className="mobileNav justify-center my-auto  flex min-h-screen    "
                 aria-label="mobile"
               >
-                <p id="mobile-menu">
+                <p id="mobile-menu" className="relative flex-row justify-center items-center my-auto">
                    {/* xxxxxxx the mobile buttons xxxxxxxxx */}
                 <a
                     href="https://mybabb.github.io/About_MyBaBB/"
@@ -106,7 +106,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 ">
                         <LiaInfoSolid />
                       </div>
-                      <span className="menuButtonWords  ml-[7.5rem]  pr-6 ">
+                      <span className="menuButtonWords  text-4xl   pr-6 ">
                        <u> About </u>
                       </span>
                     </div>
@@ -123,7 +123,7 @@ const Navbar = () => {
                         <BsPersonVcard />
                       </div>
                       <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                        My Landing Page
+                        MyBaBB.com
                       </span>
                     </div>
                   </a>
@@ -202,7 +202,7 @@ const Navbar = () => {
                       <GrBaby />
                       </div>
                       <span className="menuButtonWords   pr-6 ">
-                        Beginner&nbsp;s Kit
+                        Starter Kit
                       </span>
                     </div>
                   </a>
