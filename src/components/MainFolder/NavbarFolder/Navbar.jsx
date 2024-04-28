@@ -107,7 +107,7 @@ const Navbar = () => {
                         <GiWoodCabin />
                       </div>
                       <span className="menuButtonWords  text-4xl   pr-6 ">
-                       <u>Home</u>
+                        Home 
                       </span>
                     </div>
                   </a>
@@ -124,7 +124,7 @@ const Navbar = () => {
                         <LiaInfoSolid />
                       </div>
                       <span className="menuButtonWords  text-4xl   pr-6 ">
-                        About  
+                        <u>About</u>  
                       </span>
                     </div>
                   </a>
