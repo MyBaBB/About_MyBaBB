@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
 import NavbarLinks from "./NavbarLinks";
  import { BsGithub } from "react-icons/bs";
-import { GiStrongMan } from "react-icons/gi";
+import { GiStrongMan, GiWoodCabin } from "react-icons/gi";
 import { SiQuicklook } from "react-icons/si";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { GrBaby } from "react-icons/gr";
@@ -96,6 +96,23 @@ const Navbar = () => {
                 <p id="mobile-menu" className="relative flex-row justify-center items-center my-auto">
                    {/* xxxxxxx the mobile buttons xxxxxxxxx */}
                 <a
+                    href="#"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                    >
+                      <div className="relative inline-block pl-4 ">
+                        <GiWoodCabin />
+                      </div>
+                      <span className="menuButtonWords  text-4xl   pr-6 ">
+                       <u>Home</u>
+                      </span>
+                    </div>
+                  </a>
+              
+                <a
                     href="https://mybabb.github.io/About_MyBaBB/"
                     onClick={hideMobileMenu}
                   >
@@ -111,6 +128,42 @@ const Navbar = () => {
                       </span>
                     </div>
                   </a>
+              
+              
+                  <a
+                    href="https://mybabb.github.io/BetterMcTransport/"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 pr-2 ">
+                        <SiQuicklook />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        Basic Demo
+                      </span>
+                    </div>
+                  </a>
+              
+
+                  <a
+                    href="https://github.com/MyBaBB"
+                    onClick={hideMobileMenu}
+                  >
+                    {" "}
+                    <div
+                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                      <div className="relative inline-block pl-4 pr-2 ">
+                      <BsGithub />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">
+                        GitHub
+                      </span>
+                    </div>
+                  </a>
+                  
+
                   <a href="https://mybabb.com" onClick={hideMobileMenu}>
                     {" "}
 
@@ -150,21 +203,7 @@ const Navbar = () => {
 
                   
                   
-                  <a
-                    href="https://mybabb.github.io/BetterMcTransport/"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 pr-2 ">
-                        <SiQuicklook />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        Basic Demo
-                      </span>
-                    </div>
-                  </a>
+              
                   
                   <a href="https://mybabb.github.io/Franken-Timer/">
                     <div
@@ -174,22 +213,6 @@ const Navbar = () => {
                       </div>
                       <span className="menuButtonWords   pr-6 ">
                         Special Event
-                      </span>
-                    </div>
-                  </a>
-                  
-                  <a
-                    href="https://github.com/MyBaBB"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 pr-2 ">
-                      <BsGithub />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        GitHub
                       </span>
                     </div>
                   </a>
@@ -215,7 +238,7 @@ const Navbar = () => {
                         <SiTestinglibrary />
                       </div>
                       <span className="menuButtonWords   pr-6 ">
-                        Kraken
+                       Zale
                       </span>
                     </div>
                   </a>
