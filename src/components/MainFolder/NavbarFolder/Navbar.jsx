@@ -124,7 +124,7 @@ const Navbar = () => {
                         <LiaInfoSolid />
                       </div>
                       <span className="menuButtonWords  text-4xl   pr-6 ">
-                       <u> About </u>
+                        About  
                       </span>
                     </div>
                   </a>
