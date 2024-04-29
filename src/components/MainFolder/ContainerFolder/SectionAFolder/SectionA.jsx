@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import phoneInHands from "./phoneInHands.webp";
- 
+
 import { GiSpiderWeb } from "react-icons/gi";
 import "./SectionA.css";
 import ContactUs from "../../ContainerFolder/ContactUsFolder/ContactUs";
@@ -10,7 +10,7 @@ import Sponsor2 from "../SponsorFolder/Sponsor2";
 const SectionA = () => {
   return (
     <div>
-       < ContactUs />
+      <ContactUs />
       <div
         className="sectionATop z-[100] m-[20px] mt-[.5rem] h-[fit]
   min-w-[300px] max-w-[80vw]   p-[2rem]"
@@ -24,7 +24,6 @@ const SectionA = () => {
           {/*  XXXXXXXXX Hero section🦸🏼xxxxxxxxxx */}
 
           <div className="flex flex-col text-center">
-           
             <section
               id="hero"
               className="relative flex items-center  justify-center 
@@ -53,15 +52,15 @@ const SectionA = () => {
                   id="websites"
                   className="website whitespace-nowrap font-EmilysCandy text-[4rem] text-varDARKBEAK"
                 >
-                 <span className="absolute left-[-3rem] text-black ">
-                  <GiSpiderWeb size={50}/>
-                 </span>
-                 &nbsp;&nbsp; WEB &nbsp;&nbsp;
-                 <span className="absolute right-[-3rem] text-black">
-                  <GiSpiderWeb size={50} /></span>
+                  <span className="absolute left-[-3rem] text-black ">
+                    <GiSpiderWeb size={50} />
+                  </span>
+                  &nbsp;&nbsp; WEB &nbsp;&nbsp;
+                  <span className="absolute right-[-3rem] text-black">
+                    <GiSpiderWeb size={50} />
+                  </span>
                 </span>
                 <Sponsor2 />
-               
               </p>
             </section>
             <h2

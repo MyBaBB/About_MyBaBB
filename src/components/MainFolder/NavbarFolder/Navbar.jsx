@@ -3,14 +3,12 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
 import NavbarLinks from "./NavbarLinks";
- import { BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { GiStrongMan, GiWoodCabin } from "react-icons/gi";
 import { SiQuicklook } from "react-icons/si";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { GrBaby } from "react-icons/gr";
 
- 
- 
 import { BsPersonVcard } from "react-icons/bs";
 import { SiTestinglibrary } from "react-icons/si";
 const Navbar = () => {
@@ -79,178 +77,143 @@ const Navbar = () => {
         </span>
       </h1>
       {/* left-[-5.5rem] */}
- {/* mobile menu bg color below*/}
+      {/* mobile menu bg color below*/}
 
-
-
- <div className={menu_class}>
-          <section id="mobile-menu" className="relative m-auto flex  text-3xl">
-            <div
-              className="menuBackground relative flex z-[1]  w-fit  
+      <div className={menu_class}>
+        <section id="mobile-menu" className="relative m-auto flex  text-3xl">
+          <div
+            className="menuBackground relative z-[1] flex  w-fit  
                px-[3rem]   text-center font-Aclonica-Regular"
+          >
+            <nav
+              className="mobileNav my-auto flex  min-h-screen justify-center    "
+              aria-label="mobile"
             >
-              <nav
-                className="mobileNav justify-center my-auto  flex min-h-screen    "
-                aria-label="mobile"
+              <p
+                id="mobile-menu"
+                className="relative my-auto flex-row items-center justify-center"
               >
-                <p id="mobile-menu" className="relative flex-row justify-center items-center my-auto">
-                   {/* xxxxxxx the mobile buttons xxxxxxxxx */}
-                <a
-                    href="#"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "
-                    >
-                      <div className="relative inline-block pl-4 ">
-                        <GiWoodCabin />
-                      </div>
-                      <span className="menuButtonWords  text-4xl   pr-6 ">
-                        Home 
-                      </span>
+                {/* xxxxxxx the mobile buttons xxxxxxxxx */}
+                <a href="#" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 ">
+                      <GiWoodCabin />
                     </div>
-                  </a>
-              
-                <a
-                    href="https://mybabb.github.io/About_MyBaBB/"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 opacity-35 "
-                    >
-                      <div className="relative inline-block pl-4 ">
-                        <LiaInfoSolid />
-                      </div>
-                      <span className="menuButtonWords  text-4xl   pr-6 ">
-                        About  
-                      </span>
-                    </div>
-                  </a>
-              
-              
-                  <a
-                    href="https://mybabb.github.io/BetterMcTransport/"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 pr-2 ">
-                        <SiQuicklook />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        Basic Demo
-                      </span>
-                    </div>
-                  </a>
-              
+                    <span className="menuButtonWords  pr-6   text-4xl ">
+                      Home
+                    </span>
+                  </div>
+                </a>
 
-                  <a
-                    href="https://github.com/MyBaBB"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 pr-2 ">
+                <a
+                  href="https://mybabb.github.io/About_MyBaBB/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 opacity-35 ">
+                    <div className="relative inline-block pl-4 ">
+                      <LiaInfoSolid />
+                    </div>
+                    <span className="menuButtonWords  pr-6   text-4xl ">
+                      About
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://mybabb.github.io/BetterMcTransport/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <SiQuicklook />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">Basic Demo</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 pr-2 ">
                       <BsGithub />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        GitHub
-                      </span>
                     </div>
-                  </a>
-                  
+                    <span className="menuButtonWords   pr-6 ">GitHub</span>
+                  </div>
+                </a>
 
-                  <a href="https://mybabb.com" onClick={hideMobileMenu}>
-                    {" "}
-
-                               
-
-                    <div
-                      className="buttonStyles   origin-top animate-open-menu text-blue-200 "
-                    >
-                      <div className="relative inline-block pl-4  ">
-                        <BsPersonVcard />
-                      </div>
-                      <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                        MyBaBB.com
-                      </span>
+                <a href="https://mybabb.com" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4  ">
+                      <BsPersonVcard />
                     </div>
-                  </a>
-                  
+                    <span className="menuButtonWords  ml-[2rem] pr-8 ">
+                      MyBaBB.com
+                    </span>
+                  </div>
+                </a>
 
-                  <a
-                    href="https://mybabb.github.io/My_Introduction/"
-                    onClick={hideMobileMenu}
-                  >
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "                    >
-                      <div className="relative inline-block pl-4 ">
-                        <GiStrongMan />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        My Resume&apos;
-                      </span>
+                <a
+                  href="https://mybabb.github.io/My_Introduction/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 ">
+                      <GiStrongMan />
                     </div>
-                  </a>
-                  
+                    <span className="menuButtonWords   pr-6 ">
+                      My Resume&apos;
+                    </span>
+                  </div>
+                </a>
 
-                 
-
-                  
-                  
-              
-                  
-                  <a href="https://mybabb.github.io/Franken-Timer/">
-                    <div
-                    className="buttonStyles   origin-top animate-open-menu text-blue-200 " >
-                      <div className="relative inline-block pl-4 pr-2">
-                        <LiaHourglassHalfSolid />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        Special Event
-                      </span>
+                <a href="https://mybabb.github.io/Franken-Timer/">
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 pr-2">
+                      <LiaHourglassHalfSolid />
                     </div>
-                  </a>
-                  
-                  <a href="https://mybabb.github.io/100_Bucks_Intro/" onClick={hideMobileMenu}>
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 ">
+                    <span className="menuButtonWords   pr-6 ">
+                      Special Event
+                    </span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://mybabb.github.io/100_Bucks_Intro/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 ">
                       <GrBaby />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        Starter Kit
-                      </span>
                     </div>
-                  </a>
-                  
-                  <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
-                    {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 ">
-                        <SiTestinglibrary />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                       Zale
-                      </span>
-                    </div>
-                  </a>
-                  
-                
-                </p>
-              </nav>
-            </div>
-          </section>
-        </div>
+                    <span className="menuButtonWords   pr-6 ">Starter Kit</span>
+                  </div>
+                </a>
 
-            <NavbarLinks />
+                <a
+                  href="https://resume-hub.mybabb.com/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="relative inline-block pl-4 ">
+                      <SiTestinglibrary />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">Zale</span>
+                  </div>
+                </a>
+              </p>
+            </nav>
+          </div>
+        </section>
+      </div>
+
+      <NavbarLinks />
     </div>
   );
 };

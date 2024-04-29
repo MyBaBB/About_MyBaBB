@@ -87,7 +87,9 @@ const NavbarLinks = () => {
                       className="rounded-xl  border-[1px] border-transparent p-2
                                 "
                     >
-                      <span className="NavbarTitle2 font-Aclonica-Regular">Your Brand</span>
+                      <span className="NavbarTitle2 font-Aclonica-Regular">
+                        Your Brand
+                      </span>
                     </div>
                   </div>
                 </div>

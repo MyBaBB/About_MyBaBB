@@ -5,14 +5,14 @@ import Navbar from "./components/MainFolder/NavbarFolder/Navbar";
 import Footer from "./components/MainFolder/FooterFolder/Footer";
 import TopLogos from "../src/components/MainFolder/NavbarFolder/TopLogosFolder/TopLogos";
 import Container from "./components/MainFolder/ContainerFolder/Container";
- 
+
 const App = () => {
   return (
     <div>
       <Navbar />
       <TopLogos />
       <Container />
-         
+
       <Footer />
     </div>
   );

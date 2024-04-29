@@ -3,7 +3,7 @@ import React from "react";
 import { GiSailboat } from "react-icons/gi";
 const ContactUs = () => {
   return (
-    <div className="relative flex justify-center m-auto -top-[9rem]    " >
+    <div className="relative -top-[9rem] m-auto flex justify-center    ">
       <a
         href="https://resume-hub.mybabb.com/"
         style={{ textShadow: "2px 2px 3px #1c0303" }}
@@ -19,7 +19,7 @@ const ContactUs = () => {
             <div
               className="m-auto content-center rounded-full border border-solid
            border-slate-900 bg-gradient-to-t from-blue-600 to-gray-500
-             hover:opacity-[70%]    p-3   text-2xl
+             p-3    text-2xl   hover:opacity-[70%]
             active:bg-varLIGHTBLUEFEATHER sm:text-3xl dark:border-none"
               style={{
                 boxShadow:
@@ -28,15 +28,18 @@ const ContactUs = () => {
                 whiteSpace: "nowrap",
               }}
             >
-              <span className="text-blue-200"
+              <span
+                className="text-blue-200"
                 style={{ display: "inline-block", transform: "scaleX(-1)" }}
               >
-              <GiSailboat size={20}/>  
+                <GiSailboat size={20} />
               </span>
               <span className="z-50 font-Blackbeard text-blue-200 ">
-              &nbsp;Resume Hub&nbsp;
+                &nbsp;Resume Hub&nbsp;
               </span>
-              <span className=" inline-block text-blue-200"><GiSailboat size={20} /></span>
+              <span className=" inline-block text-blue-200">
+                <GiSailboat size={20} />
+              </span>
             </div>
           </div>
         </div>
