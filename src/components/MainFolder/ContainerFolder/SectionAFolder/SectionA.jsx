@@ -3,7 +3,7 @@ import React from "react";
 import phoneInHands from "./phoneInHands.webp";
 import { GiSurferVan } from "react-icons/gi";
 // import { GiSpiderWeb } from "react-icons/gi";
-import SurferBeach from "../SectionAFolder/surferBeach.jpg";
+import SurferBeach2 from "../SectionAFolder/surferBeach2.jpg";
 import "./SectionA.css";
 import "../SponsorFolder/Sponsor.css";
 import ContactUs from "../../ContainerFolder/ContactUsFolder/ContactUs";
@@ -62,7 +62,7 @@ const SectionA = () => {
                   </span>
                   <span className="inline-block">
                     <img
-                      src={SurferBeach}
+                      src={SurferBeach2}
                       alt="Placeholder Image"
                       className="rounded-md  "
                     />
