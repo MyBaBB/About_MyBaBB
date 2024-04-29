@@ -11,11 +11,11 @@ const Sponsor = () => {
   return (
     <div>
       <div className="relative -mb-8 mt-4">
-        <div className="LogoItems relative flex justify-end ">
+        <div className="LogoItems relative flex justify-center align-middle ">
           <span className="inline-block">
             <GrReactjs
               size={35}
-              className="reactSpin bg-transparent text-[#01b9f1]"
+              className="reactSpin  bg-transparent text-[#01b9f1]"
             />
           </span>
           <span className="inline-block">

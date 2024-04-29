@@ -1,9 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import phoneInHands from "./phoneInHands.webp";
-
-import { GiSpiderWeb } from "react-icons/gi";
+import { GiSurferVan } from "react-icons/gi";
+// import { GiSpiderWeb } from "react-icons/gi";
+import SurferBeach from "../SectionAFolder/surferBeach.jpg";
 import "./SectionA.css";
+import "../SponsorFolder/Sponsor.css";
 import ContactUs from "../../ContainerFolder/ContactUsFolder/ContactUs";
 import Sponsor2 from "../SponsorFolder/Sponsor2";
 
@@ -29,7 +31,7 @@ const SectionA = () => {
               className="relative flex items-center  justify-center 
             p-1 dark:bg-black"
             >
-              <h2 className="h2PersonalizedWebsites mt-[-12rem]">
+              <h2 className="h2PersonalizedWebsites mt-[-10rem] ">
                 <span
                   className="whitespace-nowrap 
                   font-Nosifer text-[.75rem] text-blue-200 sm:text-[1.74rem] md:text-[2.74rem]"
@@ -37,7 +39,7 @@ const SectionA = () => {
                   Personalized Websites <br />
                 </span>
               </h2>
-              <p className="customBounce text-center sm:pt-0 landscape:text-center">
+              <p className="customBounce mt-[-4rem]  text-center   landscape:text-center">
                 <span id="custom" className="custom text-varDARKBEAK">
                   <span className="rotate whitespace-nowrap font-PermanentMarker">
                     <span className="text-[4rem] text-red-800">Cu</span>
@@ -48,19 +50,33 @@ const SectionA = () => {
                   </span>
                 </span>
                 <br />
-                <span
-                  id="websites"
-                  className="website whitespace-nowrap font-EmilysCandy text-[4rem] text-varDARKBEAK"
+                <div className="relative   flex items-center justify-center whitespace-nowrap">
+                  <span
+                    className="inline-block   text-blue-200"
+                    style={{
+                      display: "inline-block ",
+                      transform: "scaleX(-1)",
+                    }}
+                  >
+                    <GiSurferVan size={50} />
+                  </span>
+                  <span className="inline-block">
+                    <img
+                      src={SurferBeach}
+                      alt="Placeholder Image"
+                      className="rounded-md  "
+                    />
+                  </span>
+                  <span className="inline-block   text-blue-200">
+                    <GiSurferVan size={50} />
+                  </span>
+                </div>
+                <div
+                  className="relative m-auto   flex  justify-center align-middle 
+                  "
                 >
-                  <span className="absolute left-[-3rem] text-black ">
-                    <GiSpiderWeb size={50} />
-                  </span>
-                  &nbsp;&nbsp; WEB &nbsp;&nbsp;
-                  <span className="absolute right-[-3rem] text-black">
-                    <GiSpiderWeb size={50} />
-                  </span>
-                </span>
-                <Sponsor2 />
+                  <Sponsor2 />
+                </div>
               </p>
             </section>
             <h2

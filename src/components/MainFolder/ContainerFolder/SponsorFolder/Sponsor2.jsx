@@ -13,7 +13,10 @@ const Sponsor = () => {
       <div className="relative -mb-8 mt-4">
         <div className="LogoItems relative flex justify-end ">
           <span className="inline-block">
-            <GrReactjs size={30} className=" bg-transparent text-[#01b9f1]" />
+            <GrReactjs
+              size={30}
+              className="reactSpin2  bg-transparent text-[#01b9f1]"
+            />
           </span>
           <span className="inline-block">
             <TbBrandHtml5 size={35} className="bg-transparent text-[#e24a23]" />

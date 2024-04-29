@@ -1,5 +1,4 @@
 .customBounce {
-  animation: bounce 5s infinite;
   font-size: 3rem;
   animation-timing-function: ease-in-out;
 }
@@ -35,7 +34,7 @@
   left: 50%;
   top: 40px;
   transform: translate(-50%, -50%);
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
   z-index: 10;
   text-shadow: 0 6px #000;
 }
