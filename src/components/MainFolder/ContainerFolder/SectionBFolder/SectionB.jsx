@@ -2,7 +2,7 @@
 import React from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import LightBulb from "./400x344workers.png";
+import SurfShop from "./SurfShop.jpg";
 import { RxDot } from "react-icons/rx";
 import { PiDotsThreeOutlineLight } from "react-icons/pi";
 const SectionB = () => {
@@ -57,7 +57,7 @@ const SectionB = () => {
 
                   <div id="aboutUs" className="scroll-mt-[16rem] text-center">
                     <img
-                      src={LightBulb}
+                      src={SurfShop}
                       alt="Money Grow"
                       width="600"
                       height="400"
