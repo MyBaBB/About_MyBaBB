@@ -31,6 +31,10 @@
   font-family: "Creepster";
   src: url(../GoogleFonts/Creepster-Regular.ttf);
 }
+@font-face {
+  font-family: "Changa-Regular";
+  src: url(../GoogleFonts/Changa-Regular.ttf);
+}
 
 @font-face {
   font-family: "DM_Serif_Display";
@@ -101,3 +105,8 @@
   font-family: "Sixtyfour";
   src: url(../GoogleFonts/SixtyFour-Regular.ttf);
 }
+@font-face {
+  font-family: "Blackbeard";
+  src: url(../GoogleFonts/Blackbeard.ttf);
+}
+

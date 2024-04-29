@@ -68,7 +68,8 @@ export default {
 				'Vollkorn': ['Vollkorn', 'serif'],
 				'Wallpoet': ['Wallpoet', 'cursive'],
 				'Sixtyfour': ['Sixtyfour', 'cursive'],
-				
+				 'Changa-Regular': ['Changa-Regular', 'sans-serif'],
+				 'Blackbeard' : ['Blackbeard', 'cursive'],
 			},
 		 
 			   screens: {
