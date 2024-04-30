@@ -117,7 +117,7 @@
     color: rgba(255, 0, 0, 0.472); 
     z-index: 10;
   }
-  .hoverdiv:hover .goodySwitchWords  {
+  .hoverdiv:hover .goodySwitchWords    {
     color: green;
     box-shadow: 0 0 10px rgba(69, 240, 77, .2);
     animation: rotate180 2s forwards;
@@ -153,6 +153,6 @@
   }
 
   /* Apply the reverse animation on hover */
-  .hover\:rotate-0:hover {
-    animation: rotate0 2s forwards;
+  .touch\:animate-rotate0:active {
+    animation: rotate180 2s forwards;
   }

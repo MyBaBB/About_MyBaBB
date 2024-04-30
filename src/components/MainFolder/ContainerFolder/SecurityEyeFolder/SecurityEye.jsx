@@ -31,7 +31,7 @@ const SecurityEye = () => {
               <div className="eyeballdiv3 border-[#18384a]"></div>
               <div className="goodySwitch  ">
                <div className="   relative flex justify-center    align-middle   w-[60px] h-[60px]   m-auto ">
-                <span className="goodySwitchWords rotate-180 hover:rotate-0    relative flex m-auto w-fit      rounded-full    ">
+                <span className="goodySwitchWords rotate-180 touch:animate-rotate0   relative flex m-auto w-fit      rounded-full    ">
                   <HiOutlinePower  size={60} className=" " />
                 </span>
 
