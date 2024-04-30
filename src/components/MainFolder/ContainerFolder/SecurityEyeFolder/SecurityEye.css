@@ -94,7 +94,7 @@
   transform: translate(9px, -6px);
 }
 
-.hoverdiv:hover .expandingIris {
+.hoverdiv:hover .expandingIris  {
   width: 30px;
   height: 30px;
   animation: expand 0.5s forwards;
@@ -102,3 +102,21 @@
   border-color: #419aff;
   z-index: 2;
 }
+ 
+  .goodySwitch {
+    position: absolute;
+    bottom: 0;
+    margin-left: -32rem;
+    width:  50px;
+    height: 50px; 
+    border: 2px solid green;
+    background-color: red;
+    border-radius: 50%;
+  }
+ 
+  .hoverdiv:hover .goodySwitch {
+    background-color: green;
+  }
+ 
+ 
+ 

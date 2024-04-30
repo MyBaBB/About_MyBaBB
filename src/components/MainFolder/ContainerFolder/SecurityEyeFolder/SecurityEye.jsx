@@ -9,8 +9,10 @@ const SecurityEye = () => {
   return (
     <div>
       <div>
-        <div className=" my-10 scroll-mt-[7rem]" id="eyeball ">
+        <div className=" my-10 scroll-mt-[7rem] " id="eyeball ">
+       
           <div className="eyeBackgroundHover   m-auto w-fit rounded-full  ">
+          
             <div
               className="hoverdiv border-4 border-gray-900 shadow-2xl"
               style={{
@@ -27,6 +29,7 @@ const SecurityEye = () => {
               ></div>
               <div className="eyeballdiv2 border-[#153150]"></div>
               <div className="eyeballdiv3 border-[#18384a]"></div>
+              <div className="goodySwitch "><div className="relative flex  justify-center m-auto mt-[1.5rem]   text-white font-bold ">On/Off</div></div>
               <img
                 src={AwesomeEye}
                 alt="Web Developer Eye"
