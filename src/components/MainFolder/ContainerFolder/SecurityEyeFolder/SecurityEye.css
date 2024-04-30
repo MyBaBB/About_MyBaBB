@@ -153,6 +153,6 @@
   }
 
   /* Apply the reverse animation on hover */
-  .touch\:animate-rotate0:active {
+  .touch\:animate-rotate180:active {
     animation: rotate180 2s forwards;
   }
