@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // import EyeBG from './eyeBG.webp';
-
+import { HiOutlinePower } from "react-icons/hi2";
 import AwesomeEye from "./awesomeEye.png";
 import "./SecurityEye.css";
 const SecurityEye = () => {
@@ -29,7 +29,14 @@ const SecurityEye = () => {
               ></div>
               <div className="eyeballdiv2 border-[#153150]"></div>
               <div className="eyeballdiv3 border-[#18384a]"></div>
-              <div className="goodySwitch "><div className="relative flex  justify-center m-auto mt-[1.5rem]   text-white font-bold ">On/Off</div></div>
+              <div className="goodySwitch  ">
+               <div className="   relative flex justify-center    align-middle   w-[60px] h-[60px]   m-auto ">
+                <span className="goodySwitchWords rotate-180 hover:rotate-0    relative flex m-auto w-fit      rounded-full    ">
+                  <HiOutlinePower  size={60} className=" " />
+                </span>
+
+              </div>
+              </div>
               <img
                 src={AwesomeEye}
                 alt="Web Developer Eye"
