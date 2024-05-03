@@ -5,17 +5,15 @@
 .dataToolTip81::before {
   content: attr(data-tool-tip);
   background: radial-gradient(black, #492407);
-  bottom: 0.25rem;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  right: -1rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top right;
   transition: ease-in 0.25s;
-  bottom: -4.25rem;
-
+  bottom: -3.25rem;
+  right: -1rem;
   border-radius: 10px;
   color: #dbeafe;
   padding-left: 2rem;
@@ -37,7 +35,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom right;
   transition: 0.35s;
-  bottom: -2.3rem;
+  bottom: -.8rem;
   border: 15px solid transparent;
   border-bottom: #492407 10px solid;
   color: #492407;
@@ -51,17 +49,15 @@
 .dataToolTip82::before {
   content: attr(data-tool-tip);
   background: radial-gradient(black, #492407);
-  bottom: 0.25rem;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
+  bottom: -2.95rem;
   left: 9.5rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  bottom: -3.95rem;
-
   border-radius: 10px;
   color: #dbeafe;
   padding-left: 2rem;
@@ -83,7 +79,8 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom left;
   transition: 0.35s;
-  bottom: -2.1rem;
+  left: 7rem;
+  bottom: -.6rem;
   border: 15px solid transparent;
   border-bottom: #492407 10px solid;
   color: #492407;

@@ -60,6 +60,7 @@ const SectionA = () => {
                   >
                     <GiSurferVan size={50} />
                   </span>
+                  &nbsp;&nbsp;
                   <span className="inline-block">
                     <img
                       src={SurferBeach2}
@@ -67,6 +68,7 @@ const SectionA = () => {
                       className="rounded-md  "
                     />
                   </span>
+                  &nbsp;&nbsp;
                   <span className="inline-block   text-blue-200">
                     <GiSurferVan size={50} />
                   </span>
