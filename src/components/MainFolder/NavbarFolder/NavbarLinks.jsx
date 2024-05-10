@@ -18,8 +18,8 @@ const NavbarLinks = () => {
           {/* xxxxxxxxxxxxxxxxxxxxxxxxxx new area with data tool tips below xxxxxxxxxxxxxxxxxxxxxxx */}
           <nav
             id="aboutNav"
-            className="navLinksWrapper  hidden space-x-[5rem] pb-4  text-xl  sm:block
-            md:m-auto md:space-x-[9rem] lg:space-x-[14rem] xl:space-x-[18rem]"
+            className="navLinksWrapper  hidden space-x-[1.5rem] pb-4  text-xl  sm:block
+            md:m-auto md:space-x-[8rem] lg:space-x-[14rem] xl:space-x-[18rem]"
             aria-label="main"
           >
             <a
@@ -37,7 +37,7 @@ const NavbarLinks = () => {
                                  p-2 "
                     >
                       <span className="NavbarTitle1 whitespace-nowrap font-Aclonica-Regular ">
-                        About Us
+                        A<span><u className="decoration-blue-500">bout U</u></span>s
                       </span>
                     </div>
                   </div>
@@ -63,7 +63,7 @@ const NavbarLinks = () => {
                                  "
                     >
                       <span className="NavbarTitle2 whitespace-nowrap font-Aclonica-Regular">
-                        Improve SEO
+                        I<span><u className="decoration-blue-500">mprove SE</u></span>O
                       </span>
                     </div>
                   </div>
@@ -88,7 +88,32 @@ const NavbarLinks = () => {
                                 "
                     >
                       <span className="NavbarTitle2 font-Aclonica-Regular">
-                        Your Brand
+                      Y<span><u className="decoration-blue-500">our Bran</u></span>d
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href="#securityEye"
+              className="text-blue-100 hover:text-varDARKBLUEFEATHER "
+            >
+              <div
+                className="dataToolTip2 font-LibreBaskerville"
+                data-tool-tip="Refine Your Brand."
+              >
+                <div
+                  className="inline-block rounded-xl  
+                             border-[1px]  border-transparent"
+                >
+                  <div className="rounded-xl   border-transparent">
+                    <div
+                      className="rounded-xl  border-[1px] border-transparent p-2
+                                "
+                    >
+                      <span className="NavbarTitle2 font-Aclonica-Regular">
+                      C<span><u className="decoration-blue-500">ontac</u></span>t
                       </span>
                     </div>
                   </div>

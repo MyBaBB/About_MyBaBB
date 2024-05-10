@@ -1,0 +1,25 @@
+[
+  
+  {
+    "Thingy": "$100 Special",
+    "Emoji": "💵",
+    "Link": "#gotoLevel1"
+  },
+
+  {
+    "Other": "Email Template",
+    "Stuff": "📝",
+    "Link": "#emailPros"
+  },
+
+  {
+    "landingPagePros": "Landing Page",
+    "Shark": "🦈",
+    "Link": "#landingPagePros"
+  },
+  {
+    "Contact": "Contact Me",
+    "email": " 📨",
+    "Link": "#Contact"
+  }
+]
