@@ -83,7 +83,7 @@ const SectionA = () => {
             </section>
             <h2
               id="home"
-              className="h2MobileResponsive mb-[-1rem]  mt-8  whitespace-nowrap 
+              className="h2MobileResponsive mb-[1rem]  mt-8  whitespace-nowrap 
            rounded-xl font-Sixtyfour text-[13px] text-amber-300"
             >
               Mobile Responsive
