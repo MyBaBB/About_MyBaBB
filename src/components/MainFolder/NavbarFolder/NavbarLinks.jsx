@@ -101,7 +101,7 @@ const NavbarLinks = () => {
             >
               <div
                 className="dataToolTip2 font-LibreBaskerville"
-                data-tool-tip="Refine Your Brand."
+                data-tool-tip="Contact Portal"
               >
                 <div
                   className="inline-block rounded-xl  
