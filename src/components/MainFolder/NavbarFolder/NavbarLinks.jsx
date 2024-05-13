@@ -19,7 +19,7 @@ const NavbarLinks = () => {
           <nav
             id="aboutNav"
             className="navLinksWrapper  hidden space-x-[1.5rem] pb-4  text-xl  sm:block
-            md:m-auto md:space-x-[8rem] lg:space-x-[14rem] xl:space-x-[18rem]"
+            md:m-auto md:space-x-[6rem] lg:space-x-[14rem] xl:space-x-[18rem]"
             aria-label="main"
           >
             <a
