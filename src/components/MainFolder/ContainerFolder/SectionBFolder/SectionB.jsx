@@ -39,17 +39,17 @@ const SectionB = () => {
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesL />
                       </span>
-                      &nbsp; We can facilitate
-                    </span>{" "}
-                    business growth by establishing and enhancing{" "}
+                      &nbsp; We can help
+                    </span>&nbsp; 
+                    business growth by establishing and enhancing&nbsp; 
                     <span className="whitespace-nowrap">
-                      your online{" "}
-                      <span className="whitespace-nowrap ">presence.</span>{" "}
+                      your online </span> 
+                      <span className="whitespace-nowrap ">presence.
                       &nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
-                    </span>
+                      </span> 
                   </h3>
 
                   <br />

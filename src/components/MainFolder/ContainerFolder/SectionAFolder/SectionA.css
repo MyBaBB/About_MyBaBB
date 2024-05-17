@@ -36,7 +36,7 @@
   transform: translate(-50%, -50%);
   margin-bottom: 0rem;
   z-index: 10;
-  text-shadow: 0 6px #000;
+  text-shadow: 1px 1px 2px #000;
 }
 .phoneInHands {
   box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
