@@ -11,7 +11,7 @@ const ScubaNav = () => {
       >
         <a href="#">
           <div
-            id="toScubaMask"
+            id="scubaSpear"
             className="absolute bottom-4 left-4 z-50 h-[fit] w-[fit] 
                                   rounded-xl border-[1px] border-varLIGHTBLUEFEATHER "
           >

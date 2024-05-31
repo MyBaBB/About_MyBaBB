@@ -85,7 +85,7 @@ const SecurityEye = () => {
         <div className="relative mx-12">
           <br />
           <p
-            className="font-blackopsone p-1 text-center text-varBoneWhite"
+            className="font-BlackOpsOne p-1 text-center text-blue-300"
             style={{ fontSize: "25px", textShadow: "2px 2px 3px #1c0303" }}
           >
             Here at this portal you can leave a message directly to your Web
@@ -96,7 +96,7 @@ const SecurityEye = () => {
             We always work on Ideas to improve your Advertising Campaign.
           </p>
           <br />
-          <p className="font-sans text-xl text-emerald-50">
+          <p className="font-LibreBaskerville text-xl text-emerald-50">
             The Branding process is a Fundamental step in Web Development,
             particularly for the developers, who must prepare for the intricate
             work ahead.
@@ -108,7 +108,7 @@ const SecurityEye = () => {
             shortcuts here; every aspect of the development process is tailored
             to meet the unique needs of each project.
           </p>
-          <p className="font-Sansita mt-4 text-2xl text-emerald-50">
+          <p className="font-LibreBaskerville mt-4 text-2xl text-emerald-50">
             If you require a custom order, please do not hesitate to contact us
             below for a personalized estimate. Alternatively, we are also
             developing unique designs to offer for sale in the future.

@@ -3,6 +3,9 @@ import React from "react";
 import OctoGlasses from "./OctoGlasses.png";
 import NotMe from "./NewMe.png";
 import "./TopLogos.css";
+import DiverDown from "../../ContainerFolder/ScubaNavFolder/DiverDown";
+import "../../ContainerFolder/ScubaNavFolder/DiverDown.css";
+
 // import ContactButton from "../../ContainerFolder/ContactUsFolder/ContactUs";
 
 const TopLogos = () => {
@@ -11,7 +14,7 @@ const TopLogos = () => {
       <div className="relative mt-[5rem] flex h-fit w-screen justify-between px-12  dark:bg-black  dark:text-white">
         <a href="https://mybabb.com">
           <div
-            className="dataToolTip82  Libre_Baskerville hidden sm:block"
+            className="dataToolTip82  font-LibreBaskerville hidden sm:block"
             data-tool-tip="My Home Page"
           >
             <div
@@ -37,7 +40,7 @@ const TopLogos = () => {
 
         <a href="https://resume-hub.mybabb.com">
           <div
-            className="dataToolTip81  Libre_Baskerville hidden sm:block"
+            className="dataToolTip81  font-LibreBaskerville hidden sm:block"
             data-tool-tip="Portfolio Hub "
           >
             <div
@@ -61,6 +64,13 @@ const TopLogos = () => {
           </div>
         </a>
       </div>
+      
+      <div className="diverDownWrapper w-fit ">
+              <a href="#scubaSpear">
+                 <DiverDown />
+              </a>
+      </div>
+
     </div>
   );
 };

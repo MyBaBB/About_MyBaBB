@@ -1,35 +1,38 @@
 .diverDown {
+  position:absolute ;
   border: 0px solid #60a5fa;
   border-radius: 50%;
-
   padding: 0.4rem;
+  top: 18rem;
+  left: 3rem;
+  
 }
 .diverDownWrapper :hover {
-  background-color: rgba(96, 165, 250, 0.1);
-  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .1);
+  
+ 
 }
-
-.dataToolTip3 {
+.dataToolTip23 {
   top: -2px;
 }
-.dataToolTip3:hover::before,
-.dataToolTip3:hover::after {
+.dataToolTip23:hover::before,
+.dataToolTip23:hover::after {
   --scale: 1;
 }
-.dataToolTip3::before {
+.dataToolTip23::before {
   content: "";
-  font-size: 1.2rem;
-  background: radial-gradient(#6a5555, #492407);
+  background: radial-gradient(black, #492407);
   color: #dbeafe;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
+  top: 26.85rem;
+  left: 11rem;
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  left: 12rem;
-  top: 8.5rem;
-  border: 1px solid #867575;
+
+  background: radial-gradient(black, #492407);
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -37,21 +40,28 @@
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
+  
 }
-.dataToolTip3::after {
+.dataToolTip23::after {
   content: "";
-
   width: 15px;
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 5.9rem;
-  left: 2.5rem;
+  
+  top: 24.25rem;
+  left: 6.5rem;
   transform: translateX(-35%) scale(var(--scale));
-  transform-origin: bottom left;
+  transform-origin: bottom center;
   transition: 0.25s;
+
   border: 15px solid transparent;
-  border-bottom: #6a5555 10px solid;
+  border-bottom: #492407 10px solid;
+
   --scale: 0;
   z-index: 1;
 }
+.dataToolTip23 {
+  top: -2px;
+}
+

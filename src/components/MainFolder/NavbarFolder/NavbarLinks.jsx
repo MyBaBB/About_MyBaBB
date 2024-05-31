@@ -1,6 +1,5 @@
-import ScubaMask from "../ContainerFolder/ScubaNavFolder/ScubaMask";
 import "./NavbarLinks.css";
-// import { TbScubaMask } from "react-icons/tb";
+ 
 const NavbarLinks = () => {
   return (
     <div>
@@ -21,7 +20,7 @@ const NavbarLinks = () => {
             className="navLinksWrapper  hidden space-x-[1.5rem] pb-4  text-xl  sm:block
             md:m-auto md:space-x-[6rem] lg:space-x-[14rem] xl:space-x-[18rem]"
             aria-label="main"
-          >
+          > 
             <a
               href="#aboutUs"
               className="text-blue-100 hover:text-varDARKBLUEFEATHER   "
@@ -120,10 +119,9 @@ const NavbarLinks = () => {
                 </div>
               </div>
             </a>
-
-            <ScubaMask />
+            
           </nav>
-
+          
           {/* xxxxxxxxxxxxx new area with data tool tips above xxxxxxxxxxxxx */}
         </section>
       </header>

@@ -12,7 +12,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top right;
   transition: ease-in 0.25s;
-  bottom: -3.25rem;
+  bottom: -2.80rem;
   right: -1rem;
   border-radius: 10px;
   color: #dbeafe;
@@ -53,7 +53,7 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  bottom: -2.95rem;
+  bottom: -1.75rem;
   left: 9.5rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top left;
@@ -80,7 +80,7 @@
   transform-origin: bottom left;
   transition: 0.35s;
   left: 7rem;
-  bottom: -.6rem;
+  bottom: .3rem;
   border: 15px solid transparent;
   border-bottom: #492407 10px solid;
   color: #492407;

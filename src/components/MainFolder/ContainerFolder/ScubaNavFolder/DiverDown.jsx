@@ -4,13 +4,15 @@ import DiverDown from "./DiverDown.svg";
 import "./DiverDown.css";
 const ScubaSpearComponent = () => {
   return (
-    <div>
+    <div className="dataToolTip23 font-LibreBaskerville hidden sm:block" 
+    data-tool-tip="Go Down" >
       <img
         src={DiverDown}
         alt="Diver Down"
-        width={55}
-        height={55}
+        width={75}
+        height={75}
         className="diverDown"
+        
       />
     </div>
   );

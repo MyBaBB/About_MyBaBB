@@ -24,7 +24,7 @@ const ScubaMask = () => {
                                  p-2 hover:bg-black xxs:bg-gray-700"
               >
                 <span className="NavbarTitle4">
-                  <div className="  hidden sm:block  ">
+                  <div id="scubaSpear" className="  hidden sm:block  ">
                     <TbScubaMask size={20} className="z-50 text-blue-200  " />
                   </div>
                 </span>
