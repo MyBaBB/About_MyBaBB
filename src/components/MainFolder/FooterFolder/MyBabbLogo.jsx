@@ -3,15 +3,15 @@ import React from "react";
 import MybabbLogo from "./MyBabbLogo200x72px.png";
 const MyBabbLogo = () => {
   return (
-    <div>
-      <div className=" m-a flex h-fit items-center justify-center">
+    <div id="scubaSpear" className="flex justify-center  m-auto   w-[80%] pr-[6rem] ">
+   
         <img
           src={MybabbLogo}
           alt="MyBabb Logo"
           width={140}
-          className="mt-1 rounded-3xl border-2 border-varDARKBLUEFEATHER "
+          className="m-auto  rounded-3xl border-2 border-varDARKBLUEFEATHER "
         />
-      </div>
+   
     </div>
   );
 };
