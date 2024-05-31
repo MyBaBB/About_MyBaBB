@@ -42,7 +42,7 @@ const SectionB = () => {
                       &nbsp; We can help
                     </span>&nbsp; 
                     business growth by establishing and enhancing&nbsp; 
-                    <span className="whitespace-nowrap">
+                    <span>
                       your online </span> 
                       <span className="whitespace-nowrap ">presence.
                       &nbsp;
