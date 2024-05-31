@@ -97,7 +97,7 @@
   top: 5.2rem;
   left: 2.7rem;
   transform: translateX(-85%) scale(var(--scale));
-  transform-origin: bottom center;
+  transform-origin: bottom left;
   transition: 0.25s;
 
   border: 15px solid transparent;

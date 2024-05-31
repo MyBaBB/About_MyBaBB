@@ -29,7 +29,7 @@
   top: 26.85rem;
   left: 11rem;
   transform: translateX(-100%) scale(var(--scale));
-  transform-origin: top left;
+  transform-origin: top center;
   transition: ease-in 0.25s;
 
   background: radial-gradient(black, #492407);
