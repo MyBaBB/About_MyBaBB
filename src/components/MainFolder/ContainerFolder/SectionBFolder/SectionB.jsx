@@ -30,7 +30,7 @@ const SectionB = () => {
                   <h3
                     id="weHelp"
                     className="text-center font-Aclonica-Regular
-                     text-2xl text-amber-200 sm:p-1 "
+                      sm:text-2xl text-amber-200 sm:p-1 "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
