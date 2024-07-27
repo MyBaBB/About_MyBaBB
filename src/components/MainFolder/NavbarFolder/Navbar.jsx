@@ -68,13 +68,13 @@ const Navbar = () => {
           ></div>
         </div>
       </nav>
-      <h1 className="hiddenH1 text-center sm:hidden 
+      <h1
+        className="hiddenH1 whitespace-nowrap text-center 
        
-          whitespace-nowrap  font-Rye  text-varLIGHTBEAKTOP
-                     xs:text-xl text-[12px]">
-        
-          About Web Development
-         
+          font-Rye  text-[12px]  text-varLIGHTBEAKTOP
+                     sm:hidden xs:text-xl"
+      >
+        About Web Development
       </h1>
       {/* left-[-5.5rem] */}
       {/* mobile menu bg color below*/}

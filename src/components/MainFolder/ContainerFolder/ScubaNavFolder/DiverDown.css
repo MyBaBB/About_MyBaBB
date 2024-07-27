@@ -1,16 +1,13 @@
 .diverDown {
-  position:absolute ;
+  position: absolute;
   border: 0px solid #60a5fa;
   border-radius: 50%;
   padding: 0.4rem;
   top: 18rem;
   left: 3rem;
-  
 }
 .diverDownWrapper :hover {
-  background-color: rgba(255, 255, 255, .1);
-  
- 
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .dataToolTip23 {
   top: -2px;
@@ -40,7 +37,6 @@
   padding-right: 2rem;
   --scale: 0;
   z-index: 3;
-  
 }
 .dataToolTip23::after {
   content: "";
@@ -48,7 +44,7 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  
+
   top: 24.25rem;
   left: 6.5rem;
   transform: translateX(-35%) scale(var(--scale));
@@ -64,4 +60,3 @@
 .dataToolTip23 {
   top: -2px;
 }
-

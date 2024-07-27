@@ -4,7 +4,10 @@ import ScubaSpear1 from "./ScubaSpear1.svg";
 import "./ScubaSpear.css";
 const ScubaSpearComponent = () => {
   return (
-    <div className="dataToolTip13 font-LibreBaskerville text-2xl" data-tool-tip='Surface'>
+    <div
+      className="dataToolTip13 font-LibreBaskerville text-2xl"
+      data-tool-tip="Surface"
+    >
       <img
         src={ScubaSpear1}
         alt="scuba Spear"

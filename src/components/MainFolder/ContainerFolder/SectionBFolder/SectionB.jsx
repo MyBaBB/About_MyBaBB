@@ -30,7 +30,7 @@ const SectionB = () => {
                   <h3
                     id="weHelp"
                     className="text-center font-Aclonica-Regular
-                      sm:text-2xl text-amber-200 sm:p-1 "
+                      text-amber-200 sm:p-1 sm:text-2xl "
                     style={{
                       textShadow: "2px 2px 3px #1c0303",
                     }}
@@ -40,16 +40,15 @@ const SectionB = () => {
                         <RiDoubleQuotesL />
                       </span>
                       &nbsp; We can help
-                    </span>&nbsp; 
-                    business growth by establishing and enhancing&nbsp; 
-                    <span>
-                      your online </span> 
-                      <span className="whitespace-nowrap ">presence.
-                      &nbsp;
+                    </span>
+                    &nbsp; business growth by establishing and enhancing&nbsp;
+                    <span>your online </span>
+                    <span className="whitespace-nowrap ">
+                      presence. &nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
-                      </span> 
+                    </span>
                   </h3>
 
                   <br />

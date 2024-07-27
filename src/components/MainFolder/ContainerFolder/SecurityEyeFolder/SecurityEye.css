@@ -94,7 +94,7 @@
   transform: translate(9px, -6px);
 }
 
-.hoverdiv:hover .expandingIris  {
+.hoverdiv:hover .expandingIris {
   width: 30px;
   height: 30px;
   animation: expand 0.5s forwards;
@@ -102,57 +102,54 @@
   border-color: #419aff;
   z-index: 2;
 }
- 
-  .goodySwitch {
-    position: absolute;
-    bottom: -3.7rem;
-    margin-left: -32rem;
-    width:  60px;
-    height: 60px;
-    border: transparent; 
-    border-radius: 50%;
-     
-  }
-  .goodySwitchWords {
-    color: rgba(255, 0, 0, 0.472); 
-    z-index: 10;
-  }
-  .hoverdiv:hover .goodySwitchWords    {
-    color: green;
-    box-shadow: 0 0 10px rgba(69, 240, 77, .2);
-    animation: rotate180 2s forwards;
-    animation: rotate0 2s forwards;
 
+.goodySwitch {
+  position: absolute;
+  bottom: -3.7rem;
+  margin-left: -32rem;
+  width: 60px;
+  height: 60px;
+  border: transparent;
+  border-radius: 50%;
+}
+.goodySwitchWords {
+  color: rgba(255, 0, 0, 0.472);
+  z-index: 10;
+}
+.hoverdiv:hover .goodySwitchWords {
+  color: green;
+  box-shadow: 0 0 10px rgba(69, 240, 77, 0.2);
+  animation: rotate180 2s forwards;
+  animation: rotate0 2s forwards;
+}
+.goodySwitchWords:hover {
+  color: green;
+}
+@keyframes rotate180 {
+  from {
+    transform: rotate(0deg);
   }
-  .goodySwitchWords:hover  {
-    color: green;
-   
+  to {
+    transform: rotate(180deg);
   }
-  @keyframes rotate180 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(180deg);
-    }
-  }
+}
 
-  /* Define the keyframes for the reverse rotation */
-  @keyframes rotate0 {
-    from {
-      transform: rotate(180deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
+/* Define the keyframes for the reverse rotation */
+@keyframes rotate0 {
+  from {
+    transform: rotate(180deg);
   }
+  to {
+    transform: rotate(0deg);
+  }
+}
 
-  /* Apply the forward animation by default */
-  .rotate-180 {
-    animation: rotate180 2s forwards;
-  }
+/* Apply the forward animation by default */
+.rotate-180 {
+  animation: rotate180 2s forwards;
+}
 
-  /* Apply the reverse animation on hover */
-  .touch\:animate-rotate180:active {
-    animation: rotate180 2s forwards;
-  }
+/* Apply the reverse animation on hover */
+.touch\:animate-rotate180:active {
+  animation: rotate180 2s forwards;
+}

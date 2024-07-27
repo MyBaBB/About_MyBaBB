@@ -10,9 +10,7 @@ const SecurityEye = () => {
     <div>
       <div>
         <div className=" my-10 scroll-mt-[7rem] " id="eyeball ">
-       
           <div className="eyeBackgroundHover   m-auto w-fit rounded-full  ">
-          
             <div
               className="hoverdiv border-4 border-gray-900 shadow-2xl"
               style={{
@@ -30,12 +28,11 @@ const SecurityEye = () => {
               <div className="eyeballdiv2 border-[#153150]"></div>
               <div className="eyeballdiv3 border-[#18384a]"></div>
               <div className="goodySwitch  ">
-               <div className="   relative flex justify-center    align-middle   w-[60px] h-[60px]   m-auto ">
-                <span className="goodySwitchWords rotate-180 touch:animate-rotate180   relative flex m-auto w-fit      rounded-full    ">
-                  <HiOutlinePower  size={60} className=" " />
-                </span>
-
-              </div>
+                <div className="   relative m-auto flex    h-[60px]   w-[60px] justify-center   align-middle ">
+                  <span className="goodySwitchWords touch:animate-rotate180 relative   m-auto flex w-fit rotate-180      rounded-full    ">
+                    <HiOutlinePower size={60} className=" " />
+                  </span>
+                </div>
               </div>
               <img
                 src={AwesomeEye}
@@ -85,7 +82,7 @@ const SecurityEye = () => {
         <div className="relative mx-12">
           <br />
           <p
-            className="font-BlackOpsOne p-1 text-center text-blue-300"
+            className="p-1 text-center font-BlackOpsOne text-blue-300"
             style={{ fontSize: "25px", textShadow: "2px 2px 3px #1c0303" }}
           >
             Here at this portal you can leave a message directly to your Web
@@ -108,7 +105,7 @@ const SecurityEye = () => {
             shortcuts here; every aspect of the development process is tailored
             to meet the unique needs of each project.
           </p>
-          <p className="font-LibreBaskerville mt-4 text-2xl text-emerald-50">
+          <p className="mt-4 font-LibreBaskerville text-2xl text-emerald-50">
             If you require a custom order, please do not hesitate to contact us
             below for a personalized estimate. Alternatively, we are also
             developing unique designs to offer for sale in the future.
