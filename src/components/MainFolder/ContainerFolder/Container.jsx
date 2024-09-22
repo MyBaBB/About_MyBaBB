@@ -18,7 +18,7 @@ const Container = () => {
     <div className=" w-fit ">
       <div
         className="left-0 top-0 z-[1] m-auto
-                     flex min-h-screen  w-[100%] flex-col items-center justify-center 
+                     flex min-h-screen  w-screen border flex-col items-center justify-center 
                       p-4 text-center dark:bg-black  dark:text-white "
       >
         <SectionA />
