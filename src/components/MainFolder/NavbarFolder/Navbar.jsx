@@ -11,6 +11,10 @@ import { GrBaby } from "react-icons/gr";
 
 import { BsPersonVcard } from "react-icons/bs";
 import { SiTestinglibrary } from "react-icons/si";
+
+const goBack = () => {
+  window.history.back();
+};
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -86,9 +90,20 @@ const Navbar = () => {
                px-[3rem]   text-center font-Aclonica-Regular"
           >
             <nav
-              className="mobileNav my-auto flex  min-h-screen justify-center    "
+              className="mobileNav my-auto relative flex-col  min-h-screen justify-center items-center   "
               aria-label="mobile"
             >
+       <div className='ContactButtonWrapper relative  mt-4 mb-14 flex justify-center '>
+        <a href="https://contact.mybabb.com">
+        <button onClick={goBack} className="ContactMeButton w-fit 
+                  m-auto  border-[1px] border-[#419aff] p-2 rounded-2xl hover:bg-[#419aff]"  >
+        <span className="ContactMeButtonText text-blue-100    ">Contact Me</span>
+        </button>
+        </a>
+        </div>
+
+
+
               <p
                 id="mobile-menu"
                 className="relative my-auto flex-row items-center justify-center"

@@ -5,6 +5,10 @@ import React from "react";
 import { HiOutlinePower } from "react-icons/hi2";
 import AwesomeEye from "./awesomeEye.png";
 import "./SecurityEye.css";
+const goBack = () => {
+  window.history.back();
+};
+
 const SecurityEye = () => {
   return (
     <div>
@@ -48,8 +52,8 @@ const SecurityEye = () => {
             </div>
           </div>
         </div>
-        <a
-          href="https://mybabb.com/#contact"
+        <a onClick={goBack}
+          href="https://contact.mybabb.com"
           data-tool-tip="Communicate Here"
           style={{ textShadow: "2px 2px 3px #1c0303" }}
         >
