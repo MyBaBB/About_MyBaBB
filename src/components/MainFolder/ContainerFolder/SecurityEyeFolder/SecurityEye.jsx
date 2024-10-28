@@ -12,7 +12,10 @@ const goBack = () => {
 const SecurityEye = () => {
   return (
     <div>
-      <div>
+      <div className="">
+
+
+        
         <div className=" my-10 scroll-mt-[7rem] " id="eyeball ">
           <div className="eyeBackgroundHover   m-auto w-fit rounded-full  ">
             <div
@@ -52,6 +55,7 @@ const SecurityEye = () => {
             </div>
           </div>
         </div>
+
         <a onClick={goBack}
           href="https://contact.mybabb.com"
           data-tool-tip="Communicate Here"
@@ -104,8 +108,7 @@ const SecurityEye = () => {
             <span className="whitespace-nowrap text-red-500">
               Customization is key
             </span>
-            , and we begin by programming even the simplest elements, such as
-            color codes, with painstaking attention to detail. There are no
+            , and we begin by programming even the simplest elements, with painstaking attention to detail. There are no
             shortcuts here; every aspect of the development process is tailored
             to meet the unique needs of each project.
           </p>
