@@ -39,12 +39,12 @@ const SectionB = () => {
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesL />
                       </span>
-                      &nbsp; We can help
+                      &nbsp;Increase
                     </span>
-                    &nbsp; business growth by establishing and enhancing&nbsp;
-                    <span>your online </span>
+                    &nbsp;Business&nbsp;
+                    <span></span>
                     <span className="whitespace-nowrap ">
-                      presence. &nbsp;
+                    Growth&nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
@@ -75,9 +75,9 @@ const SectionB = () => {
                         className="font-Aclonica-Regular
                        text-amber-200"
                       >
-                        Here&apos;s what you can expect when{" "}
+                       A Professional
                         <span className="whitespace-nowrap">
-                          you work with us :
+                       &nbsp;Website :
                         </span>
                       </span>
                       <br />
@@ -91,13 +91,13 @@ const SectionB = () => {
                           text-base text-green-500 sm:text-xl   
                          md:text-2xl "
                         >
-                          Link-Address Optimization
+                          Search Engine Optimization
                         </span>
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; We provide a link address that drives
-                          targeted traffic to your website.
+                          &nbsp;&nbsp;A link address that drives
+                          targeted traffic to your website with SEO.
                         </p>
                         <br />
                         &nbsp;
@@ -113,7 +113,7 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; Our team creates a custom website that
+                          &nbsp;&nbsp; I can create a custom website that
                           aligns with your brand identity{" "}
                           <span className="whitespace-nowrap">
                             and core values.
@@ -133,10 +133,10 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; We provide a link address that drives
-                          targeted traffic to{" "}
+                          &nbsp;&nbsp;I can integrate your domain with a custom Email Template 
+                           for directly sending professional emails to your new prospects with just{" "}
                           <span className="whitespace-nowrap">
-                            your website.
+                            one click.
                           </span>
                         </p>
                         <br />
@@ -154,34 +154,21 @@ const SectionB = () => {
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <br />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; Our services result in an online presence
+                          &nbsp;&nbsp; My services result in an online presence
                           that attracts customers and drives sales.
                         </p>
                         <br />
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         &nbsp;
-                        <span
-                          className="relative whitespace-nowrap font-ArchivoBlack 
-                          text-base text-green-500 sm:text-xl   
-                         md:text-2xl "
-                        >
-                          Payment Integration
-                        </span>{" "}
-                        &nbsp;
-                        <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
-                        <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; Additionally, we ensure a seamless
-                          payment process for your business.
-                        </p>
-                        <br />
+                       
                       </div>
                       <p className="text-left">
-                        At MyBaBB, we specialize in helping small businesses
-                        thrive. Our personalized website design services cater
+                        I specialize in helping a small business
+                        thrive. My personalized website design services cater
                         to your specific requirements. Whether you&apos;re on a
-                        budget or looking for advanced features, we&apos;ve got
-                        you covered. We&apos;ll guide you through every step to
+                        budget or looking for advanced features, I&apos;ve got
+                        you covered. I will guide you through every step to
                         ensure your website&apos;s success.
                       </p>
                       <br />
@@ -189,7 +176,7 @@ const SectionB = () => {
                         size={20}
                         className="inline-block text-amber-200"
                       />
-                      &nbsp; We will work with you every step of the way to
+                      &nbsp; I will work with you every step of the way to
                       ensure that your website is a success.
                       <br />
                       <RxDot
@@ -226,7 +213,7 @@ const SectionB = () => {
               style={{ fontSize: "24px", textShadow: "1px 1px black" }}
             >
               &#8212;Owner/
-              <span className="text-varLIGHTBLUEFEATHER">🧑‍🌾MyBaBB</span>
+              <span className="text-varLIGHTBLUEFEATHER">🧑‍🌾Brett</span>
             </div>
           </div>
         </div>
