@@ -191,6 +191,7 @@ const SectionB = () => {
                           href="Https://mybabb.com"
                           className="font-Orbitron text-varLIGHTBLUEFEATHER
                              hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
+                             title="Go to My Landing Page Website"
                         >
                           <h3
                             style={{

@@ -29,7 +29,7 @@ const TopLogos = () => {
             >
               <img
                 src={NotMe}
-                alt="Not Me "
+                alt="Cartoon of Brett "
                 width={75}
                 height={75}
                 className="notMe absolute left-[-1px] top-[-1px]"

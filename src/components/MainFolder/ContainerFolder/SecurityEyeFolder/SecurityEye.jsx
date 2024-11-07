@@ -60,6 +60,7 @@ const SecurityEye = () => {
           href="https://contact.mybabb.com"
           data-tool-tip="Communicate Here"
           style={{ textShadow: "2px 2px 3px #1c0303" }}
+          title="Go to My Landing Page Website"
         >
           <div
             className="m-auto w-fit rounded-full"

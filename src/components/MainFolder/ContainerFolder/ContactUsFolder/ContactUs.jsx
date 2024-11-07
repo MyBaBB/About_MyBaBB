@@ -7,6 +7,7 @@ const ContactUs = () => {
       <a
         href="https://resume-hub.mybabb.com/"
         style={{ textShadow: "2px 2px 3px #1c0303" }}
+        title="Go to My Resume Hub"
       >
         <div className="mt-[-1.8rem] ">
           <div
