@@ -63,10 +63,9 @@ export default {
 				'PermanentMarker': ['Permanent Marker', 'cursive'],
 				'PtSerif': ['PT Serif_Bold', 'serif'],
 				 // eslint-disable-next-line no-dupe-keys
-				'PtSerif': ['PT Serif_BoldItalic', 'serif'],
+			 
 				"Rye": ['Rye', 'cursive'], 
-				'Vollkorn': ['Vollkorn', 'serif'],
-				'Wallpoet': ['Wallpoet', 'cursive'],
+				
 				'Sixtyfour': ['Sixtyfour', 'cursive'],
 				 'Changa-Regular': ['Changa-Regular', 'sans-serif'],
 				 'Blackbeard' : ['Blackbeard', 'cursive'],
