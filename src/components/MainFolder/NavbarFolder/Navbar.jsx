@@ -104,7 +104,7 @@ const Navbar = () => {
 
 
 
-              <p
+              <div
                 id="mobile-menu"
                 className="relative my-auto flex-row items-center justify-center"
               >
@@ -224,7 +224,7 @@ const Navbar = () => {
                     <span className="menuButtonWords   pr-6 ">Zale</span>
                   </div>
                 </a>
-              </p>
+              </div>
             </nav>
           </div>
         </section>

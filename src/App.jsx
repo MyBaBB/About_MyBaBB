@@ -8,7 +8,7 @@ import Container from "./components/MainFolder/ContainerFolder/Container";
 
 const App = () => {
   return (
-    <div>
+    <div className="App w-screen overflow-x-hidden">
       <Navbar />
       <TopLogos />
       <Container />

@@ -14,9 +14,9 @@ I have built this as my simple landing page with links to some of my things.  To
 
 ## Visual Appeal
 
-I’ve focused on creating visually appealing interfaces that engage users. This project serves as a demonstration of my capabilities within my portfolio, highlighting my proficiency in building dynamic and visually appealing web experiences using Tailwind CSS,React and will now enhance it as I go along with Javascript Animations and such along with using svg's in Figma combined with Stable-Fusion, Adobe-PhotoShop, and Adobe-Illustrator.
+I&apos;ve focused on creating visually appealing interfaces that engage users. This project serves as a demonstration of my capabilities within my portfolio, highlighting my proficiency in building dynamic and visually appealing web experiences using Tailwind CSS,React and will now enhance it as I go along with Javascript Animations and such along with using svg's in Figma combined with Stable-Fusion, Adobe-PhotoShop, and Adobe-Illustrator.
 
-Feel free to explore the code and see how I’ve leveraged Tailwind CSS to create this project!
+Feel free to explore the code and see how I&apos;ve leveraged Tailwind CSS to create this project!
 ![FontPageImg](Readme.jpg)
 
 https://mybabb.github.io/About_MyBaBB/

@@ -39,7 +39,7 @@ const SectionA = () => {
                   Personalized Websites <br />
                 </span>
               </h2>
-              <p className="customBounce mt-[-4rem]  text-center   landscape:text-center">
+              <div className="customBounce mt-[-4rem]  text-center   landscape:text-center">
                 <span id="custom" className="custom text-varDARKBEAK">
                   <span className="rotate whitespace-nowrap font-PermanentMarker">
                     <span className="text-[4rem] text-red-800">Cu</span>
@@ -79,7 +79,7 @@ const SectionA = () => {
                 >
                   <Sponsor2 />
                 </div>
-              </p>
+              </div>
             </section>
             <h2
               id="home"

@@ -20,7 +20,7 @@ const SectionB = () => {
             >
               <section
                 id="mainBoxes"
-                className="mb-10 p-6"
+                className="mb-10 p-0 xs:p-6"
                 style={{ scrollMarginTop: "95px" }}
               >
                 <blockquote
@@ -73,7 +73,7 @@ const SectionB = () => {
                     >
                       <span
                         className="font-Aclonica-Regular
-                       text-amber-200"
+                       text-amber-200 text-xl sm:text-2xl"
                       >
                        A Professional
                         <span className="whitespace-nowrap">
