@@ -10,12 +10,12 @@ const SectionC = () => {
         className="sectionCTop z-1 m-[20px] mt-[.5rem]  
   min-w-[290px] max-w-[80vw]   scroll-mt-[4rem]  p-[.2px] sm:p-[2rem] "
       >
-        <div id="YourBrand" className="scroll-mt-[5rem] p-0 sm:p-4 ">
+        <div id="YourBrand" className="scroll-mt-[5rem] p-0 sm:p-6 ">
           <div
             style={{ boxShadow: "2px 2px 55px #000" }}
             className="rounded-3xl"
           >
-            <section id="mainBoxes" className="mb-10 p-6">
+            <section id="mainBoxes" className="mb-10 p-0 xs:p-6">
               <blockquote
                 className="relative rounded-3xl
              bg-gradient-to-b from-varMEDDUCKHEAD via-varDARKDUCKHEAD to-varMEDDUCKHEAD py-12 dark:bg-black"
