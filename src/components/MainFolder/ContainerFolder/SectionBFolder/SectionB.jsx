@@ -163,7 +163,8 @@ const SectionB = () => {
                         &nbsp;
                        
                       </div>
-                      <p className="text-left">
+                      <p className="text-center
+                      font-LibreBaskerville">
                         I specialize in helping a small business
                         thrive. My personalized website design services cater
                         to your specific requirements. Whether you&apos;re on a
