@@ -2,13 +2,14 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
-import NavbarLinks from "./NavbarLinks";
+import NavbarLinks from "./NavbarLinksFolder/NavbarLinks";
 import { BsGithub } from "react-icons/bs";
 import { GiStrongMan, GiWoodCabin } from "react-icons/gi";
 import { SiQuicklook } from "react-icons/si";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { GrBaby } from "react-icons/gr";
-
+ 
+ 
 import { BsPersonVcard } from "react-icons/bs";
 import { SiTestinglibrary } from "react-icons/si";
 
@@ -40,6 +41,8 @@ const Navbar = () => {
   };
 
   return (
+<>
+
     <div
       className="navWrapper fixed top-0 z-50
        bg-gradient-to-b from-varLIGHTSPACE to-varDARKSPACE text-white"
@@ -229,9 +232,11 @@ const Navbar = () => {
           </div>
         </section>
       </div>
-
+ 
       <NavbarLinks />
+      
     </div>
+    </>
   );
 };
 

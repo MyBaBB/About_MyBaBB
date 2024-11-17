@@ -1,13 +1,13 @@
 import "./NavbarLinks.css";
-
+import NotMe from "../NavbarLinksFolder/TopLogosFolder/NotMe";
 const NavbarLinks = () => {
   return (
     <div>
       <header
-        className="  relative z-[10] mt-[-2.85rem]  hidden w-screen justify-center 
-              border-2 border-transparent sm:mt-[-.45rem] sm:block sm:justify-center"
+        className="  relative z-[10] mt-[-2.85rem]  hidden w-screen h-fit justify-center 
+              border-2 border-green-500 sm:mt-[-.45rem] sm:flex sm:justify-center"
       >
-        <section className="mybabb z-[0] m-auto    w-fit border-2 border-transparent font-Rye">
+        <section className="mybabb z-[0] m-auto    w-fit border-2 border-transparent ">
           <h1 className="hidden">
             <span className="whitespace-nowrap font-Rye text-[.74rem]">
               MyBabb Web Development
@@ -21,6 +21,7 @@ const NavbarLinks = () => {
             md:m-auto md:space-x-[6rem] lg:space-x-[14rem] xl:space-x-[18rem]"
             aria-label="main"
           >
+            <NotMe />
             <a
               href="#aboutUs"
               className="text-blue-100 hover:text-varDARKBLUEFEATHER   "
