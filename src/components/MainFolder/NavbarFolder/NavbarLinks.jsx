@@ -79,7 +79,7 @@ const NavbarLinks = () => {
             </a>
             <a
               href="#YourBrand"
-              className="text-blue-100 hover:text-varDARKBLUEFEATHER "
+              className="navQueryLandscape  text-blue-100 hover:text-varDARKBLUEFEATHER "
             >
               <div
                 className="dataToolTip2 font-LibreBaskerville"

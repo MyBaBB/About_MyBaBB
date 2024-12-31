@@ -130,7 +130,7 @@ const Navbar = () => {
                     <div className="relative inline-block pl-4 ">
                       <LiaInfoSolid />
                     </div>
-                    <span className="menuButtonWords  pr-6   text-4xl ">
+                    <span className="menuButtonWords   pr-6   text-4xl ">
                       About
                     </span>
                   </div>

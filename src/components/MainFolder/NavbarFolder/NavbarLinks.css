@@ -163,3 +163,8 @@
   display: flex;
   justify-content: flex-start;
 }
+@media (max-height: 480px) and (orientation: landscape) {
+  .navQueryLandscape {
+    display: none;
+  }
+}
