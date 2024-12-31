@@ -5,7 +5,7 @@ import "./DiverDown.css";
 const ScubaSpearComponent = () => {
   return (
     <div
-      className="dataToolTip23 hidden font-LibreBaskerville sm:block"
+      className="dataToolTip23 diverDown hidden font-LibreBaskerville sm:block"
       data-tool-tip="Go Down"
     >
       <img
