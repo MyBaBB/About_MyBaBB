@@ -10,7 +10,7 @@
       /* for facebook media query */
 @media (max-height: 480px) and (orientation: landscape) {
   .diverDown {
-    font-size: xx-small;
+    display: none;
   }
 }
 
