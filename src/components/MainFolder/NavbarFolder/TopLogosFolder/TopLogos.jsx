@@ -41,7 +41,7 @@ const TopLogos = () => {
         <a href="https://resume-hub.mybabb.com">
           <div
             className="dataToolTip81  hidden font-LibreBaskerville sm:block"
-            data-tool-tip="Portfolio Hub "
+            data-tool-tip="Information Hub "
           >
             <div
               className="octoGlasses   relative z-0 mb-4 mt-[2rem] h-[80px] w-[80px] rounded-full p-[5px]

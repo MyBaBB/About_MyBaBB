@@ -36,7 +36,7 @@ const ContactUs = () => {
                 <GiSailboat size={20} />
               </span>
               <span className="z-50 font-Blackbeard text-blue-200 ">
-                &nbsp;Resume Hub&nbsp;
+                &nbsp;Info Center&nbsp;
               </span>
               <span className=" inline-block text-blue-200">
                 <GiSailboat size={20} />

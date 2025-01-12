@@ -8,8 +8,8 @@ const Profile = () => {
       <div className="">
         <a className="" href="https://Resume-Hub.mybabb.com">
           <div
-            className="dataToolTip10"
-            data-tool-tip="Go to https:// Resume' Hub"
+            className="dataToolTip10 font-LibreBaskerville"
+            data-tool-tip="Go to the Information Center"
           >
             <AquariumStand />
           </div>
