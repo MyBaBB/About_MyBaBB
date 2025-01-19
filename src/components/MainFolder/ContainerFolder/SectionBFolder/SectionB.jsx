@@ -44,7 +44,7 @@ const SectionB = () => {
                     &nbsp;Business&nbsp;
                     <span></span>
                     <span className="whitespace-nowrap ">
-                    Growth&nbsp;
+                      Growth&nbsp;
                       <span className="imQuotes inline-block">
                         <RiDoubleQuotesR />
                       </span>
@@ -73,11 +73,11 @@ const SectionB = () => {
                     >
                       <span
                         className="font-Aclonica-Regular
-                       text-amber-200 text-xl sm:text-2xl"
+                       text-xl text-amber-200 sm:text-2xl"
                       >
-                       A Professional
+                        A Professional
                         <span className="whitespace-nowrap">
-                       &nbsp;Website :
+                          &nbsp;Website :
                         </span>
                       </span>
                       <br />
@@ -96,8 +96,8 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp;A link address that drives
-                          targeted traffic to your website with SEO.
+                          &nbsp;&nbsp;A link address that drives targeted
+                          traffic to your website with SEO.
                         </p>
                         <br />
                         &nbsp;
@@ -113,8 +113,8 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp; I can create a custom website that
-                          aligns with your brand identity{" "}
+                          &nbsp;&nbsp; I can create a custom website that aligns
+                          with your brand identity{" "}
                           <span className="whitespace-nowrap">
                             and core values.
                           </span>
@@ -133,11 +133,10 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         <p className="mb-[4px] font-LibreBaskerville ">
-                          &nbsp;&nbsp;I can integrate your domain with a custom Email Template 
-                           for directly sending professional emails to your new prospects with just{" "}
-                          <span className="whitespace-nowrap">
-                            one click.
-                          </span>
+                          &nbsp;&nbsp;I can integrate your domain with a custom
+                          Email Template for directly sending professional
+                          emails to your new prospects with just{" "}
+                          <span className="whitespace-nowrap">one click.</span>
                         </p>
                         <br />
                         &nbsp;
@@ -161,16 +160,17 @@ const SectionB = () => {
                         &nbsp;
                         <PiDotsThreeOutlineLight className="inline-block  text-blue-400" />
                         &nbsp;
-                       
                       </div>
-                      <p className="text-center
-                      font-LibreBaskerville">
-                        I specialize in helping a small business
-                        thrive. My personalized website design services cater
-                        to your specific requirements. Whether you&apos;re on a
-                        budget or looking for advanced features, I&apos;ve got
-                        you covered. I will guide you through every step to
-                        ensure your website&apos;s success.
+                      <p
+                        className="text-center
+                      font-LibreBaskerville"
+                      >
+                        I specialize in helping a small business thrive. My
+                        personalized website design services cater to your
+                        specific requirements. Whether you&apos;re on a budget
+                        or looking for advanced features, I&apos;ve got you
+                        covered. I will guide you through every step to ensure
+                        your website&apos;s success.
                       </p>
                       <br />
                       <RxDot
@@ -192,7 +192,7 @@ const SectionB = () => {
                           href="Https://mybabb.com"
                           className="font-Orbitron text-varLIGHTBLUEFEATHER
                              hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
-                             title="Go to My Landing Page Website"
+                          title="Go to My Landing Page Website"
                         >
                           <h3
                             style={{

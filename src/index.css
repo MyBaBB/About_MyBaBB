@@ -4,7 +4,6 @@
 :root {
   font-size: 62.5%;
   background: linear-gradient(to bottom, #1b3854, #181e2c 60%);
-  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,158 +14,158 @@
 }
 @font-face {
   font-family: "Aclonica-Regular";
-  src: url(../GoogleFonts/Aclonica-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Aclonica-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Archivo_Black";
-  src: url(../GoogleFonts/ArchivoBlack-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/ArchivoBlack-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Black Ops One";
-  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/BlackOpsOne-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Creepster";
-  src: url(../GoogleFonts/Creepster-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Creepster-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Changa-Regular";
-  src: url(../GoogleFonts/Changa-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Changa-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "DM_Serif_Display";
-  src: url(../GoogleFonts/DMSerifDisplay-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/DMSerifDisplay-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Emilys Candy";
-  src: url(../GoogleFonts/EmilysCandy-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/EmilysCandy-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Itim";
-  src: url(../GoogleFonts/Itim-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Itim-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Kranky";
-  src: url(../GoogleFonts/Kranky-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Kranky-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Kingthings_Petrock";
-  src: url(../GoogleFonts/Kingthings_Petrock.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Kingthings_Petrock.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Libre_Baskerville";
-  src: url(../GoogleFonts/LibreBaskerville-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/LibreBaskerville-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "PT_Serif";
-  src: url(../GoogleFonts/PTSerif-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/PTSerif-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Rye";
-  src: url(../GoogleFonts/Rye-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Rye-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Caprasimo";
-  src: url(../GoogleFonts/Caprasimo-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Caprasimo-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Nosifer";
-  src: url(../GoogleFonts/Nosifer-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Nosifer-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Holtwood_one_sc";
-  src: url(../GoogleFonts/HoltwoodOneSC-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/HoltwoodOneSC-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "orbitron";
-  src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Permanent Marker";
-  src: url(../GoogleFonts/PermanentMarker-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/PermanentMarker-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Sixtyfour";
-  src: url(../GoogleFonts/SixtyFour-Regular.ttf) format("truetype"); 
+  src: url(../GoogleFonts/SixtyFour-Regular.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Blackbeard";
-  src: url(../GoogleFonts/Blackbeard.ttf) format("truetype"); 
+  src: url(../GoogleFonts/Blackbeard.ttf) format("truetype");
   font-display: swap;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }

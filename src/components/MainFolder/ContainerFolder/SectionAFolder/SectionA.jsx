@@ -90,8 +90,7 @@ const SectionA = () => {
             </h2>
             <br id="phoneInHands" className="scroll-mt-[7rem]" />
             <section className="phoneInHands container relative mx-auto rounded-3xl ">
-              <a href="#weHelp"
-              title="Go to Surf Shop">
+              <a href="#weHelp" title="Go to Surf Shop">
                 <div className="mx-auto flex max-w-[350px] justify-center rounded-3xl bg-varDARKNECK">
                   <img
                     src={phoneInHands}

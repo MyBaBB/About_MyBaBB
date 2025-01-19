@@ -13,9 +13,6 @@ const SecurityEye = () => {
   return (
     <div>
       <div className="">
-
-
-        
         <div className=" my-10 scroll-mt-[7rem] " id="eyeball ">
           <div className="eyeBackgroundHover   m-auto w-fit rounded-full  ">
             <div
@@ -56,7 +53,8 @@ const SecurityEye = () => {
           </div>
         </div>
 
-        <a onClick={goBack}
+        <a
+          onClick={goBack}
           href="https://contact.mybabb.com"
           data-tool-tip="Communicate Here"
           style={{ textShadow: "2px 2px 3px #1c0303" }}
@@ -109,9 +107,10 @@ const SecurityEye = () => {
             <span className="whitespace-nowrap text-red-500">
               Customization is key
             </span>
-            , and we begin by programming even the simplest elements, with painstaking attention to detail. There are no
-            shortcuts here; every aspect of the development process is tailored
-            to meet the unique needs of each project.
+            , and we begin by programming even the simplest elements, with
+            painstaking attention to detail. There are no shortcuts here; every
+            aspect of the development process is tailored to meet the unique
+            needs of each project.
           </p>
           <p className="mt-4 font-LibreBaskerville text-2xl text-emerald-50">
             If you require a custom order, please do not hesitate to contact us

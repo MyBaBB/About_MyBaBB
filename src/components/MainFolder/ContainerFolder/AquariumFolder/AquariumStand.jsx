@@ -40,7 +40,7 @@ const AquariumStand = () => {
               }}
             >
               <span className="m-4 whitespace-nowrap p-4 font-Kingthings_Petrock text-[2.2rem] ">
-              &nbsp;&nbsp;Information&nbsp;Hub&nbsp;&nbsp;
+                &nbsp;&nbsp;Information&nbsp;Hub&nbsp;&nbsp;
               </span>
             </h3>
             <span

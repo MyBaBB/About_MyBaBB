@@ -15,7 +15,7 @@ import Sponsor from "./SponsorFolder/Sponsor.jsx";
 
 const Container = () => {
   return (
-     <>
+    <>
       <div
         className="left-0 top-0 z-[1] m-auto 
                      flex min-h-screen  w-screen  flex-col items-center justify-center 
@@ -30,7 +30,7 @@ const Container = () => {
         <AquariumDataTip />
         <Sponsor />
       </div>
-    </> 
+    </>
   );
 };
 
